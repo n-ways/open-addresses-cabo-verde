@@ -1,0 +1,4 @@
+# The tools and tests put the repository on sys.path before importing the engine,
+# so their late imports (E402) are deliberate and marked.
+[lint]
+extend-select = ["E402", "F403"]

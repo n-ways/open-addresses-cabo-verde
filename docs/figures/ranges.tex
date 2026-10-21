@@ -1,0 +1,47 @@
+% Figure: three national name ranges (four digits, 1000-9999) cut into the
+% blocks of their zones, with the reserve left for later zones and growth.
+% Data: data/ranges.dat (registry/names.csv).
+\documentclass[tikz,border=2mm]{standalone}
+\input{_preamble.tex}
+\begin{document}
+\pgfplotstableread{data/ranges.dat}\ranges
+\pgfplotstablegetrowsof{\ranges}\let\nrows\pgfplotsretval
+\begin{tikzpicture}[x=1.25mm, y=1cm]
+% x: one unit = 100 numbers, from 1000 (x=0) to 10000 (x=90)
+\foreach \r/\nm in {0/Fazenda, 1/Figueira, 2/Bela Vista} {
+  \pgfmathsetmacro\yy{-5.4*\r}
+  \fill[gray!12] (0,\yy) rectangle (90,\yy+0.55);
+  \node[anchor=east, font=\small\bfseries] at (-1,\yy+0.27) {\nm};
+}
+\pgfmathtruncatemacro\last{\nrows-1}
+\foreach \k in {0,...,\last} {
+  \pgfplotstablegetelem{\k}{row}\of\ranges \let\r\pgfplotsretval
+  \pgfplotstablegetelem{\k}{lo}\of\ranges \let\lo\pgfplotsretval
+  \pgfplotstablegetelem{\k}{hi}\of\ranges \let\hi\pgfplotsretval
+  \pgfplotstablegetelem{\k}{codes}\of\ranges \let\cd\pgfplotsretval
+  \pgfplotstablegetelem{\k}{zone}\of\ranges \let\zn\pgfplotsretval
+  \pgfplotstablegetelem{\k}{pos}\of\ranges \let\ps\pgfplotsretval
+  \pgfplotstablegetelem{\k}{n}\of\ranges \let\nn\pgfplotsretval
+  \pgfmathsetmacro\yy{-5.4*\r}
+  \pgfmathsetmacro\xa{(\lo-1000)/100}
+  \pgfmathsetmacro\xb{(\hi-1000)/100}
+  \pgfmathsetmacro\xc{(\xa+\xb)/2}
+  \pgfmathtruncatemacro\odd{mod(\k,2)}
+  \ifnum\odd=0 \def\shade{ink}\else\def\shade{ink!60!white}\fi
+  \fill[\shade] (\xa,\yy) rectangle (\xb,\yy+0.55);
+  \draw[white, line width=0.6pt] (\xb,\yy) -- (\xb,\yy+0.55);
+  \pgfmathsetmacro\xl{2+\ps*min(13,80/max(\nn-1,1))}
+  \draw[gray!70, thin] (\xc,\yy+0.55) -- (\xc,\yy+0.75) -- (\xl,\yy+1.05);
+  \node[anchor=south west, rotate=40, font=\footnotesize, inner sep=1pt] at (\xl-0.4,\yy+1.02) {\zn\ (\cd)};
+}
+\foreach \r in {0,1,2} {
+  \pgfmathsetmacro\yy{-5.4*\r}
+  \foreach \t in {0,10,...,90} {
+    \draw[gray] (\t,\yy) -- (\t,\yy-0.1);
+    \pgfmathtruncatemacro\lab{1000+100*\t}
+    \node[font=\scriptsize, anchor=north, gray!70!black] at (\t,\yy-0.1) {\lab};
+  }
+}
+
+\end{tikzpicture}
+\end{document}

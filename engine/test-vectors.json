@@ -1,0 +1,1038 @@
+{
+  "zone": {
+    "key": "PR",
+    "index": 4,
+    "name": "Palmarejo",
+    "nameIndex": 973,
+    "digits": 4,
+    "block": [
+      1000,
+      3899
+    ]
+  },
+  "codes": [
+    {
+      "home": "Palmarejo 10 00",
+      "full": "Palmarejo 10 00 · Praia, Santiago",
+      "machine": "PR-0973-1000-8",
+      "plate": {
+        "big": "Palmarejo 10 00",
+        "small": "Praia · Santiago",
+        "machine": "PR-0973-1000-8"
+      },
+      "spokenPt": "Palmarejo, dez, zero zero",
+      "spokenKea": "Palmarejo, dés, zeru zeru"
+    },
+    {
+      "home": "Palmarejo 12 34",
+      "full": "Palmarejo 12 34 · Praia, Santiago",
+      "machine": "PR-0973-1234-0",
+      "plate": {
+        "big": "Palmarejo 12 34",
+        "small": "Praia · Santiago",
+        "machine": "PR-0973-1234-0"
+      },
+      "spokenPt": "Palmarejo, doze, trinta e quatro",
+      "spokenKea": "Palmarejo, dozi, trinta i kuatu"
+    },
+    {
+      "home": "Palmarejo 20 50",
+      "full": "Palmarejo 20 50 · Praia, Santiago",
+      "machine": "PR-0973-2050-5",
+      "plate": {
+        "big": "Palmarejo 20 50",
+        "small": "Praia · Santiago",
+        "machine": "PR-0973-2050-5"
+      },
+      "spokenPt": "Palmarejo, vinte, cinquenta",
+      "spokenKea": "Palmarejo, vinti, sinkuenta"
+    },
+    {
+      "home": "Palmarejo 38 99",
+      "full": "Palmarejo 38 99 · Praia, Santiago",
+      "machine": "PR-0973-3899-6",
+      "plate": {
+        "big": "Palmarejo 38 99",
+        "small": "Praia · Santiago",
+        "machine": "PR-0973-3899-6"
+      },
+      "spokenPt": "Palmarejo, trinta e oito, noventa e nove",
+      "spokenKea": "Palmarejo, trinta i oitu, noventa i novi"
+    },
+    {
+      "home": "João Vaz 100",
+      "full": "João Vaz 100 · Chã de João Vaz · Paul, Santo Antão",
+      "machine": "PA-0672-100-7",
+      "spokenPt": "João Vaz, cem",
+      "spokenKea": "João Vaz, sen"
+    },
+    {
+      "home": "João Vaz 214",
+      "full": "João Vaz 214 · Chã de João Vaz · Paul, Santo Antão",
+      "machine": "PA-0672-214-5",
+      "spokenPt": "João Vaz, duzentos e catorze",
+      "spokenKea": "João Vaz, duzentu i katorzi"
+    },
+    {
+      "home": "João Vaz 299",
+      "full": "João Vaz 299 · Chã de João Vaz · Paul, Santo Antão",
+      "machine": "PA-0672-299-6",
+      "spokenPt": "João Vaz, duzentos e noventa e nove",
+      "spokenKea": "João Vaz, duzentu i noventa i novi"
+    },
+    {
+      "home": "Palmarejo 12 34.2",
+      "machine": "PR-0973-1234-0.2",
+      "note": "second structure of the lote (a shop in the front wall, an annexe)"
+    }
+  ],
+  "sameName": [
+    {
+      "typed": "Fazenda 12 34",
+      "zone": "CR-078",
+      "officialName": "Achada Fazenda",
+      "municipality": "Santa Cruz",
+      "island": "Santiago",
+      "near": null,
+      "machine": "CR-0534-1234-8",
+      "check": 8,
+      "anchor": [
+        15.120173,
+        -23.519072
+      ]
+    },
+    {
+      "typed": "Fazenda 20 50",
+      "zone": "PA-005",
+      "officialName": "Chã de Fazenda",
+      "municipality": "Paul",
+      "island": "Santo Antão",
+      "near": null,
+      "machine": "PA-0534-2050-8",
+      "check": 8,
+      "anchor": [
+        17.117695,
+        -25.052714
+      ]
+    },
+    {
+      "typed": "Fazenda 24 34",
+      "zone": "PR-049",
+      "officialName": "Fazenda",
+      "municipality": "Praia",
+      "island": "Santiago",
+      "near": null,
+      "machine": "PR-0534-2434-9",
+      "check": 9,
+      "anchor": [
+        14.926619,
+        -23.507858
+      ]
+    },
+    {
+      "typed": "Fazenda 29 50",
+      "zone": "SM-062",
+      "officialName": "Fazenda",
+      "municipality": "São Miguel",
+      "island": "Santiago",
+      "near": null,
+      "machine": "SM-0534-2950-2",
+      "check": 2,
+      "anchor": [
+        15.19674,
+        -23.64365
+      ]
+    },
+    {
+      "typed": "Fazenda 31 00",
+      "zone": "TA-014",
+      "officialName": "Lugar de Fazenda",
+      "municipality": "Tarrafal",
+      "island": "Santiago",
+      "near": "Contador",
+      "machine": "TA-0534-3100-6",
+      "check": 6,
+      "anchor": [
+        15.23713,
+        -23.7152
+      ]
+    },
+    {
+      "typed": "Fazenda 32 50",
+      "zone": "TA-021",
+      "officialName": "Porto Fazenda",
+      "municipality": "Tarrafal",
+      "island": "Santiago",
+      "near": "Tarrafal",
+      "machine": "TA-0534-3250-2",
+      "check": 2,
+      "anchor": [
+        15.315958,
+        -23.757122
+      ]
+    },
+    {
+      "typed": "Fazenda 34 50",
+      "zone": "TA-022",
+      "officialName": "Fazenda",
+      "municipality": "Tarrafal",
+      "island": "Santiago",
+      "near": "Lobrâo",
+      "machine": "TA-0534-3450-7",
+      "check": 7,
+      "anchor": [
+        15.311066,
+        -23.743937
+      ]
+    },
+    {
+      "typed": "fazenda 3450",
+      "zone": "TA-022",
+      "officialName": "Fazenda",
+      "municipality": "Tarrafal",
+      "island": "Santiago",
+      "near": "Lobrâo",
+      "machine": "TA-0534-3450-7",
+      "check": 7,
+      "anchor": [
+        15.311066,
+        -23.743937
+      ]
+    },
+    {
+      "typed": "Achadinha 15 00",
+      "zone": "PR-048",
+      "officialName": "Achadinha",
+      "municipality": "Praia",
+      "island": "Santiago",
+      "near": null,
+      "machine": "PR-0034-1500-3",
+      "check": 3,
+      "anchor": [
+        14.926965,
+        -23.511737
+      ]
+    },
+    {
+      "typed": "Achadinha 25 10",
+      "zone": "TA-046",
+      "officialName": "Achadinha",
+      "municipality": "Tarrafal",
+      "island": "Santiago",
+      "near": null,
+      "machine": "TA-0034-2510-1",
+      "check": 1,
+      "anchor": [
+        15.23451,
+        -23.7069
+      ]
+    },
+    {
+      "typed": "Achadinha 11 00",
+      "zone": "CA-028",
+      "officialName": "Achadinha",
+      "municipality": "Santa Catarina",
+      "island": "Santiago",
+      "near": "Covão Baixo",
+      "machine": "CA-0034-1100-4",
+      "check": 4,
+      "anchor": [
+        15.18031,
+        -23.73281
+      ]
+    },
+    {
+      "typed": "Achadinha 12 50",
+      "zone": "CA-144",
+      "officialName": "Achadinha",
+      "municipality": "Santa Catarina",
+      "island": "Santiago",
+      "near": "Isabel",
+      "machine": "CA-0034-1250-6",
+      "check": 6,
+      "anchor": [
+        15.12435,
+        -23.63503
+      ]
+    },
+    {
+      "typed": "Cutelo 22 00",
+      "zone": "TA-042",
+      "officialName": "Cutelo",
+      "municipality": "Tarrafal",
+      "island": "Santiago",
+      "near": null,
+      "machine": "TA-0452-2200-2",
+      "check": 2,
+      "anchor": [
+        15.244051,
+        -23.703436
+      ]
+    },
+    {
+      "typed": "Cutelo 10 50",
+      "zone": "CR-102",
+      "officialName": "Cutelo",
+      "municipality": "Santa Cruz",
+      "island": "Santiago",
+      "near": null,
+      "machine": "CR-0452-1050-2",
+      "check": 2,
+      "anchor": [
+        15.07001,
+        -23.52977
+      ]
+    },
+    {
+      "typed": "Bela Vista 30 00",
+      "zone": "PR-007",
+      "officialName": "Bela Vista",
+      "municipality": "Praia",
+      "island": "Santiago",
+      "near": null,
+      "machine": "PR-0142-3000-4",
+      "check": 4,
+      "anchor": [
+        14.924425,
+        -23.524317
+      ]
+    },
+    {
+      "typed": "Bela Vista 55 50",
+      "zone": "SL-013",
+      "officialName": "Bela Vista",
+      "municipality": "Sal",
+      "island": "Sal",
+      "near": null,
+      "machine": "SL-0142-5550-0",
+      "check": 0,
+      "anchor": [
+        16.8,
+        -22.96667
+      ]
+    },
+    {
+      "typed": "Tarrafal 11 00",
+      "zone": "PN-001",
+      "officialName": "Tarrafal",
+      "municipality": "Porto Novo",
+      "island": "Santo Antão",
+      "near": null,
+      "machine": "PN-1283-1100-8",
+      "check": 8,
+      "anchor": [
+        16.956271,
+        -25.310466
+      ]
+    },
+    {
+      "typed": "Tarrafal 15 00",
+      "zone": "RG-104",
+      "officialName": "Tarrafal-Povoação",
+      "municipality": "Ribeira Grande",
+      "island": "Santo Antão",
+      "near": null,
+      "machine": "RG-1283-1500-5",
+      "check": 5,
+      "anchor": [
+        17.183146,
+        -25.062055
+      ]
+    },
+    {
+      "typed": "Tarrafal 30 00",
+      "zone": "TA-020",
+      "officialName": "Tarrafal",
+      "municipality": "Tarrafal",
+      "island": "Santiago",
+      "near": null,
+      "machine": "TA-1283-3000-4",
+      "check": 4,
+      "anchor": [
+        15.278416,
+        -23.752294
+      ]
+    },
+    {
+      "typed": "São Filipe 21 30",
+      "zone": "PR-024",
+      "officialName": "Lote Achada São Filipe",
+      "municipality": "Praia",
+      "island": "Santiago",
+      "near": "Safende",
+      "machine": "PR-1221-2130-1",
+      "check": 1,
+      "anchor": [
+        14.95179,
+        -23.515725
+      ]
+    },
+    {
+      "typed": "São Filipe 45 00",
+      "zone": "PR-026",
+      "officialName": "Achada São Filipe",
+      "municipality": "Praia",
+      "island": "Santiago",
+      "near": "Água",
+      "machine": "PR-1221-4500-5",
+      "check": 5,
+      "anchor": [
+        14.953807,
+        -23.517652
+      ]
+    }
+  ],
+  "points": [
+    {
+      "land": true,
+      "plusCode": "796RWF9V+X57",
+      "plusCodeShort": "9V+X5 Praia",
+      "municipality": "Praia",
+      "key": "PR",
+      "island": "Santiago",
+      "postalPrefix": "76",
+      "postalStatus": "official 7600 (UPU 2014)",
+      "name": "Praia, Platô",
+      "lat": 14.91992,
+      "lon": -23.50709
+    },
+    {
+      "land": true,
+      "plusCode": "798QV2P7+WCG",
+      "plusCodeShort": "P7+WC Mindelo",
+      "municipality": "São Vicente",
+      "key": "SV",
+      "island": "São Vicente",
+      "postalPrefix": "21",
+      "postalStatus": "observed 2110",
+      "name": "Mindelo, São Vicente",
+      "lat": 16.88731,
+      "lon": -24.98641
+    },
+    {
+      "land": true,
+      "plusCode": "798VH3XV+FXH",
+      "plusCodeShort": "H3XV+FX Espargos",
+      "municipality": "Sal",
+      "key": "SL",
+      "island": "Sal",
+      "postalPrefix": "41",
+      "postalStatus": "observed 4110/4111",
+      "name": "Santa Maria, Sal",
+      "lat": 16.59869,
+      "lon": -22.90503
+    },
+    {
+      "land": true,
+      "plusCode": "796QVGW3+46F",
+      "plusCodeShort": "W3+46 São Filipe",
+      "municipality": "São Filipe",
+      "key": "SF",
+      "island": "Fogo",
+      "postalPrefix": "82",
+      "postalStatus": "observed 8220",
+      "name": "São Filipe, Fogo",
+      "lat": 14.8953,
+      "lon": -24.49694
+    },
+    {
+      "land": true,
+      "plusCode": "796QV8C3+CPH",
+      "plusCodeShort": "C3+CP Nova Sintra",
+      "municipality": "Brava",
+      "key": "BR",
+      "island": "Brava",
+      "postalPrefix": "91",
+      "postalStatus": "observed 9110",
+      "name": "Nova Sintra, Brava",
+      "lat": 14.87107,
+      "lon": -24.69565
+    },
+    {
+      "land": true,
+      "plusCode": "797R76HX+938",
+      "plusCodeShort": "HX+93 Tarrafal",
+      "municipality": "Tarrafal",
+      "key": "TA",
+      "island": "Santiago",
+      "postalPrefix": "71",
+      "postalStatus": "observed 7110",
+      "name": "Tarrafal, Santiago",
+      "lat": 15.27842,
+      "lon": -23.75229
+    },
+    {
+      "land": true,
+      "plusCode": "798QHJ8V+H7W",
+      "plusCodeShort": "8V+H7 Tarrafal de São Nicolau",
+      "municipality": "Tarrafal de São Nicolau",
+      "key": "TS",
+      "island": "São Nicolau",
+      "postalPrefix": "31",
+      "postalStatus": "inferred",
+      "name": "Tarrafal de São Nicolau",
+      "lat": 16.56648,
+      "lon": -24.3568
+    },
+    {
+      "land": false,
+      "note": "at sea or outside Cabo Verde: no spot code is issued",
+      "name": "Atlantic, 5 km off Praia",
+      "lat": 14.87,
+      "lon": -23.47
+    }
+  ],
+  "arithmetic": [
+    {
+      "lotes": 40,
+      "needed": 120,
+      "digits": 3,
+      "block": [
+        100,
+        299
+      ],
+      "reserve": [
+        300,
+        999
+      ],
+      "spacing": 5.0
+    },
+    {
+      "lotes": 233,
+      "needed": 699,
+      "digits": 3,
+      "block": [
+        100,
+        799
+      ],
+      "reserve": [
+        800,
+        999
+      ],
+      "spacing": 3.0
+    },
+    {
+      "lotes": 234,
+      "needed": 702,
+      "digits": 4,
+      "block": [
+        1000,
+        1799
+      ],
+      "reserve": [
+        1800,
+        9999
+      ],
+      "spacing": 3.42
+    },
+    {
+      "lotes": 1971,
+      "needed": 5913,
+      "digits": 4,
+      "block": [
+        1000,
+        6999
+      ],
+      "reserve": [
+        7000,
+        9999
+      ],
+      "spacing": 3.04
+    },
+    {
+      "lotes": 2933,
+      "needed": 8799,
+      "digits": 4,
+      "block": [
+        1000,
+        9799
+      ],
+      "reserve": [
+        9800,
+        9999
+      ],
+      "spacing": 3.0
+    },
+    {
+      "lotes": 2934,
+      "needed": 8802,
+      "digits": 5,
+      "block": [
+        10000,
+        18999
+      ],
+      "reserve": [
+        19000,
+        99999
+      ],
+      "spacing": 3.07
+    },
+    {
+      "name": "Fazenda",
+      "zones": [
+        [
+          "CR-078",
+          309
+        ],
+        [
+          "PA-005",
+          59
+        ],
+        [
+          "PR-049",
+          230
+        ],
+        [
+          "SM-062",
+          17
+        ],
+        [
+          "TA-014",
+          37
+        ],
+        [
+          "TA-021",
+          4
+        ],
+        [
+          "TA-022",
+          49
+        ]
+      ],
+      "plan": [
+        4,
+        {
+          "CR-078": [
+            1000,
+            1999
+          ],
+          "PA-005": [
+            2000,
+            2199
+          ],
+          "PR-049": [
+            2200,
+            2899
+          ],
+          "SM-062": [
+            2900,
+            2999
+          ],
+          "TA-014": [
+            3000,
+            3199
+          ],
+          "TA-021": [
+            3200,
+            3299
+          ],
+          "TA-022": [
+            3300,
+            3499
+          ]
+        },
+        [
+          3500,
+          9999
+        ]
+      ]
+    }
+  ],
+  "sameNameRegister": {
+    "name": "Fazenda",
+    "index": 534,
+    "digits": 4,
+    "blocks": [
+      {
+        "zone": "CR-078",
+        "lo": 1000,
+        "hi": 1999
+      },
+      {
+        "zone": "PA-005",
+        "lo": 2000,
+        "hi": 2199
+      },
+      {
+        "zone": "PR-049",
+        "lo": 2200,
+        "hi": 2899
+      },
+      {
+        "zone": "SM-062",
+        "lo": 2900,
+        "hi": 2999
+      },
+      {
+        "zone": "TA-014",
+        "lo": 3000,
+        "hi": 3199
+      },
+      {
+        "zone": "TA-021",
+        "lo": 3200,
+        "hi": 3299
+      },
+      {
+        "zone": "TA-022",
+        "lo": 3300,
+        "hi": 3499
+      }
+    ],
+    "reserve": [
+      3500,
+      9999
+    ]
+  },
+  "rejected": [
+    {
+      "typed": "Fazenda 52 29",
+      "error": "Fazenda 52 29 is not a home code: the number is outside every block of Fazenda"
+    },
+    {
+      "typed": "Fazenda 12 34, Tarrafal",
+      "zone": "CR-078",
+      "contextMatches": false
+    }
+  ],
+  "crossZoneSlip": {
+    "meant": "Fazenda 24 34 (Praia), check 9",
+    "typed": "Fazenda 34 34 + check 9",
+    "lands": "TA-022 (Tarrafal)",
+    "result": "check digit does not match: a digit is wrong or two are swapped"
+  },
+  "plateNames": [
+    {
+      "zone": "PR-024",
+      "officialName": "Lote Achada São Filipe",
+      "plate": "São Filipe",
+      "plateRule": "council",
+      "needsCouncilChoice": true,
+      "home": "São Filipe 21 30",
+      "full": "São Filipe 21 30 · Lote Achada São Filipe · Praia, Santiago",
+      "plateLayout": {
+        "big": "São Filipe 21 30",
+        "small": "Praia · Santiago",
+        "machine": "PR-1221-2130-1",
+        "official": "Lote Achada São Filipe"
+      },
+      "machine": "PR-1221-2130-1",
+      "plateCandidates": [
+        "São Filipe"
+      ],
+      "plateReason": "equals a well-known town elsewhere",
+      "officialTyped": "PR-024"
+    },
+    {
+      "zone": "PR-063",
+      "officialName": "Achada Santo António",
+      "plate": "ASA",
+      "plateRule": "known",
+      "needsCouncilChoice": false,
+      "home": "ASA 10 30",
+      "full": "ASA 10 30 · Achada Santo António · Praia, Santiago",
+      "plateLayout": {
+        "big": "ASA 10 30",
+        "small": "Praia · Santiago",
+        "machine": "PR-0098-1030-6",
+        "official": "Achada Santo António"
+      },
+      "machine": "PR-0098-1030-6",
+      "plateSource": "Inforpress via Balai, \"Praia: Tabanka de ASA com festividades de rua em homenagem ao santo padroeiro\" (\"A Tabanka do bairro de Achada Santo António (ASA)\"), https://www.balai.cv/balai-kultural/praia-tabanka-de-asa-com-festividades-de-rua-em-homenagem-ao-santo-padroeiro/; A Nação, 4 Feb 2026, https://www.anacao.cv/noticia/2026/02/04/praia-prisao-preventiva-para-o-principal-suspeito-do-homicidio-de-jovem-de-17-anos-na-asa-em-2024/",
+      "officialTyped": "PR-063"
+    },
+    {
+      "zone": "PR-003",
+      "officialName": "Monte Vermelho",
+      "plate": "Monte Vermelho",
+      "plateRule": "council",
+      "needsCouncilChoice": true,
+      "home": "Monte Vermelho 17 30",
+      "full": "Monte Vermelho 17 30 · Praia, Santiago",
+      "plateLayout": {
+        "big": "Monte Vermelho 17 30",
+        "small": "Praia · Santiago",
+        "machine": "PR-0916-1730-2"
+      },
+      "machine": "PR-0916-1730-2",
+      "officialTyped": "PR-003"
+    },
+    {
+      "zone": "SV-053",
+      "officialName": "Casa Para Todos-Ribeira de Julião",
+      "plate": "Julião",
+      "plateRule": "distinctive",
+      "needsCouncilChoice": false,
+      "home": "Julião 24 30",
+      "full": "Julião 24 30 · Casa Para Todos-Ribeira de Julião · São Vicente, São Vicente",
+      "plateLayout": {
+        "big": "Julião 24 30",
+        "small": "São Vicente · São Vicente",
+        "machine": "SV-0676-2430-1",
+        "official": "Casa Para Todos-Ribeira de Julião"
+      },
+      "machine": "SV-0676-2430-1",
+      "officialTyped": "SV-053"
+    },
+    {
+      "zone": "SV-009",
+      "officialName": "Entre Chã de Alecrim e Madeiralzinho",
+      "plate": "Alecrim",
+      "plateRule": "council",
+      "needsCouncilChoice": true,
+      "home": "Alecrim 12 30",
+      "full": "Alecrim 12 30 · Entre Chã de Alecrim e Madeiralzinho · São Vicente, São Vicente",
+      "plateLayout": {
+        "big": "Alecrim 12 30",
+        "small": "São Vicente · São Vicente",
+        "machine": "SV-0056-1230-0",
+        "official": "Entre Chã de Alecrim e Madeiralzinho"
+      },
+      "machine": "SV-0056-1230-0",
+      "plateCandidates": [
+        "Alecrim"
+      ],
+      "plateReason": "a name \"between X and Y\" needs a choice",
+      "officialTyped": "SV-009"
+    },
+    {
+      "zone": "PA-017",
+      "officialName": "Cidade das Pombas (Eito de Baixo)",
+      "plate": "Pombas",
+      "plateRule": "distinctive",
+      "needsCouncilChoice": false,
+      "home": "Pombas 10 30",
+      "full": "Pombas 10 30 · Cidade das Pombas (Eito de Baixo) · Paul, Santo Antão",
+      "plateLayout": {
+        "big": "Pombas 10 30",
+        "small": "Paul · Santo Antão",
+        "machine": "PA-1060-1030-7",
+        "official": "Cidade das Pombas (Eito de Baixo)"
+      },
+      "machine": "PA-1060-1030-7",
+      "officialTyped": "PA-017"
+    },
+    {
+      "zone": "SL-023",
+      "officialName": "África 70",
+      "plate": "África",
+      "plateRule": "council",
+      "needsCouncilChoice": true,
+      "home": "África 130",
+      "full": "África 130 · África 70 · Sal, Sal",
+      "plateLayout": {
+        "big": "África 130",
+        "small": "Sal · Sal",
+        "machine": "SL-0037-130-0",
+        "official": "África 70"
+      },
+      "machine": "SL-0037-130-0",
+      "plateCandidates": [
+        "África"
+      ],
+      "plateReason": "the numeral spelt out (África Setenta) is 14 characters",
+      "officialTyped": "SL-023"
+    },
+    {
+      "zone": "PA-011",
+      "officialName": "Chã de João Vaz",
+      "plate": "João Vaz",
+      "plateRule": "distinctive",
+      "needsCouncilChoice": false,
+      "home": "João Vaz 130",
+      "full": "João Vaz 130 · Chã de João Vaz · Paul, Santo Antão",
+      "plateLayout": {
+        "big": "João Vaz 130",
+        "small": "Paul · Santo Antão",
+        "machine": "PA-0672-130-0",
+        "official": "Chã de João Vaz"
+      },
+      "machine": "PA-0672-130-0",
+      "officialTyped": "PA-011"
+    }
+  ],
+  "collideAfterShortening": [
+    {
+      "officialName": "Achada Fazenda",
+      "typed": "Fazenda 12 34",
+      "zone": "CR-078",
+      "municipality": "Santa Cruz",
+      "island": "Santiago",
+      "machine": "CR-0534-1234-8"
+    },
+    {
+      "officialName": "Lugar de Fazenda",
+      "typed": "Fazenda 31 00",
+      "zone": "TA-014",
+      "municipality": "Tarrafal",
+      "island": "Santiago",
+      "machine": "TA-0534-3100-6"
+    },
+    {
+      "officialName": "Chã de Fazenda",
+      "typed": "Fazenda 20 50",
+      "zone": "PA-005",
+      "municipality": "Paul",
+      "island": "Santo Antão",
+      "machine": "PA-0534-2050-8"
+    }
+  ],
+  "overLimitRefused": "plate name 'Lote Achada São Filipe' is over 12 characters or 2 words",
+  "registryToy": {
+    "lotes": [
+      {
+        "id": "a",
+        "lat": 14.919,
+        "lon": -23.541,
+        "hilbert": 34844987,
+        "number": 1241,
+        "home": "Palmarejo 12 41",
+        "machine": "PR-0973-1241-2"
+      },
+      {
+        "id": "b",
+        "lat": 14.9195,
+        "lon": -23.5402,
+        "hilbert": 133888763,
+        "number": 1725,
+        "home": "Palmarejo 17 25",
+        "machine": "PR-0973-1725-7"
+      },
+      {
+        "id": "c",
+        "lat": 14.923,
+        "lon": -23.535,
+        "hilbert": 703352516,
+        "number": 2691,
+        "home": "Palmarejo 26 91",
+        "machine": "PR-0973-2691-4"
+      },
+      {
+        "id": "d",
+        "lat": 14.926,
+        "lon": -23.53,
+        "hilbert": 2308544921,
+        "number": 3175,
+        "home": "Palmarejo 31 75",
+        "machine": "PR-0973-3175-6"
+      },
+      {
+        "id": "e",
+        "lat": 14.929,
+        "lon": -23.528,
+        "hilbert": 2803085627,
+        "number": 3658,
+        "home": "Palmarejo 36 58",
+        "machine": "PR-0973-3658-1"
+      },
+      {
+        "id": "f",
+        "lat": 14.9205,
+        "lon": -23.539,
+        "hilbert": 171643825,
+        "number": 2208,
+        "home": "Palmarejo 22 08",
+        "machine": "PR-0973-2208-5"
+      }
+    ],
+    "addMyHome": {
+      "lat": 14.9232,
+      "lon": -23.5348,
+      "hilbert": 704248314,
+      "number": 2933,
+      "home": "Palmarejo 29 33",
+      "machine": "PR-0973-2933-7"
+    }
+  },
+  "overflow": {
+    "zone": "Fazenda TA-022 (Tarrafal), all 200 numbers of its block 3300-3499 issued",
+    "newBlock": {
+      "zone": "TA-022",
+      "lo": 3500,
+      "hi": 3599
+    },
+    "newNumber": 3505,
+    "home": "Fazenda 35 05",
+    "machine": "TA-0534-3505-1",
+    "decodes": "TA-022"
+  },
+  "newZoneSameName": {
+    "zone": "SV-901 (hypothetical new Fazenda, São Vicente, 40 lotes)",
+    "block": {
+      "zone": "SV-901",
+      "lo": 3600,
+      "hi": 3799
+    }
+  },
+  "nameOpensNextLength": {
+    "before": "9 units of 100-999 used",
+    "newBlock": {
+      "zone": "PA-011",
+      "lo": 1000,
+      "hi": 1099
+    }
+  },
+  "coverage": {
+    "officialLote": {
+      "record": {
+        "official": "Rua Barragem de Figueira Gorda 142, Praia",
+        "home": "Cidadela 10 88",
+        "machine": "PR-0364-1088-2"
+      },
+      "resolves": {
+        "address": "Rua Barragem de Figueira Gorda 142, Praia",
+        "system": "official",
+        "aliases": [
+          "Cidadela 10 88"
+        ]
+      },
+      "mask": [
+        "official",
+        "Rua Barragem de Figueira Gorda 142"
+      ]
+    },
+    "presumedOfficial": {
+      "point": [
+        14.91992,
+        -23.50709
+      ],
+      "mask": [
+        "official-pending",
+        null
+      ]
+    },
+    "nwaysArea": {
+      "point": [
+        14.9235,
+        -23.534
+      ],
+      "mask": [
+        "nways",
+        null
+      ],
+      "resolves": {
+        "address": "Palmarejo 32 83",
+        "system": "nways",
+        "aliases": []
+      }
+    },
+    "handOver": {
+      "after": {
+        "home": "Palmarejo 32 83",
+        "machine": "PR-0973-3283-5",
+        "official": "Rua Exemplo 12, Palmarejo, Praia (hypothetical future municipal number)",
+        "nwaysAliases": [
+          "Palmarejo 32 83"
+        ],
+        "nwaysStatus": "alias"
+      },
+      "resolves": {
+        "address": "Rua Exemplo 12, Palmarejo, Praia (hypothetical future municipal number)",
+        "system": "official",
+        "aliases": [
+          "Palmarejo 32 83"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+% Figure: the 938 home codes of the zone Palmarejo (PR-004, Praia) at their
+% numbering anchors, coloured by number, joined in number order.
+% Data: data/palmarejo.dat.
+\documentclass[tikz,border=2mm]{standalone}
+\input{_preamble.tex}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[axis equal image, width=12.5cm, xlabel={\lbl{metres east}{metros a leste}{mètres vers l'est}}, ylabel={\lbl{metres north}{metros a norte}{mètres vers le nord}},
+  axis lines*=left, tick align=outside,
+  colormap={inkred}{color(0)=(ink!20!white) color(0.5)=(ink) color(1)=(flagred)},
+  point meta min=1000, point meta max=3899,
+  colorbar horizontal, colorbar style={at={(0.5,1.04)}, anchor=south, height=0.25cm, width=8cm,
+    xticklabel pos=upper, xtick={1000,1500,2000,2500,3000,3500,3899},
+    xticklabels={10 00,15 00,20 00,25 00,30 00,35 00,38 99},
+    tick label style={font=\scriptsize}}]
+\addplot[gray!45, line width=0.25pt, no markers] table[x=x, y=y] {data/palmarejo.dat};
+\addplot[scatter, only marks, mark=*, mark size=1.15pt, scatter src=explicit,
+  scatter/use mapped color={draw=mapped color, fill=mapped color}]
+  table[x=x, y=y, meta=number] {data/palmarejo.dat};
+\addplot[only marks, mark=triangle*, mark size=2.6pt, draw=black, fill=star,
+  restrict expr to domain={\thisrow{official}}{1:1}] table[x=x, y=y] {data/palmarejo.dat};
+\addplot[only marks, mark=o, mark size=4.5pt, very thick, draw=black,
+  restrict expr to domain={\thisrow{example}}{1:1}] table[x=x, y=y] {data/palmarejo.dat};
+\node[font=\footnotesize, fill=white, inner sep=1.5pt, anchor=west] at (axis cs:-490,480) {\textbf{Palmarejo 19 22}};
+\draw[thin] (axis cs:-330,462) -- (axis cs:-176,170);
+\end{axis}
+\end{tikzpicture}
+\end{document}

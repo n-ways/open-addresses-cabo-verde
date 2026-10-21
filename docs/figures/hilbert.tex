@@ -1,0 +1,17 @@
+% Figure: the order-3 Hilbert curve over an 8 x 8 grid, in the order given by
+% the reference engine's hilbert_index (used at order 16 to number a zone's
+% lotes). Data: data/hilbert.dat.
+\documentclass[tikz,border=2mm]{standalone}
+\input{_preamble.tex}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[axis equal image, hide axis, width=7cm, xmin=-0.5, xmax=7.5, ymin=-0.5, ymax=7.5, clip=false]
+\pgfplotsinvokeforeach{0,...,8}{\draw[gray!30] (axis cs:#1-0.5,-0.5) -- (axis cs:#1-0.5,7.5); \draw[gray!30] (axis cs:-0.5,#1-0.5) -- (axis cs:7.5,#1-0.5);}
+\addplot[very thick, ink, line join=round, no markers] table[x=x, y=y] {data/hilbert.dat};
+\addplot[only marks, mark=*, mark size=1.2pt, ink] table[x=x, y=y] {data/hilbert.dat};
+\addplot[nodes near coords, only marks, mark=none, point meta=explicit symbolic,
+  nodes near coords style={font=\tiny, anchor=south west, inner sep=0.5pt, text=gray!60!black}]
+  table[x=x, y=y, meta=d] {data/hilbert.dat};
+\end{axis}
+\end{tikzpicture}
+\end{document}

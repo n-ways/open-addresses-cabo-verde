@@ -1,0 +1,23 @@
+{
+  "byMunicipality": {
+    "BR": 2900
+  },
+  "codes": 2900,
+  "country": "CV",
+  "credit": "N-Ways Addressing for Cabo Verde, © N-WAYS LIMITED (nways.ng)",
+  "engine": "internal/addressing/cv (SPEC v0.4)",
+  "exported": "2026-10-20T02:31:15Z",
+  "licence": "ODbL 1.0 (LICENSE-DATA)",
+  "lotes": 2900,
+  "sha256": {
+    "BR.csv": "a5cfc899061b8cf4867f9cc0e38c411b4c687b24cff7cedb3023904e92df5661",
+    "lotes.csv": "7d6dc1602fb8d27217dbf5ab26abaf94c6bb8ceecc706707aac3cae1e1b14a18",
+    "names.csv": "56af03e05821fd6280d8e516fdb31a6f5757c2e88d1ab41443a04a7f98216242",
+    "structures/BR.csv": "ff109891c3e55798d5c99530f113e6c708787d6f8228c99a0f61ae0643ca4db9",
+    "zones.csv": "ed760c7d502e518c20a007d898a3781dde2ada320ddbcea683051e768575f7a9"
+  },
+  "structures": 3216,
+  "structuresByMunicipality": {
+    "BR": 3216
+  }
+}

@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper as below."
+title: "A home code for every building in Cabo Verde: a national addressing model built on place names, national number ranges and building footprints"
+type: report
+authors:
+  - name: "The N-Ways Addressing Group"
+    affiliation: "N-WAYS LIMITED"
+    email: hello@nways.ng
+    website: "https://nways.ng"
+repository-code: "https://github.com/n-ways/open-addresses-cabo-verde"
+url: "https://github.com/n-ways/open-addresses-cabo-verde"
+license: CC-BY-4.0
+date-released: 2026-10-21
+keywords:
+  - addressing
+  - Cabo Verde
+  - geographic information systems
+  - postal addressing
+  - check digits
+  - Hilbert curve
+  - Open Location Code
+  - building footprints
+abstract: >-
+  A national addressing model for Cabo Verde: every building has a home code
+  made of the short name of its bairro, zona or povoação and a 3- or 4-digit
+  number, unique in the country on its own, pointing to the lote's gate or
+  front door, beside the Correios postcode, the municipal street address and
+  the cadastre. The paper describes the model, its engine and specification,
+  the registry of the 175,630 codes issued, and the expected benefits for
+  citizens, logistics, emergency services and government.
+preferred-citation:
+  type: report
+  title: "A home code for every building in Cabo Verde: a national addressing model built on place names, national number ranges and building footprints"
+  authors:
+    - name: "The N-Ways Addressing Group"
+  institution:
+    name: "N-WAYS LIMITED"
+  year: 2026
+  month: 10
+  url: "https://github.com/n-ways/open-addresses-cabo-verde/blob/main/docs/n-ways-addressing-cabo-verde-en.pdf"
+  license: CC-BY-4.0

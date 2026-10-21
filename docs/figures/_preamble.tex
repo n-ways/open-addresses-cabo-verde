@@ -1,0 +1,18 @@
+% Shared preamble of the figures: fonts and the paper's colours.
+\usepackage{fontspec}
+\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{pgfplots,pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{calc,patterns}
+\definecolor{ink}{HTML}{003893}
+\definecolor{flagred}{HTML}{CF2027}
+\definecolor{star}{HTML}{F7D116}
+\definecolor{sea}{HTML}{EEF3FA}
+\definecolor{grid}{HTML}{9AA7BD}
+\pgfplotsset{every axis/.append style={font=\small,tick label style={font=\footnotesize},label style={font=\small}}}
+% Language of the labels: a figure compiled through a wrapper such as map-pt.tex
+% (\def\figlang{pt}\input{map.tex}) prints its Portuguese labels, map-fr.tex its French ones.
+\providecommand{\figlang}{en}
+\def\langpt{pt}\def\langfr{fr}
+\newcommand{\lbl}[3]{\ifx\figlang\langpt #2\else\ifx\figlang\langfr #3\else #1\fi\fi}
+\newcommand{\thousands}{\ifx\figlang\langpt labelsp\else\ifx\figlang\langfr labelsp\else label\fi\fi}

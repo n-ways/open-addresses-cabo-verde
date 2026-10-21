@@ -1,0 +1,37 @@
+% Figure: the 22 municipalities, shaded by home codes per square kilometre.
+% Data: data/map.dat, data/municipalities.dat, data/islands.dat (tools/paper_figures.py).
+\documentclass[tikz,border=2mm]{standalone}
+\input{_preamble.tex}
+\begin{document}
+\pgfplotstableread{data/municipalities.dat}\munis
+\pgfplotstableread{data/islands.dat}\isles
+\begin{tikzpicture}
+\begin{axis}[axis equal image, hide axis, width=15cm, xmin=-150, xmax=150, ymin=-140, ymax=140, clip=false]
+\pgfplotsinvokeforeach{0,...,21}{
+  \pgfplotstablegetelem{#1}{shade}\of\munis
+  \edef\cmd{\noexpand\addplot[fill=ink!\pgfplotsretval!white, draw=white, line width=0.35pt, unbounded coords=jump]
+    table[x=x, y=y, restrict expr to domain={\noexpand\thisrow{id}}{#1:#1}] {data/map.dat};}
+  \cmd
+}
+\pgfplotsinvokeforeach{0,...,8}{
+  \pgfplotstablegetelem{#1}{island}\of\isles \let\nm\pgfplotsretval
+  \pgfplotstablegetelem{#1}{\thousands}\of\isles \let\cd\pgfplotsretval
+  \pgfplotstablegetelem{#1}{lx}\of\isles \let\lx\pgfplotsretval
+  \pgfplotstablegetelem{#1}{ly}\of\isles \let\ly\pgfplotsretval
+  \pgfplotstablegetelem{#1}{anchor}\of\isles \let\an\pgfplotsretval
+  \edef\cmd{\noexpand\node[font=\noexpand\footnotesize, align=center, anchor=\an, inner sep=1pt]
+    at (axis cs:\lx,\ly) {\noexpand\textbf{\nm}\\\cd~\lbl{codes}{códigos}{codes}};}
+  \cmd
+}
+\draw[gray] (axis cs:-148,-8) -- (axis cs:-98,-8) node[midway, below, font=\scriptsize] {50 km};
+\draw[gray] (axis cs:-148,-10) -- (axis cs:-148,-6) (axis cs:-98,-10) -- (axis cs:-98,-6);
+\end{axis}
+\begin{scope}[shift={(0.3,5.2)}]
+  \node[anchor=west, font=\footnotesize] at (0,1.45) {\lbl{Home codes per km\textsuperscript{2}}{Códigos de casa por km\textsuperscript{2}}{Codes de maison par km\textsuperscript{2}}};
+  \foreach \s/\l [count=\k from 0] in {20/8,40/25,60/70,80/180,92/320} {
+    \fill[ink!\s!white] (\k*0.9,0.6) rectangle ++(0.85,0.4);
+    \node[font=\scriptsize, anchor=north] at (\k*0.9+0.425,0.58) {\l};
+  }
+\end{scope}
+\end{tikzpicture}
+\end{document}

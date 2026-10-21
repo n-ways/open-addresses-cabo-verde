@@ -1,0 +1,19 @@
+% Figure: building footprints of the registry by island and by source.
+% Data: data/sources.dat (registry/structures/).
+\documentclass[tikz,border=2mm]{standalone}
+\input{_preamble.tex}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[xbar stacked, width=12.5cm, height=7.5cm, bar width=9pt,
+  xmin=0, xmax=104000, xtick={0,20000,40000,60000,80000,100000}, ytick=data, yticklabels from table={data/sources.dat}{island},
+  xlabel={\lbl{Building footprints}{Pegadas de edifícios}{Emprises de bâtiments}}, axis lines*=left, xmajorgrids, grid style={gray!25},
+  scaled x ticks=false, xticklabel={\pgfmathprintnumber[1000 sep={\,}]{\tick}},
+  legend style={draw=none, at={(0.98,0.04)}, anchor=south east, font=\footnotesize}, legend cell align=left,
+  nodes near coords align={horizontal}, enlarge y limits=0.08]
+\addplot[fill=ink, draw=white] table[x=osm, y expr=\coordindex] {data/sources.dat};
+\addlegendentry{OpenStreetMap}
+\addplot[fill=flagred!75, draw=white] table[x=ml, y expr=\coordindex] {data/sources.dat};
+\addlegendentry{\lbl{Google Open Buildings and Microsoft, via Overture}{Google Open Buildings e Microsoft, via Overture}{Google Open Buildings et Microsoft, via Overture}}
+\end{axis}
+\end{tikzpicture}
+\end{document}

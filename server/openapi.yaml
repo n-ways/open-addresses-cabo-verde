@@ -1,0 +1,3183 @@
+# OpenAPI description of the registry server (server/). Every example is a real response; see docs/api.md.
+openapi: "3.1.0"
+info:
+  title: "N-Ways Addressing for Cabo Verde: registry API"
+  version: "1"
+  description: "Serves the published registry of Cabo Verde home codes and, on the designated issuer's deployment, issues new ones by the issuer's rules. Every example is a real response from a server running on the published registry. Guide: docs/api.md."
+  license:
+    name: "Apache-2.0 (code); ODbL-1.0 (data)"
+    identifier: "Apache-2.0"
+  contact:
+    name: "N-WAYS LIMITED"
+    email: "hello@nways.ng"
+    url: "https://nways.ng"
+servers:
+  - url: "http://localhost:8080"
+    description: "A local deployment (docker compose up)"
+security:
+  - {}
+paths:
+  /v1/areas:
+    get:
+      operationId: "areas"
+      summary: "Areas by name"
+      parameters:
+        - name: "name"
+          in: "query"
+          required: true
+          schema:
+            type: "string"
+          example: "Fazenda"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/AreaSearch"
+              examples:
+                areas-by-name-one-name-five-places:
+                  summary: "Areas by name (one name, five places)"
+                  value:
+                    name: "fazenda"
+                    areas:
+                      - id: "CR-078"
+                        municipality: "CR"
+                        plateName: "Fazenda"
+                        officialName: "Achada Fazenda"
+                        nameIndex: 534
+                        needsCouncilChoice: false
+                        codes: 309
+                      - id: "PA-005"
+                        municipality: "PA"
+                        plateName: "Fazenda"
+                        officialName: "Chã de Fazenda"
+                        nameIndex: 534
+                        needsCouncilChoice: false
+                        codes: 59
+                      - id: "PR-049"
+                        municipality: "PR"
+                        plateName: "Fazenda"
+                        officialName: "Fazenda"
+                        nameIndex: 534
+                        needsCouncilChoice: false
+                        codes: 229
+                    count: 7
+                an-official-name-finds-its-plate-name:
+                  summary: "An official name finds its plate name"
+                  value:
+                    name: "Lote Achada São Filipe"
+                    areas:
+                      - id: "PR-024"
+                        municipality: "PR"
+                        plateName: "São Filipe"
+                        officialName: "Lote Achada São Filipe"
+                        nameIndex: 1221
+                        needsCouncilChoice: true
+                        codes: 585
+                    count: 1
+        "400":
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                no-name-given:
+                  summary: "No name given"
+                  value:
+                    error:
+                      code: "bad_request"
+                      message: "Give a place name: /v1/areas?name=Palmarejo"
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+  /v1/areas/{id}:
+    get:
+      operationId: "area"
+      summary: "One area"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+          example: "PR-004"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Area"
+              examples:
+                an-area:
+                  summary: "An area"
+                  value:
+                    id: "PR-004"
+                    municipality:
+                      key: "PR"
+                      name: "Praia"
+                      island: "Santiago"
+                    plateName: "Palmarejo"
+                    officialName: "Palmarejo"
+                    plateRule: "as-is"
+                    needsCouncilChoice: false
+                    aliases: []
+                    near: "Monte Vermelho"
+                    nameKey: "palmarejo"
+                    nameIndex: 973
+                    box:
+                      - -23.53404
+                      - 14.90097
+                      - -23.51928
+                      - 14.91902
+                    anchor:
+                      - 14.912684
+                      - -23.526747
+                    blocks:
+                      - lo: 1000
+                        hi: 3899
+                    name:
+                      plateName: "Palmarejo"
+                      digits: 4
+                      reserve:
+                        - 5600
+                        - 9999
+                      blocks:
+                        - zone: "PR-004"
+                          lo: 1000
+                          hi: 3899
+                        - zone: "PR-006"
+                          lo: 3900
+                          hi: 5599
+                      officialNames:
+                        - "Palmarejo"
+                        - "Palmarejo Grande"
+                    codes: 938
+                    byStatus:
+                      provisional: 938
+        "404":
+          description: "Not found"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                an-unknown-area:
+                  summary: "An unknown area"
+                  value:
+                    error:
+                      code: "unknown_area"
+                      message: "There is no area 'PR-999'. Area ids look like PR-024."
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+  /v1/at:
+    get:
+      operationId: "at"
+      summary: "The code of the lote at a point"
+      parameters:
+        - name: "lat"
+          in: "query"
+          required: true
+          schema:
+            type: "number"
+            minimum: -90
+            maximum: 90
+          example: 14.9067372
+        - name: "lng"
+          in: "query"
+          required: true
+          schema:
+            type: "number"
+            minimum: -180
+            maximum: 180
+          example: -23.5272164
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/At"
+              examples:
+                a-point-on-a-building:
+                  summary: "A point on a building"
+                  value:
+                    status: "found"
+                    code:
+                      country: "CV"
+                      machine: "PR-0973-1234-0"
+                      home: "Palmarejo 12 34"
+                      check: 0
+                      name: "Palmarejo"
+                      nameProvisional: false
+                      near: "Monte Vermelho"
+                      area:
+                        id: "PR-004"
+                        plateName: "Palmarejo"
+                        officialName: "Palmarejo"
+                      municipality: "Praia"
+                      municipalityKey: "PR"
+                      island: "Santiago"
+                      postcode:
+                        value: "7600"
+                        kind: "area"
+                        source: "UPU addressing sheet 04/2014; Correios HQ address"
+                      fullLine: "Palmarejo 12 34 · Praia, Santiago · 7600"
+                      written:
+                        big: "Palmarejo 12 34"
+                        small: "Praia · Santiago"
+                        machine: "PR-0973-1234-0"
+                      spoken: "Palmarejo, doze, trinta e quatro"
+                      spokenKea: "Palmarejo, dozi, trinta i kuatu"
+                      status: "provisional"
+                      issued: "bulk"
+                      issuedAt: "2026-10-19T07:40:03Z"
+                      entrance:
+                        lat: 14.9067372
+                        lng: -23.5272164
+                        kind: "centre"
+                        source: "map"
+                      location:
+                        lat: 14.9067372
+                        lng: -23.5272164
+                      plusCode: "796RWF4F+M4V"
+                      plusCodeShort: "WF4F+M4 Praia"
+                      lote:
+                        use: "residencial.moradia"
+                        kind: "um_edificio"
+                        structures: 1
+                        floorAreaM2: 301.7
+                        enclosed: false
+                      structures:
+                        - index: 1
+                          id: "osm:way/416144875"
+                          use: "residencial.moradia"
+                          confidence: 0.6
+                          source: "prior:census2021"
+                          status: "em_uso"
+                          footprintM2: 301.7
+                          perimeterM: 69.6
+                          floors: 1
+                          floorAreaM2: 301.7
+                          data: "osm"
+                      registry:
+                        machine: "PR-0973-1234-0"
+                        home: "Palmarejo 12 34"
+                        official_name: "Palmarejo"
+                        zone: "PR-004"
+                        number: "1234"
+                        check: "0"
+                        status: "provisional"
+                        issued: "bulk"
+                        issued_at: "2026-10-19T07:40:03Z"
+                        entrance_lat: "14.9067372"
+                        entrance_lng: "-23.5272164"
+                        entrance_kind: "centre"
+                        plus_code: "796RWF4F+M4V"
+                        use: "residencial.moradia"
+                        lote_kind: "um_edificio"
+                        structures: "1"
+                        floor_area_m2: "301.7"
+                        postcode: ""
+                        coverage: ""
+                        official_address: ""
+                      credit: "Home code by N-Ways Addressing"
+                      creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+                    distanceM: 0.0
+                    area:
+                      key: "PR"
+                      name: "Praia"
+                      island: "Santiago"
+                      bbox:
+                        - -23.5885
+                        - 14.8999
+                        - -23.4541
+                        - 14.9963
+                a-point-with-no-lote:
+                  summary: "A point with no lote"
+                  value:
+                    status: "none"
+                    canIssue: true
+                    building: false
+                    area:
+                      key: "PR"
+                      name: "Praia"
+                      island: "Santiago"
+                      bbox:
+                        - -23.5885
+                        - 14.8999
+                        - -23.4541
+                        - 14.9963
+                    spot: "796RWF37+FPM"
+                at-sea:
+                  summary: "At sea"
+                  value:
+                    status: "outside"
+                    note: "At sea or outside Cabo Verde: no code is issued here."
+        "400":
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                a-point-that-is-not-one:
+                  summary: "A point that is not one"
+                  value:
+                    error:
+                      code: "bad_request"
+                      message: "lat and lng are required, in decimal degrees (lat=14.9177&lng=-23.5372)."
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+  /v1/codes:
+    post:
+      operationId: "issue"
+      summary: "Issue a code for a new building or another door"
+      responses:
+        "201":
+          description: "Created"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Card"
+              examples:
+                a-new-building-with-its-outline:
+                  summary: "A new building, with its outline"
+                  value:
+                    country: "CV"
+                    machine: "PR-0364-3982-3"
+                    home: "Cidadela 39 82"
+                    check: 3
+                    name: "Cidadela"
+                    nameProvisional: false
+                    area:
+                      id: "PR-002"
+                      plateName: "Cidadela"
+                      officialName: "Cidadela"
+                    municipality: "Praia"
+                    municipalityKey: "PR"
+                    island: "Santiago"
+                    postcode:
+                      value: "7600"
+                      kind: "area"
+                      source: "UPU addressing sheet 04/2014; Correios HQ address"
+                    fullLine: "Cidadela 39 82 · Praia, Santiago · 7600"
+                    written:
+                      big: "Cidadela 39 82"
+                      small: "Praia · Santiago"
+                      machine: "PR-0364-3982-3"
+                    spoken: "Cidadela, trinta e nove, oitenta e dois"
+                    spokenKea: "Cidadela, trinta i novi, oitenta i dos"
+                    status: "provisional"
+                    issued: "on-demand"
+                    issuedAt: "2026-10-21T13:53:06Z"
+                    entrance:
+                      lat: 14.9037
+                      lng: -23.5357
+                      kind: "centre"
+                      source: "map"
+                    location:
+                      lat: 14.9037
+                      lng: -23.5357
+                    plusCode: "796RWF37+FPM"
+                    plusCodeShort: "WF37+FP Praia"
+                    lote:
+                      use: "residencial.moradia"
+                      kind: "um_edificio"
+                      structures: 1
+                      floorAreaM2: 76.6
+                      enclosed: false
+                    structures:
+                      - index: 1
+                        id: "people:PR-0364-3982-3"
+                        use: "residencial.moradia"
+                        confidence: 0.6
+                        source: "prior:census2021"
+                        status: "em_uso"
+                        footprintM2: 76.6
+                        perimeterM: 35
+                        floors: 1
+                        floorAreaM2: 76.6
+                        data: "people"
+                    registry:
+                      machine: "PR-0364-3982-3"
+                      home: "Cidadela 39 82"
+                      official_name: "Cidadela"
+                      zone: "PR-002"
+                      number: "3982"
+                      check: "3"
+                      status: "provisional"
+                      issued: "on-demand"
+                      issued_at: "2026-10-21T13:53:06Z"
+                      entrance_lat: "14.9037000"
+                      entrance_lng: "-23.5357000"
+                      entrance_kind: "centre"
+                      plus_code: "796RWF37+FPM"
+                      use: "residencial.moradia"
+                      lote_kind: "um_edificio"
+                      structures: "1"
+                      floor_area_m2: "76.6"
+                      postcode: ""
+                      coverage: ""
+                      official_address: ""
+                    credit: "Home code by N-Ways Addressing"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+                another-door-of-a-lote:
+                  summary: "Another door of a lote"
+                  value:
+                    country: "CV"
+                    machine: "PR-0973-1232-2"
+                    home: "Palmarejo 12 32"
+                    check: 2
+                    name: "Palmarejo"
+                    nameProvisional: false
+                    near: "Monte Vermelho"
+                    area:
+                      id: "PR-004"
+                      plateName: "Palmarejo"
+                      officialName: "Palmarejo"
+                    municipality: "Praia"
+                    municipalityKey: "PR"
+                    island: "Santiago"
+                    postcode:
+                      value: "7600"
+                      kind: "area"
+                      source: "UPU addressing sheet 04/2014; Correios HQ address"
+                    fullLine: "Palmarejo 12 32 · Praia, Santiago · 7600"
+                    written:
+                      big: "Palmarejo 12 32"
+                      small: "Praia · Santiago"
+                      machine: "PR-0973-1232-2"
+                    spoken: "Palmarejo, doze, trinta e dois"
+                    spokenKea: "Palmarejo, dozi, trinta i dos"
+                    status: "provisional"
+                    issued: "on-demand"
+                    issuedAt: "2026-10-21T13:53:06Z"
+                    entrance:
+                      lat: 14.9068
+                      lng: -23.52715
+                      kind: "door"
+                      source: "map"
+                    location:
+                      lat: 14.9068
+                      lng: -23.52715
+                    plusCode: "796RWF4F+P4H"
+                    plusCodeShort: "WF4F+P4 Praia"
+                    lote:
+                      use: ""
+                      kind: "porta"
+                      structures: 0
+                      floorAreaM2: 0
+                      enclosed: false
+                    structures: []
+                    registry:
+                      machine: "PR-0973-1232-2"
+                      home: "Palmarejo 12 32"
+                      official_name: "Palmarejo"
+                      zone: "PR-004"
+                      number: "1232"
+                      check: "2"
+                      status: "provisional"
+                      issued: "on-demand"
+                      issued_at: "2026-10-21T13:53:06Z"
+                      entrance_lat: "14.9068000"
+                      entrance_lng: "-23.5271500"
+                      entrance_kind: "door"
+                      plus_code: "796RWF4F+P4H"
+                      use: ""
+                      lote_kind: "porta"
+                      structures: "0"
+                      floor_area_m2: "0.0"
+                      postcode: ""
+                      coverage: ""
+                      official_address: ""
+                    credit: "Home code by N-Ways Addressing"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+        "401":
+          description: "No or wrong issuer key"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                no-key:
+                  summary: "No key"
+                  value:
+                    error:
+                      code: "unauthorized"
+                      message: "Issuing needs an issuer key: Authorization: Bearer <key>."
+        "403":
+          description: "Read-only deployment"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+        "409":
+          description: "Conflict"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                the-same-building-again:
+                  summary: "The same building again"
+                  value:
+                    error:
+                      code: "exists"
+                      message: "This building already has its code: Cidadela 39 82."
+                    card:
+                      country: "CV"
+                      machine: "PR-0364-3982-3"
+                      home: "Cidadela 39 82"
+                      check: 3
+                      name: "Cidadela"
+                      nameProvisional: false
+                      area:
+                        id: "PR-002"
+                        plateName: "Cidadela"
+                        officialName: "Cidadela"
+                      municipality: "Praia"
+                      municipalityKey: "PR"
+                      island: "Santiago"
+                      postcode:
+                        value: "7600"
+                        kind: "area"
+                        source: "UPU addressing sheet 04/2014; Correios HQ address"
+                      fullLine: "Cidadela 39 82 · Praia, Santiago · 7600"
+                      written:
+                        big: "Cidadela 39 82"
+                        small: "Praia · Santiago"
+                        machine: "PR-0364-3982-3"
+                      spoken: "Cidadela, trinta e nove, oitenta e dois"
+                      spokenKea: "Cidadela, trinta i novi, oitenta i dos"
+                      status: "provisional"
+                      issued: "on-demand"
+                      issuedAt: "2026-10-21T13:53:06Z"
+                      entrance:
+                        lat: 14.9037
+                        lng: -23.5357
+                        kind: "centre"
+                        source: "map"
+                      location:
+                        lat: 14.9037
+                        lng: -23.5357
+                      plusCode: "796RWF37+FPM"
+                      plusCodeShort: "WF37+FP Praia"
+                      lote:
+                        use: "residencial.moradia"
+                        kind: "um_edificio"
+                        structures: 1
+                        floorAreaM2: 76.6
+                        enclosed: false
+                      structures:
+                        - index: 1
+                          id: "people:PR-0364-3982-3"
+                          use: "residencial.moradia"
+                          confidence: 0.6
+                          source: "prior:census2021"
+                          status: "em_uso"
+                          footprintM2: 76.6
+                          perimeterM: 35
+                          floors: 1
+                          floorAreaM2: 76.6
+                          data: "people"
+                      registry:
+                        machine: "PR-0364-3982-3"
+                        home: "Cidadela 39 82"
+                        official_name: "Cidadela"
+                        zone: "PR-002"
+                        number: "3982"
+                        check: "3"
+                        status: "provisional"
+                        issued: "on-demand"
+                        issued_at: "2026-10-21T13:53:06Z"
+                        entrance_lat: "14.9037000"
+                        entrance_lng: "-23.5357000"
+                        entrance_kind: "centre"
+                        plus_code: "796RWF37+FPM"
+                        use: "residencial.moradia"
+                        lote_kind: "um_edificio"
+                        structures: "1"
+                        floor_area_m2: "76.6"
+                        postcode: ""
+                        coverage: ""
+                        official_address: ""
+                      credit: "Home code by N-Ways Addressing"
+                      creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+        "422":
+          description: "Cannot be done"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                a-door-too-far-from-its-lote:
+                  summary: "A door too far from its lote"
+                  value:
+                    error:
+                      code: "too_far"
+                      message: "That door is more than 80 m from Palmarejo 12 34."
+                an-outline-too-small-for-a-building:
+                  summary: "An outline too small for a building"
+                  value:
+                    error:
+                      code: "bad_outline"
+                      message: "That outline is 1 m², but a building is between 12 m² and 2 ha."
+                at-sea:
+                  summary: "At sea"
+                  value:
+                    error:
+                      code: "outside"
+                      message: "That spot is at sea or outside Cabo Verde, so it cannot have a code."
+                across-the-border:
+                  summary: "More than 300 m outside the national border"
+                  value:
+                    error:
+                      code: "outside"
+                      message: "That spot is more than 300 m outside the national border of Cabo Verde, so it cannot have a Cabo Verde code."
+        "429":
+          description: "Daily limit reached"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+      security:
+        - issuerKey: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/IssueRequest"
+            examples:
+              no-key:
+                summary: "No key"
+                value:
+                  lat: 14.9037
+                  lng: -23.5357
+  /v1/codes/{machine}:
+    get:
+      operationId: "getCode"
+      summary: "The full card of a code"
+      parameters:
+        - name: "machine"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+          example: "PR-0973-1234-0"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Card"
+              examples:
+                a-card:
+                  summary: "A card"
+                  value:
+                    country: "CV"
+                    machine: "PR-0973-1234-0"
+                    home: "Palmarejo 12 34"
+                    check: 0
+                    name: "Palmarejo"
+                    nameProvisional: false
+                    near: "Monte Vermelho"
+                    area:
+                      id: "PR-004"
+                      plateName: "Palmarejo"
+                      officialName: "Palmarejo"
+                    municipality: "Praia"
+                    municipalityKey: "PR"
+                    island: "Santiago"
+                    postcode:
+                      value: "7600"
+                      kind: "area"
+                      source: "UPU addressing sheet 04/2014; Correios HQ address"
+                    fullLine: "Palmarejo 12 34 · Praia, Santiago · 7600"
+                    written:
+                      big: "Palmarejo 12 34"
+                      small: "Praia · Santiago"
+                      machine: "PR-0973-1234-0"
+                    spoken: "Palmarejo, doze, trinta e quatro"
+                    spokenKea: "Palmarejo, dozi, trinta i kuatu"
+                    status: "provisional"
+                    issued: "bulk"
+                    issuedAt: "2026-10-19T07:40:03Z"
+                    entrance:
+                      lat: 14.9067372
+                      lng: -23.5272164
+                      kind: "centre"
+                      source: "map"
+                    location:
+                      lat: 14.9067372
+                      lng: -23.5272164
+                    plusCode: "796RWF4F+M4V"
+                    plusCodeShort: "WF4F+M4 Praia"
+                    lote:
+                      use: "residencial.moradia"
+                      kind: "um_edificio"
+                      structures: 1
+                      floorAreaM2: 301.7
+                      enclosed: false
+                    structures:
+                      - index: 1
+                        id: "osm:way/416144875"
+                        use: "residencial.moradia"
+                        confidence: 0.6
+                        source: "prior:census2021"
+                        status: "em_uso"
+                        footprintM2: 301.7
+                        perimeterM: 69.6
+                        floors: 1
+                        floorAreaM2: 301.7
+                        data: "osm"
+                    registry:
+                      machine: "PR-0973-1234-0"
+                      home: "Palmarejo 12 34"
+                      official_name: "Palmarejo"
+                      zone: "PR-004"
+                      number: "1234"
+                      check: "0"
+                      status: "provisional"
+                      issued: "bulk"
+                      issued_at: "2026-10-19T07:40:03Z"
+                      entrance_lat: "14.9067372"
+                      entrance_lng: "-23.5272164"
+                      entrance_kind: "centre"
+                      plus_code: "796RWF4F+M4V"
+                      use: "residencial.moradia"
+                      lote_kind: "um_edificio"
+                      structures: "1"
+                      floor_area_m2: "301.7"
+                      postcode: ""
+                      coverage: ""
+                      official_address: ""
+                    credit: "Home code by N-Ways Addressing"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+        "404":
+          description: "Not found"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                a-code-that-was-never-issued:
+                  summary: "A code that was never issued"
+                  value:
+                    error:
+                      code: "unknown_code"
+                      message: "There is no code PR-0973-1234-1."
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+    patch:
+      operationId: "changeCode"
+      summary: "Confirm or retire a code, or move its entrance"
+      parameters:
+        - name: "machine"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+          example: "PR-0973-1234-0"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Card"
+              examples:
+                confirm:
+                  summary: "Confirm"
+                  value:
+                    country: "CV"
+                    machine: "PR-0364-3982-3"
+                    home: "Cidadela 39 82"
+                    check: 3
+                    name: "Cidadela"
+                    nameProvisional: false
+                    area:
+                      id: "PR-002"
+                      plateName: "Cidadela"
+                      officialName: "Cidadela"
+                    municipality: "Praia"
+                    municipalityKey: "PR"
+                    island: "Santiago"
+                    postcode:
+                      value: "7600"
+                      kind: "area"
+                      source: "UPU addressing sheet 04/2014; Correios HQ address"
+                    fullLine: "Cidadela 39 82 · Praia, Santiago · 7600"
+                    written:
+                      big: "Cidadela 39 82"
+                      small: "Praia · Santiago"
+                      machine: "PR-0364-3982-3"
+                    spoken: "Cidadela, trinta e nove, oitenta e dois"
+                    spokenKea: "Cidadela, trinta i novi, oitenta i dos"
+                    status: "confirmed"
+                    issued: "on-demand"
+                    issuedAt: "2026-10-21T13:53:06Z"
+                    entrance:
+                      lat: 14.9037
+                      lng: -23.5357
+                      kind: "centre"
+                      source: "map"
+                    location:
+                      lat: 14.9037
+                      lng: -23.5357
+                    plusCode: "796RWF37+FPM"
+                    plusCodeShort: "WF37+FP Praia"
+                    lote:
+                      use: "residencial.moradia"
+                      kind: "um_edificio"
+                      structures: 1
+                      floorAreaM2: 76.6
+                      enclosed: false
+                    structures:
+                      - index: 1
+                        id: "people:PR-0364-3982-3"
+                        use: "residencial.moradia"
+                        confidence: 0.6
+                        source: "prior:census2021"
+                        status: "em_uso"
+                        footprintM2: 76.6
+                        perimeterM: 35
+                        floors: 1
+                        floorAreaM2: 76.6
+                        data: "people"
+                    registry:
+                      machine: "PR-0364-3982-3"
+                      home: "Cidadela 39 82"
+                      official_name: "Cidadela"
+                      zone: "PR-002"
+                      number: "3982"
+                      check: "3"
+                      status: "confirmed"
+                      issued: "on-demand"
+                      issued_at: "2026-10-21T13:53:06Z"
+                      entrance_lat: "14.9037000"
+                      entrance_lng: "-23.5357000"
+                      entrance_kind: "centre"
+                      plus_code: "796RWF37+FPM"
+                      use: "residencial.moradia"
+                      lote_kind: "um_edificio"
+                      structures: "1"
+                      floor_area_m2: "76.6"
+                      postcode: ""
+                      coverage: ""
+                      official_address: ""
+                    credit: "Home code by N-Ways Addressing"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+                move-the-entrance-to-the-gate:
+                  summary: "Move the entrance to the gate"
+                  value:
+                    country: "CV"
+                    machine: "PR-0364-3982-3"
+                    home: "Cidadela 39 82"
+                    check: 3
+                    name: "Cidadela"
+                    nameProvisional: false
+                    area:
+                      id: "PR-002"
+                      plateName: "Cidadela"
+                      officialName: "Cidadela"
+                    municipality: "Praia"
+                    municipalityKey: "PR"
+                    island: "Santiago"
+                    postcode:
+                      value: "7600"
+                      kind: "area"
+                      source: "UPU addressing sheet 04/2014; Correios HQ address"
+                    fullLine: "Cidadela 39 82 · Praia, Santiago · 7600"
+                    written:
+                      big: "Cidadela 39 82"
+                      small: "Praia · Santiago"
+                      machine: "PR-0364-3982-3"
+                    spoken: "Cidadela, trinta e nove, oitenta e dois"
+                    spokenKea: "Cidadela, trinta i novi, oitenta i dos"
+                    status: "confirmed"
+                    issued: "on-demand"
+                    issuedAt: "2026-10-21T13:53:06Z"
+                    entrance:
+                      lat: 14.90364
+                      lng: -23.5357
+                      kind: "gate"
+                      source: "people"
+                    location:
+                      lat: 14.90364
+                      lng: -23.5357
+                    plusCode: "796RWF37+FP3"
+                    plusCodeShort: "WF37+FP Praia"
+                    lote:
+                      use: "residencial.moradia"
+                      kind: "um_edificio"
+                      structures: 1
+                      floorAreaM2: 76.6
+                      enclosed: false
+                    structures:
+                      - index: 1
+                        id: "people:PR-0364-3982-3"
+                        use: "residencial.moradia"
+                        confidence: 0.6
+                        source: "prior:census2021"
+                        status: "em_uso"
+                        footprintM2: 76.6
+                        perimeterM: 35
+                        floors: 1
+                        floorAreaM2: 76.6
+                        data: "people"
+                    registry:
+                      machine: "PR-0364-3982-3"
+                      home: "Cidadela 39 82"
+                      official_name: "Cidadela"
+                      zone: "PR-002"
+                      number: "3982"
+                      check: "3"
+                      status: "confirmed"
+                      issued: "on-demand"
+                      issued_at: "2026-10-21T13:53:06Z"
+                      entrance_lat: "14.9036400"
+                      entrance_lng: "-23.5357000"
+                      entrance_kind: "gate"
+                      plus_code: "796RWF37+FP3"
+                      use: "residencial.moradia"
+                      lote_kind: "um_edificio"
+                      structures: "1"
+                      floor_area_m2: "76.6"
+                      postcode: ""
+                      coverage: ""
+                      official_address: ""
+                    credit: "Home code by N-Ways Addressing"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+                retire:
+                  summary: "Retire"
+                  value:
+                    country: "CV"
+                    machine: "PR-0364-3982-3"
+                    home: "Cidadela 39 82"
+                    check: 3
+                    name: "Cidadela"
+                    nameProvisional: false
+                    area:
+                      id: "PR-002"
+                      plateName: "Cidadela"
+                      officialName: "Cidadela"
+                    municipality: "Praia"
+                    municipalityKey: "PR"
+                    island: "Santiago"
+                    postcode:
+                      value: "7600"
+                      kind: "area"
+                      source: "UPU addressing sheet 04/2014; Correios HQ address"
+                    fullLine: "Cidadela 39 82 · Praia, Santiago · 7600"
+                    written:
+                      big: "Cidadela 39 82"
+                      small: "Praia · Santiago"
+                      machine: "PR-0364-3982-3"
+                    spoken: "Cidadela, trinta e nove, oitenta e dois"
+                    spokenKea: "Cidadela, trinta i novi, oitenta i dos"
+                    status: "retired"
+                    issued: "on-demand"
+                    issuedAt: "2026-10-21T13:53:06Z"
+                    entrance:
+                      lat: 14.90364
+                      lng: -23.5357
+                      kind: "gate"
+                      source: "people"
+                    location:
+                      lat: 14.90364
+                      lng: -23.5357
+                    plusCode: "796RWF37+FP3"
+                    plusCodeShort: "WF37+FP Praia"
+                    lote:
+                      use: "residencial.moradia"
+                      kind: "um_edificio"
+                      structures: 1
+                      floorAreaM2: 76.6
+                      enclosed: false
+                    structures:
+                      - index: 1
+                        id: "people:PR-0364-3982-3"
+                        use: "residencial.moradia"
+                        confidence: 0.6
+                        source: "prior:census2021"
+                        status: "em_uso"
+                        footprintM2: 76.6
+                        perimeterM: 35
+                        floors: 1
+                        floorAreaM2: 76.6
+                        data: "people"
+                    registry:
+                      machine: "PR-0364-3982-3"
+                      home: "Cidadela 39 82"
+                      official_name: "Cidadela"
+                      zone: "PR-002"
+                      number: "3982"
+                      check: "3"
+                      status: "retired"
+                      issued: "on-demand"
+                      issued_at: "2026-10-21T13:53:06Z"
+                      entrance_lat: "14.9036400"
+                      entrance_lng: "-23.5357000"
+                      entrance_kind: "gate"
+                      plus_code: "796RWF37+FP3"
+                      use: "residencial.moradia"
+                      lote_kind: "um_edificio"
+                      structures: "1"
+                      floor_area_m2: "76.6"
+                      postcode: ""
+                      coverage: ""
+                      official_address: ""
+                    credit: "Home code by N-Ways Addressing"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+        "401":
+          description: "No or wrong issuer key"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+        "403":
+          description: "Read-only deployment"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+        "409":
+          description: "Conflict"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                a-retired-code:
+                  summary: "A retired code"
+                  value:
+                    error:
+                      code: "retired"
+                      message: "Cidadela 39 82 is retired. A retired code stays retired and its number is never given again."
+        "422":
+          description: "Cannot be done"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                too-far:
+                  summary: "Too far"
+                  value:
+                    error:
+                      code: "too_far"
+                      message: "The new entrance is 151 m away; an entrance moves at most 80 m."
+                across-the-border:
+                  summary: "More than 300 m outside the national border"
+                  value:
+                    error:
+                      code: "outside"
+                      message: "That spot is more than 300 m outside the national border of Cabo Verde, so it cannot have a Cabo Verde code."
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+      security:
+        - issuerKey: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/ChangeRequest"
+            examples:
+              a-retired-code:
+                summary: "A retired code"
+                value:
+                  status: "confirmed"
+  /v1/find:
+    get:
+      operationId: "find"
+      summary: "Find a remembered form, machine form, official address or spot code"
+      parameters:
+        - name: "q"
+          in: "query"
+          required: true
+          schema:
+            type: "string"
+          example: "Palmarejo 12 34"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Find"
+              examples:
+                a-remembered-form-typed-loosely:
+                  summary: "A remembered form, typed loosely"
+                  value:
+                    query: "palmarejo 1234"
+                    kind: "home"
+                    matches:
+                      - country: "CV"
+                        machine: "PR-0973-1234-0"
+                        home: "Palmarejo 12 34"
+                        check: 0
+                        name: "Palmarejo"
+                        nameProvisional: false
+                        near: "Monte Vermelho"
+                        area:
+                          id: "PR-004"
+                          plateName: "Palmarejo"
+                          officialName: "Palmarejo"
+                        municipality: "Praia"
+                        municipalityKey: "PR"
+                        island: "Santiago"
+                        postcode:
+                          value: "7600"
+                          kind: "area"
+                          source: "UPU addressing sheet 04/2014; Correios HQ address"
+                        fullLine: "Palmarejo 12 34 · Praia, Santiago · 7600"
+                        written:
+                          big: "Palmarejo 12 34"
+                          small: "Praia · Santiago"
+                          machine: "PR-0973-1234-0"
+                        spoken: "Palmarejo, doze, trinta e quatro"
+                        spokenKea: "Palmarejo, dozi, trinta i kuatu"
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-19T07:40:03Z"
+                        entrance:
+                          lat: 14.9067372
+                          lng: -23.5272164
+                          kind: "centre"
+                          source: "map"
+                        location:
+                          lat: 14.9067372
+                          lng: -23.5272164
+                        plusCode: "796RWF4F+M4V"
+                        plusCodeShort: "WF4F+M4 Praia"
+                        lote:
+                          use: "residencial.moradia"
+                          kind: "um_edificio"
+                          structures: 1
+                          floorAreaM2: 301.7
+                          enclosed: false
+                        structures:
+                          - index: 1
+                            id: "osm:way/416144875"
+                            use: "residencial.moradia"
+                            confidence: 0.6
+                            source: "prior:census2021"
+                            status: "em_uso"
+                            footprintM2: 301.7
+                            perimeterM: 69.6
+                            floors: 1
+                            floorAreaM2: 301.7
+                            data: "osm"
+                        registry:
+                          machine: "PR-0973-1234-0"
+                          home: "Palmarejo 12 34"
+                          official_name: "Palmarejo"
+                          zone: "PR-004"
+                          number: "1234"
+                          check: "0"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-19T07:40:03Z"
+                          entrance_lat: "14.9067372"
+                          entrance_lng: "-23.5272164"
+                          entrance_kind: "centre"
+                          plus_code: "796RWF4F+M4V"
+                          use: "residencial.moradia"
+                          lote_kind: "um_edificio"
+                          structures: "1"
+                          floor_area_m2: "301.7"
+                          postcode: ""
+                          coverage: ""
+                          official_address: ""
+                        credit: "Home code by N-Ways Addressing"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+                an-official-name-typed-in-place-of-the-plate-name:
+                  summary: "An official name typed in place of the plate name"
+                  value:
+                    query: "Lote Achada São Filipe 21 01"
+                    kind: "home"
+                    matches:
+                      - country: "CV"
+                        machine: "PR-1221-2101-8"
+                        home: "São Filipe 21 01"
+                        check: 8
+                        name: "São Filipe"
+                        officialName: "Lote Achada São Filipe"
+                        nameProvisional: true
+                        near: "Safende"
+                        area:
+                          id: "PR-024"
+                          plateName: "São Filipe"
+                          officialName: "Lote Achada São Filipe"
+                        municipality: "Praia"
+                        municipalityKey: "PR"
+                        island: "Santiago"
+                        postcode:
+                          value: "7600"
+                          kind: "area"
+                          source: "UPU addressing sheet 04/2014; Correios HQ address"
+                        fullLine: "São Filipe 21 01 · Lote Achada São Filipe · Praia, Santiago · 7600"
+                        written:
+                          big: "São Filipe 21 01"
+                          small: "Praia · Santiago"
+                          machine: "PR-1221-2101-8"
+                          official: "Lote Achada São Filipe"
+                        spoken: "São Filipe, vinte e um, zero um"
+                        spokenKea: "São Filipe, vinti i un, zeru un"
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-19T07:40:03Z"
+                        entrance:
+                          lat: 14.951038
+                          lng: -23.5150778
+                          kind: "centre"
+                          source: "map"
+                        location:
+                          lat: 14.951038
+                          lng: -23.5150778
+                        plusCode: "796RXF2M+CX7"
+                        plusCodeShort: "XF2M+CX Praia"
+                        lote:
+                          use: "residencial.moradia"
+                          kind: "um_edificio"
+                          structures: 1
+                          floorAreaM2: 104.1
+                          enclosed: false
+                        structures:
+                          - index: 1
+                            id: "nw:c496a808a397"
+                            use: "residencial.moradia"
+                            confidence: 0.6
+                            source: "prior:census2021"
+                            status: "em_uso"
+                            footprintM2: 104.1
+                            perimeterM: 48.5
+                            floors: 1
+                            floorAreaM2: 104.1
+                            data: "ml"
+                        registry:
+                          machine: "PR-1221-2101-8"
+                          home: "São Filipe 21 01"
+                          official_name: "Lote Achada São Filipe"
+                          zone: "PR-024"
+                          number: "2101"
+                          check: "8"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-19T07:40:03Z"
+                          entrance_lat: "14.9510380"
+                          entrance_lng: "-23.5150778"
+                          entrance_kind: "centre"
+                          plus_code: "796RXF2M+CX7"
+                          use: "residencial.moradia"
+                          lote_kind: "um_edificio"
+                          structures: "1"
+                          floor_area_m2: "104.1"
+                          postcode: ""
+                          coverage: ""
+                          official_address: ""
+                        credit: "Home code by N-Ways Addressing"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+                a-machine-form:
+                  summary: "A machine form"
+                  value:
+                    query: "PR-0973-1234-0"
+                    kind: "machine"
+                    matches:
+                      - country: "CV"
+                        machine: "PR-0973-1234-0"
+                        home: "Palmarejo 12 34"
+                        check: 0
+                        name: "Palmarejo"
+                        nameProvisional: false
+                        near: "Monte Vermelho"
+                        area:
+                          id: "PR-004"
+                          plateName: "Palmarejo"
+                          officialName: "Palmarejo"
+                        municipality: "Praia"
+                        municipalityKey: "PR"
+                        island: "Santiago"
+                        postcode:
+                          value: "7600"
+                          kind: "area"
+                          source: "UPU addressing sheet 04/2014; Correios HQ address"
+                        fullLine: "Palmarejo 12 34 · Praia, Santiago · 7600"
+                        written:
+                          big: "Palmarejo 12 34"
+                          small: "Praia · Santiago"
+                          machine: "PR-0973-1234-0"
+                        spoken: "Palmarejo, doze, trinta e quatro"
+                        spokenKea: "Palmarejo, dozi, trinta i kuatu"
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-19T07:40:03Z"
+                        entrance:
+                          lat: 14.9067372
+                          lng: -23.5272164
+                          kind: "centre"
+                          source: "map"
+                        location:
+                          lat: 14.9067372
+                          lng: -23.5272164
+                        plusCode: "796RWF4F+M4V"
+                        plusCodeShort: "WF4F+M4 Praia"
+                        lote:
+                          use: "residencial.moradia"
+                          kind: "um_edificio"
+                          structures: 1
+                          floorAreaM2: 301.7
+                          enclosed: false
+                        structures:
+                          - index: 1
+                            id: "osm:way/416144875"
+                            use: "residencial.moradia"
+                            confidence: 0.6
+                            source: "prior:census2021"
+                            status: "em_uso"
+                            footprintM2: 301.7
+                            perimeterM: 69.6
+                            floors: 1
+                            floorAreaM2: 301.7
+                            data: "osm"
+                        registry:
+                          machine: "PR-0973-1234-0"
+                          home: "Palmarejo 12 34"
+                          official_name: "Palmarejo"
+                          zone: "PR-004"
+                          number: "1234"
+                          check: "0"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-19T07:40:03Z"
+                          entrance_lat: "14.9067372"
+                          entrance_lng: "-23.5272164"
+                          entrance_kind: "centre"
+                          plus_code: "796RWF4F+M4V"
+                          use: "residencial.moradia"
+                          lote_kind: "um_edificio"
+                          structures: "1"
+                          floor_area_m2: "301.7"
+                          postcode: ""
+                          coverage: ""
+                          official_address: ""
+                        credit: "Home code by N-Ways Addressing"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+                an-official-street-address:
+                  summary: "An official street address"
+                  value:
+                    query: "Avenida Santiago 32, Praia"
+                    kind: "official"
+                    matches:
+                      - country: "CV"
+                        machine: "PR-0973-1666-3"
+                        home: "Palmarejo 16 66"
+                        check: 3
+                        name: "Palmarejo"
+                        nameProvisional: false
+                        near: "Monte Vermelho"
+                        area:
+                          id: "PR-004"
+                          plateName: "Palmarejo"
+                          officialName: "Palmarejo"
+                        municipality: "Praia"
+                        municipalityKey: "PR"
+                        island: "Santiago"
+                        coverage: "official"
+                        officialAddress: "Avenida Santiago 32, Praia"
+                        postcode:
+                          value: "7600"
+                          kind: "area"
+                          source: "UPU addressing sheet 04/2014; Correios HQ address"
+                        fullLine: "Palmarejo 16 66 · Praia, Santiago · 7600"
+                        written:
+                          big: "Palmarejo 16 66"
+                          small: "Praia · Santiago"
+                          machine: "PR-0973-1666-3"
+                        spoken: "Palmarejo, dezasseis, sessenta e seis"
+                        spokenKea: "Palmarejo, dizaseis, sesenta i seis"
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-20T02:26:38Z"
+                        entrance:
+                          lat: 14.9128257
+                          lng: -23.5275868
+                          kind: "centre"
+                          source: "map"
+                        location:
+                          lat: 14.9128257
+                          lng: -23.5275868
+                        plusCode: "796RWF7C+4XM"
+                        plusCodeShort: "WF7C+4X Praia"
+                        lote:
+                          use: "residencial.predio"
+                          kind: "um_edificio"
+                          structures: 1
+                          floorAreaM2: 541
+                          enclosed: false
+                        structures:
+                          - index: 1
+                            id: "osm:way/238359065"
+                            use: "residencial.predio"
+                            confidence: 0.85
+                            source: "osm:building"
+                            status: "em_uso"
+                            footprintM2: 541
+                            perimeterM: 100.3
+                            floors: 1
+                            floorAreaM2: 541
+                            data: "osm"
+                        registry:
+                          machine: "PR-0973-1666-3"
+                          home: "Palmarejo 16 66"
+                          official_name: "Palmarejo"
+                          zone: "PR-004"
+                          number: "1666"
+                          check: "3"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-20T02:26:38Z"
+                          entrance_lat: "14.9128257"
+                          entrance_lng: "-23.5275868"
+                          entrance_kind: "centre"
+                          plus_code: "796RWF7C+4XM"
+                          use: "residencial.predio"
+                          lote_kind: "um_edificio"
+                          structures: "1"
+                          floor_area_m2: "541.0"
+                          postcode: ""
+                          coverage: "official"
+                          official_address: "Avenida Santiago 32, Praia"
+                        credit: "Home code by N-Ways Addressing"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+                a-spot-code-with-its-town:
+                  summary: "A spot code with its town"
+                  value:
+                    query: "WF4F+M4 Praia"
+                    kind: "spot"
+                    spot:
+                      code: "796RWF4F+M4"
+                      lat: 14.9066875
+                      lng: -23.5271875
+                      bounds:
+                        south: 14.906625000000002
+                        west: -23.52725
+                        north: 14.906750000000002
+                        east: -23.527124999999998
+                      municipality: "Praia"
+                      municipalityKey: "PR"
+                      island: "Santiago"
+                      at:
+                        status: "found"
+                        code:
+                          country: "CV"
+                          machine: "PR-0973-1234-0"
+                          home: "Palmarejo 12 34"
+                          check: 0
+                          name: "Palmarejo"
+                          nameProvisional: false
+                          near: "Monte Vermelho"
+                          area:
+                            id: "PR-004"
+                            plateName: "Palmarejo"
+                            officialName: "Palmarejo"
+                          municipality: "Praia"
+                          municipalityKey: "PR"
+                          island: "Santiago"
+                          postcode:
+                            value: "7600"
+                            kind: "area"
+                            source: "UPU addressing sheet 04/2014; Correios HQ address"
+                          fullLine: "Palmarejo 12 34 · Praia, Santiago · 7600"
+                          written:
+                            big: "Palmarejo 12 34"
+                            small: "Praia · Santiago"
+                            machine: "PR-0973-1234-0"
+                          spoken: "Palmarejo, doze, trinta e quatro"
+                          spokenKea: "Palmarejo, dozi, trinta i kuatu"
+                          status: "provisional"
+                          issued: "bulk"
+                          issuedAt: "2026-10-19T07:40:03Z"
+                          entrance:
+                            lat: 14.9067372
+                            lng: -23.5272164
+                            kind: "centre"
+                            source: "map"
+                          location:
+                            lat: 14.9067372
+                            lng: -23.5272164
+                          plusCode: "796RWF4F+M4V"
+                          plusCodeShort: "WF4F+M4 Praia"
+                          lote:
+                            use: "residencial.moradia"
+                            kind: "um_edificio"
+                            structures: 1
+                            floorAreaM2: 301.7
+                            enclosed: false
+                          structures:
+                            - index: 1
+                              id: "osm:way/416144875"
+                              use: "residencial.moradia"
+                              confidence: 0.6
+                              source: "prior:census2021"
+                              status: "em_uso"
+                              footprintM2: 301.7
+                              perimeterM: 69.6
+                              floors: 1
+                              floorAreaM2: 301.7
+                              data: "osm"
+                          registry:
+                            machine: "PR-0973-1234-0"
+                            home: "Palmarejo 12 34"
+                            official_name: "Palmarejo"
+                            zone: "PR-004"
+                            number: "1234"
+                            check: "0"
+                            status: "provisional"
+                            issued: "bulk"
+                            issued_at: "2026-10-19T07:40:03Z"
+                            entrance_lat: "14.9067372"
+                            entrance_lng: "-23.5272164"
+                            entrance_kind: "centre"
+                            plus_code: "796RWF4F+M4V"
+                            use: "residencial.moradia"
+                            lote_kind: "um_edificio"
+                            structures: "1"
+                            floor_area_m2: "301.7"
+                            postcode: ""
+                            coverage: ""
+                            official_address: ""
+                          credit: "Home code by N-Ways Addressing"
+                          creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+                        distanceM: 0.0
+                        area:
+                          key: "PR"
+                          name: "Praia"
+                          island: "Santiago"
+                          bbox:
+                            - -23.5885
+                            - 14.8999
+                            - -23.4541
+                            - 14.9963
+        "400":
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                not-a-code:
+                  summary: "Not a code"
+                  value:
+                    error:
+                      code: "bad_format"
+                      message: "A home code is a place name and a number, e.g. \"Palmarejo 12 34\"."
+                nothing-to-find:
+                  summary: "Nothing to find"
+                  value:
+                    error:
+                      code: "bad_request"
+                      message: "Give something to find: /v1/find?q=Palmarejo 12 34"
+        "404":
+          description: "Not found"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                a-name-that-is-not-a-place:
+                  summary: "A name that is not a place"
+                  value:
+                    error:
+                      code: "unknown_name"
+                      message: "No place in Cabo Verde has that name: 'Atlantida'."
+                a-number-no-home-has-yet:
+                  summary: "A number no home has yet"
+                  value:
+                    error:
+                      code: "not_issued"
+                      message: "No home has Palmarejo 12 35 yet (the number is in the range of Palmarejo, Praia)."
+        "422":
+          description: "Cannot be done"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                a-wrong-check-digit:
+                  summary: "A wrong check digit"
+                  value:
+                    error:
+                      code: "check_digit"
+                      message: "The check digit does not match: a digit is wrong or two are swapped. Read the machine code again, or scan the QR code."
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+  /v1/health:
+    get:
+      operationId: "health"
+      summary: "Liveness, codes served and the registry export date"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Health"
+              examples:
+                health:
+                  summary: "Health"
+                  value:
+                    status: "ok"
+                    country: "CV"
+                    codes: 175630
+                    exported: "2026-10-20T02:31:15Z"
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+  /v1/info:
+    get:
+      operationId: "info"
+      summary: "Country, municipalities, counts, licences, credit and engine"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Info"
+              examples:
+                info:
+                  summary: "Info"
+                  value:
+                    country: "CV"
+                    name: "Cabo Verde"
+                    zones:
+                      - key: "BR"
+                        iso: "CV-BR"
+                        name: "Brava"
+                        island: "Brava"
+                        postcode:
+                          value: "9110"
+                          kind: "area"
+                          source: "OpenStreetMap addr:postcode"
+                        seat: "Nova Sintra"
+                        bbox:
+                          - -24.749
+                          - 14.8032
+                          - -24.6284
+                          - 14.9841
+                        codes: 2900
+                        byStatus:
+                          provisional: 2900
+                        areas: 36
+                      - key: "BV"
+                        iso: "CV-BV"
+                        name: "Boa Vista"
+                        island: "Boa Vista"
+                        postcode:
+                          value: "5110"
+                          kind: "area"
+                          source: "OpenStreetMap addr:postcode"
+                        seat: "Sal Rei"
+                        bbox:
+                          - -22.966
+                          - 15.9678
+                          - -22.6673
+                          - 16.2306
+                        codes: 4867
+                        byStatus:
+                          provisional: 4867
+                        areas: 61
+                    counts:
+                      codes: 175630
+                      byStatus:
+                        provisional: 175630
+                      structures: 192272
+                      areas: 1778
+                      names: 1360
+                    registry:
+                      exported: "2026-10-20T02:31:15Z"
+                      importedAt: "2026-10-21T13:34:23Z"
+                      localChanges: 0
+                    licences:
+                      code: "Apache-2.0"
+                      data: "ODbL-1.0"
+                      documents: "CC-BY-4.0"
+                    credit: "Home code by N-Ways Addressing"
+                    dataCredit: "N-Ways Addressing for Cabo Verde, © N-WAYS LIMITED (nways.ng)"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+                    engine: "internal/addressing/cv (SPEC v0.4)"
+                    spec: "engine/SPEC.md"
+                    issuing: true
+                    example:
+                      home: "Palmarejo 12 34"
+                      machine: "PR-0973-1234-0"
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+  /v1/near:
+    get:
+      operationId: "near"
+      summary: "Codes near a point"
+      parameters:
+        - name: "lat"
+          in: "query"
+          required: true
+          schema:
+            type: "number"
+            minimum: -90
+            maximum: 90
+          example: 14.9067372
+        - name: "lng"
+          in: "query"
+          required: true
+          schema:
+            type: "number"
+            minimum: -180
+            maximum: 180
+          example: -23.5272164
+        - name: "radius"
+          in: "query"
+          schema:
+            type: "number"
+            minimum: 1
+            maximum: 500
+            default: 100
+        - name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            minimum: 1
+            default: 20
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Near"
+              examples:
+                codes-near-a-point:
+                  summary: "Codes near a point"
+                  value:
+                    lat: 14.9067372
+                    lng: -23.5272164
+                    radiusM: 40.0
+                    count: 2
+                    codes:
+                      - machine: "PR-0973-1234-0"
+                        home: "Palmarejo 12 34"
+                        distanceM: 0.0
+                        status: "provisional"
+                        use: "residencial.moradia"
+                        entrance:
+                          lat: 14.9067372
+                          lng: -23.5272164
+                          kind: "centre"
+                        plusCode: "796RWF4F+M4V"
+                      - machine: "PR-0973-1237-9"
+                        home: "Palmarejo 12 37"
+                        distanceM: 32.9
+                        status: "provisional"
+                        use: "residencial.moradia"
+                        entrance:
+                          lat: 14.906888
+                          lng: -23.5269535
+                          kind: "centre"
+                        plusCode: "796RWF4F+Q63"
+        "400":
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                too-far:
+                  summary: "Too far"
+                  value:
+                    error:
+                      code: "bad_request"
+                      message: "radius is between 1 and 500 metres."
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+  /v1/spot:
+    get:
+      operationId: "spot"
+      summary: "The spot code of a point"
+      parameters:
+        - name: "lat"
+          in: "query"
+          required: true
+          schema:
+            type: "number"
+            minimum: -90
+            maximum: 90
+          example: 14.9067372
+        - name: "lng"
+          in: "query"
+          required: true
+          schema:
+            type: "number"
+            minimum: -180
+            maximum: 180
+          example: -23.5272164
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Spot"
+              examples:
+                the-spot-code-of-a-point:
+                  summary: "The spot code of a point"
+                  value:
+                    lat: 14.9067372
+                    lng: -23.5272164
+                    code: "796RWF4F+M4V"
+                    code10: "796RWF4F+M4"
+                    short: "WF4F+M4 Praia"
+                    municipality: "Praia"
+                    municipalityKey: "PR"
+                    island: "Santiago"
+                    postcode:
+                      value: "7600"
+                      kind: "area"
+                      source: "UPU addressing sheet 04/2014; Correios HQ address"
+                    bounds:
+                      south: 14.906725000000002
+                      west: -23.52721875
+                      north: 14.906750000000002
+                      east: -23.5271875
+        "422":
+          description: "Cannot be done"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                at-sea:
+                  summary: "At sea"
+                  value:
+                    error:
+                      code: "outside"
+                      message: "At sea or outside Cabo Verde: no spot code is issued here."
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+  /v1/spot/decode:
+    get:
+      operationId: "spotDecode"
+      summary: "A spot code back to its point"
+      parameters:
+        - name: "code"
+          in: "query"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/SpotDecode"
+              examples:
+                decoding-a-short-spot-code:
+                  summary: "Decoding a short spot code"
+                  value:
+                    code: "796RWF4F+M4"
+                    lat: 14.9066875
+                    lng: -23.5271875
+                    bounds:
+                      south: 14.906625000000002
+                      west: -23.52725
+                      north: 14.906750000000002
+                      east: -23.527124999999998
+                    municipality: "Praia"
+                    municipalityKey: "PR"
+                    island: "Santiago"
+                    at:
+                      status: "found"
+                      code:
+                        country: "CV"
+                        machine: "PR-0973-1234-0"
+                        home: "Palmarejo 12 34"
+                        check: 0
+                        name: "Palmarejo"
+                        nameProvisional: false
+                        near: "Monte Vermelho"
+                        area:
+                          id: "PR-004"
+                          plateName: "Palmarejo"
+                          officialName: "Palmarejo"
+                        municipality: "Praia"
+                        municipalityKey: "PR"
+                        island: "Santiago"
+                        postcode:
+                          value: "7600"
+                          kind: "area"
+                          source: "UPU addressing sheet 04/2014; Correios HQ address"
+                        fullLine: "Palmarejo 12 34 · Praia, Santiago · 7600"
+                        written:
+                          big: "Palmarejo 12 34"
+                          small: "Praia · Santiago"
+                          machine: "PR-0973-1234-0"
+                        spoken: "Palmarejo, doze, trinta e quatro"
+                        spokenKea: "Palmarejo, dozi, trinta i kuatu"
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-19T07:40:03Z"
+                        entrance:
+                          lat: 14.9067372
+                          lng: -23.5272164
+                          kind: "centre"
+                          source: "map"
+                        location:
+                          lat: 14.9067372
+                          lng: -23.5272164
+                        plusCode: "796RWF4F+M4V"
+                        plusCodeShort: "WF4F+M4 Praia"
+                        lote:
+                          use: "residencial.moradia"
+                          kind: "um_edificio"
+                          structures: 1
+                          floorAreaM2: 301.7
+                          enclosed: false
+                        structures:
+                          - index: 1
+                            id: "osm:way/416144875"
+                            use: "residencial.moradia"
+                            confidence: 0.6
+                            source: "prior:census2021"
+                            status: "em_uso"
+                            footprintM2: 301.7
+                            perimeterM: 69.6
+                            floors: 1
+                            floorAreaM2: 301.7
+                            data: "osm"
+                        registry:
+                          machine: "PR-0973-1234-0"
+                          home: "Palmarejo 12 34"
+                          official_name: "Palmarejo"
+                          zone: "PR-004"
+                          number: "1234"
+                          check: "0"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-19T07:40:03Z"
+                          entrance_lat: "14.9067372"
+                          entrance_lng: "-23.5272164"
+                          entrance_kind: "centre"
+                          plus_code: "796RWF4F+M4V"
+                          use: "residencial.moradia"
+                          lote_kind: "um_edificio"
+                          structures: "1"
+                          floor_area_m2: "301.7"
+                          postcode: ""
+                          coverage: ""
+                          official_address: ""
+                        credit: "Home code by N-Ways Addressing"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cabo-verde"
+                      distanceM: 0.0
+                      area:
+                        key: "PR"
+                        name: "Praia"
+                        island: "Santiago"
+                        bbox:
+                          - -23.5885
+                          - 14.8999
+                          - -23.4541
+                          - 14.9963
+        "400":
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                not-a-spot-code:
+                  summary: "Not a spot code"
+                  value:
+                    error:
+                      code: "bad_format"
+                      message: "A spot code is a full Plus Code (796RWF8Q+2V8) or a short one with its town (WF8Q+2V Praia)."
+        "404":
+          description: "Not found"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                a-town-that-is-not-a-municipal-seat:
+                  summary: "A town that is not a municipal seat"
+                  value:
+                    error:
+                      code: "unknown_place"
+                      message: "Lisboa is not a municipality or its seat."
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+  /v1/verify:
+    get:
+      operationId: "verify"
+      summary: "Check a machine code"
+      parameters:
+        - name: "code"
+          in: "query"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Verify"
+              examples:
+                an-issued-code:
+                  summary: "An issued code"
+                  value:
+                    code: "PR-0973-1234-0"
+                    syntax: true
+                    checkDigit: true
+                    issued: true
+                    machine: "PR-0973-1234-0"
+                    status: "provisional"
+                    home: "Palmarejo 12 34"
+                    issuedAt: "2026-10-19T07:40:03Z"
+                a-wrong-check-digit:
+                  summary: "A wrong check digit"
+                  value:
+                    code: "PR-0973-1234-7"
+                    syntax: true
+                    checkDigit: false
+                    issued: false
+                    reason: "The check digit does not match: a digit is wrong or two are swapped."
+                well-formed-not-issued:
+                  summary: "Well formed, not issued"
+                  value:
+                    code: "PR-0973-1235-4"
+                    syntax: true
+                    checkDigit: true
+                    issued: false
+                    machine: "PR-0973-1235-4"
+                    reason: "Well formed, but no code with this number has been issued."
+                not-a-machine-code:
+                  summary: "Not a machine code"
+                  value:
+                    code: "Palmarejo 12 34"
+                    syntax: false
+                    checkDigit: null
+                    issued: false
+                    reason: "Not a machine code: KEY-NNNN-NUMBER-C, like PR-0973-1234-0."
+        "400":
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                nothing-to-verify:
+                  summary: "Nothing to verify"
+                  value:
+                    error:
+                      code: "bad_request"
+                      message: "Give a machine code: /v1/verify?code=PR-0973-1234-0"
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+  /v1/zones:
+    get:
+      operationId: "zones"
+      summary: "Every municipality"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                properties:
+                  zones:
+                    type: "array"
+                    items:
+                      "$ref": "#/components/schemas/Municipality"
+              examples:
+                every-municipality:
+                  summary: "Every municipality"
+                  value:
+                    zones:
+                      - key: "BR"
+                        iso: "CV-BR"
+                        name: "Brava"
+                        island: "Brava"
+                        postcode:
+                          value: "9110"
+                          kind: "area"
+                          source: "OpenStreetMap addr:postcode"
+                        seat: "Nova Sintra"
+                        bbox:
+                          - -24.749
+                          - 14.8032
+                          - -24.6284
+                          - 14.9841
+                        codes: 2900
+                        byStatus:
+                          provisional: 2900
+                        areas: 36
+                      - key: "BV"
+                        iso: "CV-BV"
+                        name: "Boa Vista"
+                        island: "Boa Vista"
+                        postcode:
+                          value: "5110"
+                          kind: "area"
+                          source: "OpenStreetMap addr:postcode"
+                        seat: "Sal Rei"
+                        bbox:
+                          - -22.966
+                          - 15.9678
+                          - -22.6673
+                          - 16.2306
+                        codes: 4867
+                        byStatus:
+                          provisional: 4867
+                        areas: 61
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+  /v1/zones/{key}:
+    get:
+      operationId: "zone"
+      summary: "One municipality and its areas"
+      parameters:
+        - name: "key"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+          description: "Municipality key (ISO 3166-2:CV suffix)"
+          example: "BR"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/MunicipalityDetail"
+              examples:
+                one-municipality-with-its-areas:
+                  summary: "One municipality with its areas"
+                  value:
+                    key: "BR"
+                    iso: "CV-BR"
+                    name: "Brava"
+                    island: "Brava"
+                    postcode:
+                      value: "9110"
+                      kind: "area"
+                      source: "OpenStreetMap addr:postcode"
+                    seat: "Nova Sintra"
+                    bbox:
+                      - -24.749
+                      - 14.8032
+                      - -24.6284
+                      - 14.9841
+                    codes: 2900
+                    byStatus:
+                      provisional: 2900
+                    areas: 36
+                    areaList:
+                      - id: "BR-001"
+                        municipality: "BR"
+                        plateName: "Vereda"
+                        officialName: "Vereda"
+                        nameIndex: 1338
+                        needsCouncilChoice: false
+                        codes: 39
+                      - id: "BR-002"
+                        municipality: "BR"
+                        plateName: "Poio Preto"
+                        officialName: "Achada do Poio Preto"
+                        nameIndex: 1058
+                        needsCouncilChoice: false
+                        codes: 23
+                      - id: "BR-003"
+                        municipality: "BR"
+                        plateName: "Pathal"
+                        officialName: "Pathal"
+                        nameIndex: 985
+                        needsCouncilChoice: false
+                        codes: 37
+        "404":
+          description: "Not found"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                an-unknown-key:
+                  summary: "An unknown key"
+                  value:
+                    error:
+                      code: "unknown_zone"
+                      message: "There is no municipality 'XX'. The keys are BR, BV, CA, CF, CR, MA, MO, PA, PN, PR, RB, RG, RS, SD, SF, SL, SM, SO, SS, SV, TA, TS."
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+  /v1/zones/{key}/codes:
+    get:
+      operationId: "zoneCodes"
+      summary: "A municipality's codes, page by page"
+      parameters:
+        - name: "key"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+          description: "Municipality key (ISO 3166-2:CV suffix)"
+          example: "BR"
+        - name: "after"
+          in: "query"
+          schema:
+            type: "string"
+          description: "The next of the previous page"
+        - name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+            minimum: 1
+            default: 20
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/CodePage"
+              examples:
+                first-page:
+                  summary: "First page"
+                  value:
+                    zone: "BR"
+                    count: 2
+                    next: "BR-0117-1006-2"
+                    codes:
+                      - machine: "BR-0117-1002-4"
+                        home: "Baleia 10 02"
+                        area: "BR-036"
+                        number: 1002
+                        status: "provisional"
+                        lat: 14.847437
+                        lng: -24.6824147
+                        plusCode: "796QR8W9+X2G"
+                        use: "residencial.moradia"
+                      - machine: "BR-0117-1006-2"
+                        home: "Baleia 10 06"
+                        area: "BR-036"
+                        number: 1006
+                        status: "provisional"
+                        lat: 14.8490668
+                        lng: -24.682251
+                        plusCode: "796QR8X9+J3H"
+                        use: "agricola"
+                next-page:
+                  summary: "Next page"
+                  value:
+                    zone: "BR"
+                    count: 2
+                    next: "BR-0117-1014-5"
+                    codes:
+                      - machine: "BR-0117-1010-0"
+                        home: "Baleia 10 10"
+                        area: "BR-036"
+                        number: 1010
+                        status: "provisional"
+                        lat: 14.8545906
+                        lng: -24.691364
+                        plusCode: "796QV835+RFJ"
+                        use: "residencial.moradia"
+                      - machine: "BR-0117-1014-5"
+                        home: "Baleia 10 14"
+                        area: "BR-036"
+                        number: 1014
+                        status: "provisional"
+                        lat: 14.8571459
+                        lng: -24.6882426
+                        plusCode: "796QV846+VP2"
+                        use: "residencial.moradia"
+        "400":
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                a-bad-limit:
+                  summary: "A bad limit"
+                  value:
+                    error:
+                      code: "bad_request"
+                      message: "limit is between 1 and 1000."
+        default:
+          description: "Any other error, in the same shape"
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/Error"
+components:
+  securitySchemes:
+    issuerKey:
+      type: "http"
+      scheme: "bearer"
+      description: "An issuer key from ISSUE_KEYS. Only the designated issuer has keys."
+  schemas:
+    Error:
+      type: "object"
+      properties:
+        error:
+          type: "object"
+          properties:
+            code:
+              type: "string"
+              description: "Stable, for programs"
+            message:
+              type: "string"
+              description: "For people"
+          required:
+            - "code"
+            - "message"
+        card:
+          "$ref": "#/components/schemas/Card"
+      required:
+        - "error"
+      description: "Every error. A refused issue for a building that already has a code also carries that code as \"card\"."
+    Point:
+      type: "object"
+      properties:
+        lat:
+          type: "number"
+        lng:
+          type: "number"
+      required:
+        - "lat"
+        - "lng"
+    Postcode:
+      type: "object"
+      properties:
+        value:
+          type: "string"
+        kind:
+          type: "string"
+          enum:
+            - "area"
+        source:
+          type: "string"
+      required:
+        - "value"
+        - "kind"
+        - "source"
+    Entrance:
+      type: "object"
+      properties:
+        lat:
+          type: "number"
+        lng:
+          type: "number"
+        kind:
+          type: "string"
+          enum:
+            - "gate"
+            - "door"
+            - "centre"
+        source:
+          type: "string"
+          enum:
+            - "map"
+            - "people"
+      required:
+        - "lat"
+        - "lng"
+        - "kind"
+        - "source"
+    Written:
+      type: "object"
+      properties:
+        big:
+          type: "string"
+          description: "The remembered form; alone it decodes"
+        small:
+          type: "string"
+          description: "Municipality and island, printed for information"
+        machine:
+          type: "string"
+        official:
+          type: "string"
+          description: "The official name, when it differs from the plate name"
+      required:
+        - "big"
+        - "small"
+        - "machine"
+    Lote:
+      type: "object"
+      properties:
+        use:
+          type: "string"
+        kind:
+          type: "string"
+        structures:
+          type: "integer"
+        floorAreaM2:
+          type: "number"
+        enclosed:
+          type: "boolean"
+      required:
+        - "use"
+        - "kind"
+        - "structures"
+        - "floorAreaM2"
+        - "enclosed"
+    Structure:
+      type: "object"
+      properties:
+        index:
+          type: "integer"
+        id:
+          type: "string"
+        use:
+          type: "string"
+        confidence:
+          type: "number"
+        source:
+          type: "string"
+        status:
+          type: "string"
+        footprintM2:
+          type: "number"
+        perimeterM:
+          type: "number"
+        heightM:
+          type: "number"
+        heightSource:
+          type: "string"
+        floors:
+          type: "integer"
+        floorAreaM2:
+          type: "number"
+        name:
+          type: "string"
+          description: "Never on a home"
+        data:
+          type: "string"
+          enum:
+            - "osm"
+            - "ml"
+            - "people"
+      required:
+        - "index"
+        - "id"
+        - "use"
+        - "confidence"
+        - "source"
+        - "status"
+        - "footprintM2"
+        - "perimeterM"
+        - "floors"
+        - "floorAreaM2"
+        - "data"
+    AreaRef:
+      type: "object"
+      properties:
+        id:
+          type: "string"
+        plateName:
+          type: "string"
+        officialName:
+          type: "string"
+      required:
+        - "id"
+        - "plateName"
+        - "officialName"
+    Card:
+      type: "object"
+      properties:
+        country:
+          type: "string"
+          const: "CV"
+        machine:
+          type: "string"
+          examples:
+            - "PR-0973-1234-0"
+        home:
+          type: "string"
+          examples:
+            - "Palmarejo 12 34"
+        check:
+          type: "integer"
+          minimum: 0
+          maximum: 9
+        name:
+          type: "string"
+        officialName:
+          type: "string"
+        nameProvisional:
+          type: "boolean"
+        near:
+          type: "string"
+        area:
+          "$ref": "#/components/schemas/AreaRef"
+        municipality:
+          type: "string"
+        municipalityKey:
+          type: "string"
+        island:
+          type: "string"
+        coverage:
+          type: "string"
+          enum:
+            - "official"
+            - "official-pending"
+        officialAddress:
+          type: "string"
+        postcode:
+          "$ref": "#/components/schemas/Postcode"
+        fullLine:
+          type: "string"
+        written:
+          "$ref": "#/components/schemas/Written"
+        spoken:
+          type: "string"
+        spokenKea:
+          type: "string"
+        status:
+          type: "string"
+          enum:
+            - "provisional"
+            - "confirmed"
+            - "retired"
+        issued:
+          type: "string"
+          enum:
+            - "bulk"
+            - "on-demand"
+        issuedAt:
+          type: "string"
+          format: "date-time"
+        entrance:
+          "$ref": "#/components/schemas/Entrance"
+        location:
+          "$ref": "#/components/schemas/Point"
+        plusCode:
+          type: "string"
+        plusCodeShort:
+          type: "string"
+        lote:
+          "$ref": "#/components/schemas/Lote"
+        structures:
+          type: "array"
+          items:
+            "$ref": "#/components/schemas/Structure"
+        registry:
+          type: "object"
+          properties:
+            machine:
+              type: "string"
+            home:
+              type: "string"
+            official_name:
+              type: "string"
+            zone:
+              type: "string"
+            number:
+              type: "string"
+            check:
+              type: "string"
+            status:
+              type: "string"
+            issued:
+              type: "string"
+            issued_at:
+              type: "string"
+            entrance_lat:
+              type: "string"
+            entrance_lng:
+              type: "string"
+            entrance_kind:
+              type: "string"
+            plus_code:
+              type: "string"
+            use:
+              type: "string"
+            lote_kind:
+              type: "string"
+            structures:
+              type: "string"
+            floor_area_m2:
+              type: "string"
+            postcode:
+              type: "string"
+            coverage:
+              type: "string"
+            official_address:
+              type: "string"
+          description: "The registry row, every column as published"
+        note:
+          type: "string"
+        credit:
+          type: "string"
+        creditUrl:
+          type: "string"
+          format: "uri"
+      required:
+        - "country"
+        - "machine"
+        - "home"
+        - "check"
+        - "name"
+        - "nameProvisional"
+        - "area"
+        - "municipality"
+        - "municipalityKey"
+        - "island"
+        - "fullLine"
+        - "written"
+        - "spoken"
+        - "spokenKea"
+        - "status"
+        - "issued"
+        - "issuedAt"
+        - "entrance"
+        - "location"
+        - "plusCode"
+        - "plusCodeShort"
+        - "lote"
+        - "structures"
+        - "registry"
+        - "credit"
+        - "creditUrl"
+    Health:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+          const: "ok"
+        country:
+          type: "string"
+        codes:
+          type: "integer"
+        exported:
+          type: "string"
+          format: "date-time"
+      required:
+        - "status"
+        - "country"
+        - "codes"
+        - "exported"
+    Municipality:
+      type: "object"
+      properties:
+        key:
+          type: "string"
+        iso:
+          type: "string"
+        name:
+          type: "string"
+        island:
+          type: "string"
+        postcode:
+          "$ref": "#/components/schemas/Postcode"
+        seat:
+          type: "string"
+        bbox:
+          type: "array"
+          items:
+            type: "number"
+          minItems: 4
+          maxItems: 4
+        codes:
+          type: "integer"
+        byStatus:
+          type: "object"
+          additionalProperties:
+            type: "integer"
+        areas:
+          type: "integer"
+      required:
+        - "key"
+        - "iso"
+        - "name"
+        - "island"
+        - "seat"
+        - "bbox"
+        - "codes"
+        - "byStatus"
+        - "areas"
+    Info:
+      type: "object"
+      properties:
+        country:
+          type: "string"
+        name:
+          type: "string"
+        zones:
+          type: "array"
+          items:
+            "$ref": "#/components/schemas/Municipality"
+        counts:
+          type: "object"
+        registry:
+          type: "object"
+        licences:
+          type: "object"
+          properties:
+            code:
+              type: "string"
+            data:
+              type: "string"
+            documents:
+              type: "string"
+        credit:
+          type: "string"
+        dataCredit:
+          type: "string"
+        creditUrl:
+          type: "string"
+        engine:
+          type: "string"
+        spec:
+          type: "string"
+        issuing:
+          type: "boolean"
+        example:
+          type: "object"
+    AreaSummary:
+      type: "object"
+      properties:
+        id:
+          type: "string"
+        municipality:
+          type: "string"
+        plateName:
+          type: "string"
+        officialName:
+          type: "string"
+        nameIndex:
+          type: "integer"
+        needsCouncilChoice:
+          type: "boolean"
+        codes:
+          type: "integer"
+    MunicipalityDetail:
+      allOf:
+        - "$ref": "#/components/schemas/Municipality"
+        - type: "object"
+          properties:
+            areaList:
+              type: "array"
+              items:
+                "$ref": "#/components/schemas/AreaSummary"
+    Block:
+      type: "object"
+      properties:
+        zone:
+          type: "string"
+        lo:
+          type: "integer"
+        hi:
+          type: "integer"
+      required:
+        - "lo"
+        - "hi"
+    Area:
+      type: "object"
+      properties:
+        id:
+          type: "string"
+        municipality:
+          type: "object"
+          properties:
+            key:
+              type: "string"
+            name:
+              type: "string"
+            island:
+              type: "string"
+        plateName:
+          type: "string"
+        officialName:
+          type: "string"
+        plateRule:
+          type: "string"
+        needsCouncilChoice:
+          type: "boolean"
+        aliases:
+          type: "array"
+          items:
+            type: "string"
+        near:
+          type:
+            - "string"
+            - "null"
+        nameKey:
+          type: "string"
+        nameIndex:
+          type: "integer"
+        box:
+          type: "array"
+          items:
+            type: "number"
+        anchor:
+          type: "array"
+          items:
+            type: "number"
+        blocks:
+          type: "array"
+          items:
+            "$ref": "#/components/schemas/Block"
+        name:
+          type: "object"
+          properties:
+            plateName:
+              type: "string"
+            digits:
+              type: "integer"
+            reserve:
+              type: "array"
+              items:
+                type: "integer"
+            blocks:
+              type: "array"
+              items:
+                "$ref": "#/components/schemas/Block"
+            officialNames:
+              type: "array"
+              items:
+                type: "string"
+        codes:
+          type: "integer"
+        byStatus:
+          type: "object"
+          additionalProperties:
+            type: "integer"
+    AreaSearch:
+      type: "object"
+      properties:
+        name:
+          type: "string"
+        areas:
+          type: "array"
+          items:
+            "$ref": "#/components/schemas/AreaSummary"
+        count:
+          type: "integer"
+    Find:
+      type: "object"
+      properties:
+        query:
+          type: "string"
+        kind:
+          type: "string"
+          enum:
+            - "home"
+            - "machine"
+            - "official"
+            - "spot"
+        matches:
+          type: "array"
+          items:
+            "$ref": "#/components/schemas/Card"
+        spot:
+          "$ref": "#/components/schemas/SpotDecode"
+      required:
+        - "query"
+        - "kind"
+    At:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+          enum:
+            - "found"
+            - "none"
+            - "outside"
+        code:
+          "$ref": "#/components/schemas/Card"
+        distanceM:
+          type: "number"
+        canIssue:
+          type: "boolean"
+        building:
+          type: "boolean"
+        area:
+          type: "object"
+          properties:
+            key:
+              type: "string"
+            name:
+              type: "string"
+            island:
+              type: "string"
+            bbox:
+              type: "array"
+              items:
+                type: "number"
+        spot:
+          type: "string"
+        note:
+          type: "string"
+      required:
+        - "status"
+    Near:
+      type: "object"
+      properties:
+        lat:
+          type: "number"
+        lng:
+          type: "number"
+        radiusM:
+          type: "number"
+        count:
+          type: "integer"
+        codes:
+          type: "array"
+          items:
+            type: "object"
+            properties:
+              machine:
+                type: "string"
+              home:
+                type: "string"
+              distanceM:
+                type: "number"
+              status:
+                type: "string"
+              use:
+                type: "string"
+              entrance:
+                type: "object"
+              plusCode:
+                type: "string"
+    Verify:
+      type: "object"
+      properties:
+        code:
+          type: "string"
+        syntax:
+          type: "boolean"
+        checkDigit:
+          type:
+            - "boolean"
+            - "null"
+        issued:
+          type: "boolean"
+        machine:
+          type: "string"
+        status:
+          type: "string"
+        home:
+          type: "string"
+        issuedAt:
+          type: "string"
+        reason:
+          type: "string"
+      required:
+        - "code"
+        - "syntax"
+        - "checkDigit"
+        - "issued"
+    Bounds:
+      type: "object"
+      properties:
+        south:
+          type: "number"
+        west:
+          type: "number"
+        north:
+          type: "number"
+        east:
+          type: "number"
+    Spot:
+      type: "object"
+      properties:
+        lat:
+          type: "number"
+        lng:
+          type: "number"
+        code:
+          type: "string"
+        code10:
+          type: "string"
+        short:
+          type: "string"
+        municipality:
+          type: "string"
+        municipalityKey:
+          type: "string"
+        island:
+          type: "string"
+        postcode:
+          "$ref": "#/components/schemas/Postcode"
+        bounds:
+          "$ref": "#/components/schemas/Bounds"
+    SpotDecode:
+      type: "object"
+      properties:
+        code:
+          type: "string"
+        lat:
+          type: "number"
+        lng:
+          type: "number"
+        bounds:
+          "$ref": "#/components/schemas/Bounds"
+        municipality:
+          type: "string"
+        municipalityKey:
+          type: "string"
+        island:
+          type: "string"
+        at:
+          "$ref": "#/components/schemas/At"
+    CodePage:
+      type: "object"
+      properties:
+        zone:
+          type: "string"
+        count:
+          type: "integer"
+        next:
+          type:
+            - "string"
+            - "null"
+        codes:
+          type: "array"
+          items:
+            type: "object"
+            properties:
+              machine:
+                type: "string"
+              home:
+                type: "string"
+              area:
+                type: "string"
+              number:
+                type: "integer"
+              status:
+                type: "string"
+              lat:
+                type: "number"
+              lng:
+                type: "number"
+              plusCode:
+                type: "string"
+              use:
+                type: "string"
+    IssueRequest:
+      type: "object"
+      properties:
+        lat:
+          type: "number"
+        lng:
+          type: "number"
+        outline:
+          type: "array"
+          items:
+            type: "array"
+            items:
+              type: "number"
+            minItems: 2
+            maxItems: 2
+          description: "The building outline, [lng, lat] points"
+        of:
+          type: "string"
+          description: "Machine code of the lote this is another door of"
+      required:
+        - "lat"
+        - "lng"
+    ChangeRequest:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+          enum:
+            - "provisional"
+            - "confirmed"
+            - "retired"
+        entrance:
+          type: "object"
+          properties:
+            lat:
+              type: "number"
+            lng:
+              type: "number"
+            kind:
+              type: "string"
+              enum:
+                - "gate"
+                - "door"
+                - "centre"
+          required:
+            - "lat"
+            - "lng"

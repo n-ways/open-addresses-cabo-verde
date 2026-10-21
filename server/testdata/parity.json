@@ -1,0 +1,1812 @@
+{
+ "about": "Issue parity: each case is replayed in order against the test registry (Brava). The expected zone, number, machine and remembered forms, lote profile and blocks were computed by the N-Ways issuer's Go package (internal/addressing/cv: InsertLote, FormatMachine, FormatHome, Profile) from the same state and points.",
+ "cases": [
+  {
+   "name": "fill-and-extend",
+   "issues": [
+    {
+     "in": {
+      "lat": 14.8663444,
+      "lng": -24.6885324
+     },
+     "zone": "BR-034",
+     "number": 100,
+     "machine": "BR-0143-100-0",
+     "home": "Belem 100",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663444,
+      "lng": -24.6884202
+     },
+     "zone": "BR-034",
+     "number": 101,
+     "machine": "BR-0143-101-3",
+     "home": "Belem 101",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8664528,
+      "lng": -24.6885324
+     },
+     "zone": "BR-034",
+     "number": 110,
+     "machine": "BR-0143-110-1",
+     "home": "Belem 110",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662901,
+      "lng": -24.6885886
+     },
+     "zone": "BR-034",
+     "number": 103,
+     "machine": "BR-0143-103-7",
+     "home": "Belem 103",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662901,
+      "lng": -24.688364
+     },
+     "zone": "BR-034",
+     "number": 133,
+     "machine": "BR-0143-133-5",
+     "home": "Belem 133",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8665071,
+      "lng": -24.6885886
+     },
+     "zone": "BR-034",
+     "number": 111,
+     "machine": "BR-0143-111-7",
+     "home": "Belem 111",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663444,
+      "lng": -24.6885886
+     },
+     "zone": "BR-034",
+     "number": 104,
+     "machine": "BR-0143-104-5",
+     "home": "Belem 104",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662901,
+      "lng": -24.6885324
+     },
+     "zone": "BR-034",
+     "number": 105,
+     "machine": "BR-0143-105-9",
+     "home": "Belem 105",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663444,
+      "lng": -24.688364
+     },
+     "zone": "BR-034",
+     "number": 131,
+     "machine": "BR-0143-131-9",
+     "home": "Belem 131",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8665071,
+      "lng": -24.6885324
+     },
+     "zone": "BR-034",
+     "number": 109,
+     "machine": "BR-0143-109-2",
+     "home": "Belem 109",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663986,
+      "lng": -24.6885886
+     },
+     "zone": "BR-034",
+     "number": 106,
+     "machine": "BR-0143-106-8",
+     "home": "Belem 106",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662901,
+      "lng": -24.6884763
+     },
+     "zone": "BR-034",
+     "number": 107,
+     "machine": "BR-0143-107-6",
+     "home": "Belem 107",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663986,
+      "lng": -24.688364
+     },
+     "zone": "BR-034",
+     "number": 129,
+     "machine": "BR-0143-129-3",
+     "home": "Belem 129",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8664528,
+      "lng": -24.6885886
+     },
+     "zone": "BR-034",
+     "number": 112,
+     "machine": "BR-0143-112-5",
+     "home": "Belem 112",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662901,
+      "lng": -24.6884202
+     },
+     "zone": "BR-034",
+     "number": 114,
+     "machine": "BR-0143-114-9",
+     "home": "Belem 114",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662359,
+      "lng": -24.6886447
+     },
+     "zone": "BR-034",
+     "number": 115,
+     "machine": "BR-0143-115-8",
+     "home": "Belem 115",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662359,
+      "lng": -24.6883079
+     },
+     "zone": "BR-034",
+     "number": 134,
+     "machine": "BR-0143-134-3",
+     "home": "Belem 134",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8665613,
+      "lng": -24.6886447
+     },
+     "zone": "BR-034",
+     "number": 116,
+     "machine": "BR-0143-116-3",
+     "home": "Belem 116",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662901,
+      "lng": -24.6886447
+     },
+     "zone": "BR-034",
+     "number": 117,
+     "machine": "BR-0143-117-4",
+     "home": "Belem 117",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662359,
+      "lng": -24.6885886
+     },
+     "zone": "BR-034",
+     "number": 118,
+     "machine": "BR-0143-118-2",
+     "home": "Belem 118",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662901,
+      "lng": -24.6883079
+     },
+     "zone": "BR-034",
+     "number": 128,
+     "machine": "BR-0143-128-6",
+     "home": "Belem 128",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8665613,
+      "lng": -24.6885886
+     },
+     "zone": "BR-034",
+     "number": 120,
+     "machine": "BR-0143-120-7",
+     "home": "Belem 120",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663444,
+      "lng": -24.6886447
+     },
+     "zone": "BR-034",
+     "number": 121,
+     "machine": "BR-0143-121-0",
+     "home": "Belem 121",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662359,
+      "lng": -24.6885324
+     },
+     "zone": "BR-034",
+     "number": 122,
+     "machine": "BR-0143-122-9",
+     "home": "Belem 122",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663444,
+      "lng": -24.6883079
+     },
+     "zone": "BR-034",
+     "number": 127,
+     "machine": "BR-0143-127-8",
+     "home": "Belem 127",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8665613,
+      "lng": -24.6885324
+     },
+     "zone": "BR-034",
+     "number": 123,
+     "machine": "BR-0143-123-2",
+     "home": "Belem 123",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663986,
+      "lng": -24.6886447
+     },
+     "zone": "BR-034",
+     "number": 124,
+     "machine": "BR-0143-124-1",
+     "home": "Belem 124",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662359,
+      "lng": -24.6884763
+     },
+     "zone": "BR-034",
+     "number": 126,
+     "machine": "BR-0143-126-4",
+     "home": "Belem 126",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663986,
+      "lng": -24.6883079
+     },
+     "zone": "BR-034",
+     "number": 132,
+     "machine": "BR-0143-132-4",
+     "home": "Belem 132",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8665613,
+      "lng": -24.6884763
+     },
+     "zone": "BR-034",
+     "number": 135,
+     "machine": "BR-0143-135-6",
+     "home": "Belem 135",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8664528,
+      "lng": -24.6886447
+     },
+     "zone": "BR-034",
+     "number": 137,
+     "machine": "BR-0143-137-0",
+     "home": "Belem 137",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662359,
+      "lng": -24.6884202
+     },
+     "zone": "BR-034",
+     "number": 138,
+     "machine": "BR-0143-138-1",
+     "home": "Belem 138",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8664528,
+      "lng": -24.6883079
+     },
+     "zone": "BR-034",
+     "number": 139,
+     "machine": "BR-0143-139-7",
+     "home": "Belem 139",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8665071,
+      "lng": -24.6886447
+     },
+     "zone": "BR-034",
+     "number": 140,
+     "machine": "BR-0143-140-3",
+     "home": "Belem 140",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662359,
+      "lng": -24.688364
+     },
+     "zone": "BR-034",
+     "number": 142,
+     "machine": "BR-0143-142-7",
+     "home": "Belem 142",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8665071,
+      "lng": -24.6883079
+     },
+     "zone": "BR-034",
+     "number": 143,
+     "machine": "BR-0143-143-4",
+     "home": "Belem 143",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8665613,
+      "lng": -24.6883079
+     },
+     "zone": "BR-034",
+     "number": 144,
+     "machine": "BR-0143-144-2",
+     "home": "Belem 144",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661816,
+      "lng": -24.6887008
+     },
+     "zone": "BR-034",
+     "number": 145,
+     "machine": "BR-0143-145-0",
+     "home": "Belem 145",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661816,
+      "lng": -24.6882518
+     },
+     "zone": "BR-034",
+     "number": 146,
+     "machine": "BR-0143-146-9",
+     "home": "Belem 146",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8666156,
+      "lng": -24.6887008
+     },
+     "zone": "BR-034",
+     "number": 148,
+     "machine": "BR-0143-148-8",
+     "home": "Belem 148",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662359,
+      "lng": -24.6887008
+     },
+     "zone": "BR-034",
+     "number": 149,
+     "machine": "BR-0143-149-1",
+     "home": "Belem 149",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661816,
+      "lng": -24.6886447
+     },
+     "zone": "BR-034",
+     "number": 150,
+     "machine": "BR-0143-150-2",
+     "home": "Belem 150",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662359,
+      "lng": -24.6882518
+     },
+     "zone": "BR-034",
+     "number": 151,
+     "machine": "BR-0143-151-5",
+     "home": "Belem 151",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8666156,
+      "lng": -24.6886447
+     },
+     "zone": "BR-034",
+     "number": 153,
+     "machine": "BR-0143-153-1",
+     "home": "Belem 153",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662901,
+      "lng": -24.6887008
+     },
+     "zone": "BR-034",
+     "number": 154,
+     "machine": "BR-0143-154-4",
+     "home": "Belem 154",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661816,
+      "lng": -24.6885886
+     },
+     "zone": "BR-034",
+     "number": 155,
+     "machine": "BR-0143-155-3",
+     "home": "Belem 155",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662901,
+      "lng": -24.6882518
+     },
+     "zone": "BR-034",
+     "number": 156,
+     "machine": "BR-0143-156-6",
+     "home": "Belem 156",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8666156,
+      "lng": -24.6885886
+     },
+     "zone": "BR-034",
+     "number": 157,
+     "machine": "BR-0143-157-7",
+     "home": "Belem 157",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663444,
+      "lng": -24.6887008
+     },
+     "zone": "BR-034",
+     "number": 159,
+     "machine": "BR-0143-159-0",
+     "home": "Belem 159",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661816,
+      "lng": -24.6885324
+     },
+     "zone": "BR-034",
+     "number": 160,
+     "machine": "BR-0143-160-9",
+     "home": "Belem 160",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663444,
+      "lng": -24.6882518
+     },
+     "zone": "BR-034",
+     "number": 161,
+     "machine": "BR-0143-161-4",
+     "home": "Belem 161",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8666156,
+      "lng": -24.6885324
+     },
+     "zone": "BR-034",
+     "number": 162,
+     "machine": "BR-0143-162-3",
+     "home": "Belem 162",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663986,
+      "lng": -24.6887008
+     },
+     "zone": "BR-034",
+     "number": 164,
+     "machine": "BR-0143-164-6",
+     "home": "Belem 164",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661816,
+      "lng": -24.6884763
+     },
+     "zone": "BR-034",
+     "number": 165,
+     "machine": "BR-0143-165-1",
+     "home": "Belem 165",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663986,
+      "lng": -24.6882518
+     },
+     "zone": "BR-034",
+     "number": 166,
+     "machine": "BR-0143-166-7",
+     "home": "Belem 166",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8666156,
+      "lng": -24.6884763
+     },
+     "zone": "BR-034",
+     "number": 167,
+     "machine": "BR-0143-167-2",
+     "home": "Belem 167",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8664528,
+      "lng": -24.6887008
+     },
+     "zone": "BR-034",
+     "number": 168,
+     "machine": "BR-0143-168-0",
+     "home": "Belem 168",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661816,
+      "lng": -24.6884202
+     },
+     "zone": "BR-034",
+     "number": 170,
+     "machine": "BR-0143-170-5",
+     "home": "Belem 170",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8664528,
+      "lng": -24.6882518
+     },
+     "zone": "BR-034",
+     "number": 171,
+     "machine": "BR-0143-171-8",
+     "home": "Belem 171",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8665071,
+      "lng": -24.6887008
+     },
+     "zone": "BR-034",
+     "number": 172,
+     "machine": "BR-0143-172-6",
+     "home": "Belem 172",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661816,
+      "lng": -24.688364
+     },
+     "zone": "BR-034",
+     "number": 173,
+     "machine": "BR-0143-173-9",
+     "home": "Belem 173",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8665071,
+      "lng": -24.6882518
+     },
+     "zone": "BR-034",
+     "number": 174,
+     "machine": "BR-0143-174-7",
+     "home": "Belem 174",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8665613,
+      "lng": -24.6887008
+     },
+     "zone": "BR-034",
+     "number": 176,
+     "machine": "BR-0143-176-0",
+     "home": "Belem 176",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661816,
+      "lng": -24.6883079
+     },
+     "zone": "BR-034",
+     "number": 177,
+     "machine": "BR-0143-177-1",
+     "home": "Belem 177",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8665613,
+      "lng": -24.6882518
+     },
+     "zone": "BR-034",
+     "number": 178,
+     "machine": "BR-0143-178-3",
+     "home": "Belem 178",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661274,
+      "lng": -24.6887569
+     },
+     "zone": "BR-034",
+     "number": 179,
+     "machine": "BR-0143-179-4",
+     "home": "Belem 179",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661274,
+      "lng": -24.6881957
+     },
+     "zone": "BR-034",
+     "number": 181,
+     "machine": "BR-0143-181-1",
+     "home": "Belem 181",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8666698,
+      "lng": -24.6887569
+     },
+     "zone": "BR-034",
+     "number": 182,
+     "machine": "BR-0143-182-2",
+     "home": "Belem 182",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661816,
+      "lng": -24.6887569
+     },
+     "zone": "BR-034",
+     "number": 183,
+     "machine": "BR-0143-183-3",
+     "home": "Belem 183",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661274,
+      "lng": -24.6887008
+     },
+     "zone": "BR-034",
+     "number": 184,
+     "machine": "BR-0143-184-0",
+     "home": "Belem 184",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661816,
+      "lng": -24.6881957
+     },
+     "zone": "BR-034",
+     "number": 185,
+     "machine": "BR-0143-185-4",
+     "home": "Belem 185",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8666698,
+      "lng": -24.6887008
+     },
+     "zone": "BR-034",
+     "number": 187,
+     "machine": "BR-0143-187-9",
+     "home": "Belem 187",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662359,
+      "lng": -24.6887569
+     },
+     "zone": "BR-034",
+     "number": 188,
+     "machine": "BR-0143-188-7",
+     "home": "Belem 188",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661274,
+      "lng": -24.6886447
+     },
+     "zone": "BR-034",
+     "number": 189,
+     "machine": "BR-0143-189-8",
+     "home": "Belem 189",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662359,
+      "lng": -24.6881957
+     },
+     "zone": "BR-034",
+     "number": 190,
+     "machine": "BR-0143-190-4",
+     "home": "Belem 190",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8666698,
+      "lng": -24.6886447
+     },
+     "zone": "BR-034",
+     "number": 192,
+     "machine": "BR-0143-192-0",
+     "home": "Belem 192",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662901,
+      "lng": -24.6887569
+     },
+     "zone": "BR-034",
+     "number": 193,
+     "machine": "BR-0143-193-6",
+     "home": "Belem 193",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661274,
+      "lng": -24.6885886
+     },
+     "zone": "BR-034",
+     "number": 194,
+     "machine": "BR-0143-194-8",
+     "home": "Belem 194",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8662901,
+      "lng": -24.6881957
+     },
+     "zone": "BR-034",
+     "number": 195,
+     "machine": "BR-0143-195-7",
+     "home": "Belem 195",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8666698,
+      "lng": -24.6885886
+     },
+     "zone": "BR-034",
+     "number": 196,
+     "machine": "BR-0143-196-1",
+     "home": "Belem 196",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663444,
+      "lng": -24.6887569
+     },
+     "zone": "BR-034",
+     "number": 198,
+     "machine": "BR-0143-198-5",
+     "home": "Belem 198",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661274,
+      "lng": -24.6885324
+     },
+     "zone": "BR-034",
+     "number": 199,
+     "machine": "BR-0143-199-9",
+     "home": "Belem 199",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663444,
+      "lng": -24.6881957
+     },
+     "zone": "BR-034",
+     "number": 813,
+     "machine": "BR-0143-813-8",
+     "home": "Belem 813",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8666698,
+      "lng": -24.6885324
+     },
+     "zone": "BR-034",
+     "number": 806,
+     "machine": "BR-0143-806-9",
+     "home": "Belem 806",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8663986,
+      "lng": -24.6887569
+     },
+     "zone": "BR-034",
+     "number": 802,
+     "machine": "BR-0143-802-7",
+     "home": "Belem 802",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8661274,
+      "lng": -24.6884763
+     },
+     "zone": "BR-034",
+     "number": 856,
+     "machine": "BR-0143-856-1",
+     "home": "Belem 856",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "insert-dense",
+   "issues": [
+    {
+     "in": {
+      "lat": 14.8682635,
+      "lng": -24.699435,
+      "outline": [
+       [
+        -24.699472419222264,
+        14.868227333634719
+       ],
+       [
+        -24.699397580777738,
+        14.868227333634719
+       ],
+       [
+        -24.699397580777738,
+        14.86829966636528
+       ],
+       [
+        -24.699472419222264,
+        14.86829966636528
+       ]
+      ]
+     },
+     "zone": "BR-020",
+     "number": 1000,
+     "machine": "BR-0954-1000-2",
+     "home": "Nova Sintra 10 00",
+     "lote": {
+      "use": "residencial.moradia",
+      "kind": "um_edificio",
+      "structures": 1,
+      "floorAreaM2": 64.8
+     },
+     "structure": {
+      "use": "residencial.moradia",
+      "confidence": 0.6,
+      "source": "prior:census2021",
+      "footprintM2": 64.8,
+      "floors": 1,
+      "floorAreaM2": 64.8
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8682635,
+      "lng": -24.699304
+     },
+     "zone": "BR-020",
+     "number": 1002,
+     "machine": "BR-0954-1002-8",
+     "home": "Nova Sintra 10 02",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8683901,
+      "lng": -24.699435
+     },
+     "zone": "BR-020",
+     "number": 1462,
+     "machine": "BR-0954-1462-5",
+     "home": "Nova Sintra 14 62",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8682635,
+      "lng": -24.6993695
+     },
+     "zone": "BR-020",
+     "number": 1003,
+     "machine": "BR-0954-1003-1",
+     "home": "Nova Sintra 10 03",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8683901,
+      "lng": -24.6993695
+     },
+     "zone": "BR-020",
+     "number": 1460,
+     "machine": "BR-0954-1460-1",
+     "home": "Nova Sintra 14 60",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8683901,
+      "lng": -24.699304
+     },
+     "zone": "BR-020",
+     "number": 1459,
+     "machine": "BR-0954-1459-5",
+     "home": "Nova Sintra 14 59",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8682002,
+      "lng": -24.6995005
+     },
+     "zone": "BR-020",
+     "number": 1005,
+     "machine": "BR-0954-1005-3",
+     "home": "Nova Sintra 10 05",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8682002,
+      "lng": -24.6992385
+     },
+     "zone": "BR-020",
+     "number": 1056,
+     "machine": "BR-0954-1056-4",
+     "home": "Nova Sintra 10 56",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8684534,
+      "lng": -24.6995005
+     },
+     "zone": "BR-020",
+     "number": 1463,
+     "machine": "BR-0954-1463-0",
+     "home": "Nova Sintra 14 63",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8682635,
+      "lng": -24.6995005
+     },
+     "zone": "BR-020",
+     "number": 1006,
+     "machine": "BR-0954-1006-6",
+     "home": "Nova Sintra 10 06",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8682635,
+      "lng": -24.6992385
+     },
+     "zone": "BR-020",
+     "number": 1057,
+     "machine": "BR-0954-1057-8",
+     "home": "Nova Sintra 10 57",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8684534,
+      "lng": -24.699435
+     },
+     "zone": "BR-020",
+     "number": 1458,
+     "machine": "BR-0954-1458-0",
+     "home": "Nova Sintra 14 58",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8683268,
+      "lng": -24.6995005
+     },
+     "zone": "BR-020",
+     "number": 1008,
+     "machine": "BR-0954-1008-9",
+     "home": "Nova Sintra 10 08",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8682002,
+      "lng": -24.6993695
+     },
+     "zone": "BR-020",
+     "number": 1009,
+     "machine": "BR-0954-1009-0",
+     "home": "Nova Sintra 10 09",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8683268,
+      "lng": -24.6992385
+     },
+     "zone": "BR-020",
+     "number": 1059,
+     "machine": "BR-0954-1059-3",
+     "home": "Nova Sintra 10 59",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8684534,
+      "lng": -24.6993695
+     },
+     "zone": "BR-020",
+     "number": 1456,
+     "machine": "BR-0954-1456-7",
+     "home": "Nova Sintra 14 56",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8683901,
+      "lng": -24.6995005
+     },
+     "zone": "BR-020",
+     "number": 1465,
+     "machine": "BR-0954-1465-8",
+     "home": "Nova Sintra 14 65",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8682002,
+      "lng": -24.699304
+     },
+     "zone": "BR-020",
+     "number": 1010,
+     "machine": "BR-0954-1010-6",
+     "home": "Nova Sintra 10 10",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8683901,
+      "lng": -24.6992385
+     },
+     "zone": "BR-020",
+     "number": 1060,
+     "machine": "BR-0954-1060-8",
+     "home": "Nova Sintra 10 60",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    },
+    {
+     "in": {
+      "lat": 14.8681369,
+      "lng": -24.699566
+     },
+     "zone": "BR-020",
+     "number": 1012,
+     "machine": "BR-0954-1012-2",
+     "home": "Nova Sintra 10 12",
+     "lote": {
+      "use": "",
+      "kind": "lote_com_anexos",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "another-door",
+   "issues": [
+    {
+     "in": {
+      "lat": 14.8475274,
+      "lng": -24.6824147,
+      "of": "BR-0117-1002-4"
+     },
+     "zone": "BR-036",
+     "number": 1004,
+     "machine": "BR-0117-1004-3",
+     "home": "Baleia 10 04",
+     "lote": {
+      "use": "",
+      "kind": "porta",
+      "structures": 0,
+      "floorAreaM2": 0
+     }
+    }
+   ]
+  }
+ ],
+ "blocks": {
+  "117": [
+   {
+    "zone": "BR-036",
+    "lo": 1000,
+    "hi": 1199
+   },
+   {
+    "zone": "SD-079",
+    "lo": 1200,
+    "hi": 1699
+   },
+   {
+    "zone": "SV-001",
+    "lo": 1700,
+    "hi": 1799
+   }
+  ],
+  "143": [
+   {
+    "zone": "BR-034",
+    "lo": 100,
+    "hi": 199
+   },
+   {
+    "zone": "CR-110",
+    "lo": 200,
+    "hi": 299
+   },
+   {
+    "zone": "RB-057",
+    "lo": 300,
+    "hi": 699
+   },
+   {
+    "zone": "SD-070",
+    "lo": 700,
+    "hi": 799
+   },
+   {
+    "zone": "BR-034",
+    "lo": 800,
+    "hi": 899
+   }
+  ],
+  "954": [
+   {
+    "zone": "BR-020",
+    "lo": 1000,
+    "hi": 2299
+   }
+  ]
+ }
+}

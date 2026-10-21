@@ -1,0 +1,2576 @@
+{
+ "about": "Real codes of the published registry (registry/), with every form derived from the register alone; an implementation reproduces each value (SPEC.md §11).",
+ "registryExported": "2026-10-20T02:31:15Z",
+ "codes": 175630,
+ "sample": [
+  {
+   "home": "Baleia 10 02",
+   "machine": "BR-0117-1002-4",
+   "check": 4,
+   "zone": "BR-036",
+   "officialName": "Baleia",
+   "municipality": "Brava",
+   "island": "Brava",
+   "plate": {
+    "big": "Baleia 10 02",
+    "small": "Brava · Brava",
+    "machine": "BR-0117-1002-4"
+   },
+   "full": "Baleia 10 02 · Brava, Brava",
+   "spokenPt": "Baleia, dez, zero dois",
+   "spokenKea": "Baleia, dés, zeru dos",
+   "entrance": [
+    14.847437,
+    -24.6824147
+   ],
+   "plusCode": "796QR8W9+X2G",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Lomba Lomba 157",
+   "machine": "BR-0754-157-9",
+   "check": 9,
+   "zone": "BR-024",
+   "officialName": "Lomba Lomba",
+   "municipality": "Brava",
+   "island": "Brava",
+   "plate": {
+    "big": "Lomba Lomba 157",
+    "small": "Brava · Brava",
+    "machine": "BR-0754-157-9"
+   },
+   "full": "Lomba Lomba 157 · Brava, Brava",
+   "spokenPt": "Lomba Lomba, cento e cinquenta e sete",
+   "spokenKea": "Lomba Lomba, senti i sinkuenta i seti",
+   "entrance": [
+    14.8708586,
+    -24.7159487
+   ],
+   "plusCode": "796QV7CM+8JV",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Vereda 297",
+   "machine": "BR-1338-297-6",
+   "check": 6,
+   "zone": "BR-001",
+   "officialName": "Vereda",
+   "municipality": "Brava",
+   "island": "Brava",
+   "plate": {
+    "big": "Vereda 297",
+    "small": "Brava · Brava",
+    "machine": "BR-1338-297-6"
+   },
+   "full": "Vereda 297 · Brava, Brava",
+   "spokenPt": "Vereda, duzentos e noventa e sete",
+   "spokenKea": "Vereda, duzentu i noventa i seti",
+   "entrance": [
+    14.8419244,
+    -24.7335412
+   ],
+   "plusCode": "796QR7R8+QH8",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Amador 102",
+   "machine": "BV-0078-102-3",
+   "check": 3,
+   "zone": "BV-044",
+   "officialName": "Amador",
+   "municipality": "Boa Vista",
+   "island": "Boa Vista",
+   "plate": {
+    "big": "Amador 102",
+    "small": "Boa Vista · Boa Vista",
+    "machine": "BV-0078-102-3"
+   },
+   "full": "Amador 102 · Boa Vista, Boa Vista",
+   "spokenPt": "Amador, cento e dois",
+   "spokenKea": "Amador, senti i dos",
+   "entrance": [
+    16.1053093,
+    -22.8338987
+   ],
+   "plusCode": "798V4548+4CH",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Lomba Preta 173",
+   "machine": "BV-0756-173-9",
+   "check": 9,
+   "zone": "BV-041",
+   "officialName": "Lomba Preta",
+   "municipality": "Boa Vista",
+   "island": "Boa Vista",
+   "plate": {
+    "big": "Lomba Preta 173",
+    "small": "Boa Vista · Boa Vista",
+    "machine": "BV-0756-173-9"
+   },
+   "full": "Lomba Preta 173 · Boa Vista, Boa Vista",
+   "spokenPt": "Lomba Preta, cento e setenta e três",
+   "spokenKea": "Lomba Preta, senti i setenta i tres",
+   "entrance": [
+    16.1077088,
+    -22.8790588
+   ],
+   "plusCode": "798V445C+39P",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Timaco 196",
+   "machine": "BV-1297-196-7",
+   "check": 7,
+   "zone": "BV-052",
+   "officialName": "Horta de Timaco",
+   "municipality": "Boa Vista",
+   "island": "Boa Vista",
+   "plate": {
+    "big": "Timaco 196",
+    "small": "Boa Vista · Boa Vista",
+    "machine": "BV-1297-196-7",
+    "official": "Horta de Timaco"
+   },
+   "full": "Timaco 196 · Horta de Timaco · Boa Vista, Boa Vista",
+   "spokenPt": "Timaco, cento e noventa e seis",
+   "spokenKea": "Timaco, senti i noventa i seis",
+   "entrance": [
+    16.1740243,
+    -22.7667499
+   ],
+   "plusCode": "798V56FM+J82",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Achada Lazão 101",
+   "machine": "CA-0018-101-1",
+   "check": 1,
+   "zone": "CA-110",
+   "officialName": "Achada Lazão",
+   "municipality": "Santa Catarina",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achada Lazão 101",
+    "small": "Santa Catarina · Santiago",
+    "machine": "CA-0018-101-1"
+   },
+   "full": "Achada Lazão 101 · Santa Catarina, Santiago",
+   "spokenPt": "Achada Lazão, cento e um",
+   "spokenKea": "Achada Lazão, senti i un",
+   "entrance": [
+    15.1570217,
+    -23.6795017
+   ],
+   "plusCode": "797R584C+R55",
+   "use": "anexo",
+   "status": "provisional"
+  },
+  {
+   "home": "Gama Touro 242",
+   "machine": "CA-0594-242-5",
+   "check": 5,
+   "zone": "CA-167",
+   "officialName": "Gama Touro",
+   "municipality": "Santa Catarina",
+   "island": "Santiago",
+   "plate": {
+    "big": "Gama Touro 242",
+    "small": "Santa Catarina · Santiago",
+    "machine": "CA-0594-242-5"
+   },
+   "full": "Gama Touro 242 · Santa Catarina, Santiago",
+   "spokenPt": "Gama Touro, duzentos e quarenta e dois",
+   "spokenKea": "Gama Touro, duzentu i korenta i dos",
+   "entrance": [
+    15.0646648,
+    -23.6696686
+   ],
+   "plusCode": "797R387J+V48",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Volta 798",
+   "machine": "CA-1351-798-6",
+   "check": 6,
+   "zone": "CA-109",
+   "officialName": "Volta do Monte",
+   "municipality": "Santa Catarina",
+   "island": "Santiago",
+   "plate": {
+    "big": "Volta 798",
+    "small": "Santa Catarina · Santiago",
+    "machine": "CA-1351-798-6",
+    "official": "Volta do Monte"
+   },
+   "full": "Volta 798 · Volta do Monte · Santa Catarina, Santiago",
+   "spokenPt": "Volta, setecentos e noventa e oito",
+   "spokenKea": "Volta, setisentu i noventa i oitu",
+   "entrance": [
+    15.1502055,
+    -23.6921364
+   ],
+   "plusCode": "797R5825+34Q",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Achada Furna 10 01",
+   "machine": "CF-0012-1001-7",
+   "check": 7,
+   "zone": "CF-007",
+   "officialName": "Achada Furna",
+   "municipality": "Santa Catarina do Fogo",
+   "island": "Fogo",
+   "plate": {
+    "big": "Achada Furna 10 01",
+    "small": "Santa Catarina do Fogo · Fogo",
+    "machine": "CF-0012-1001-7"
+   },
+   "full": "Achada Furna 10 01 · Santa Catarina do Fogo, Fogo",
+   "spokenPt": "Achada Furna, dez, zero um",
+   "spokenKea": "Achada Furna, dés, zeru un",
+   "entrance": [
+    14.8677139,
+    -24.3666235
+   ],
+   "plusCode": "796QVJ9M+39J",
+   "use": "anexo",
+   "status": "provisional"
+  },
+  {
+   "home": "Fonte Aleixo 14 38",
+   "machine": "CF-0558-1438-0",
+   "check": 0,
+   "zone": "CF-006",
+   "officialName": "Fonte Aleixo",
+   "municipality": "Santa Catarina do Fogo",
+   "island": "Fogo",
+   "plate": {
+    "big": "Fonte Aleixo 14 38",
+    "small": "Santa Catarina do Fogo · Fogo",
+    "machine": "CF-0558-1438-0"
+   },
+   "full": "Fonte Aleixo 14 38 · Santa Catarina do Fogo, Fogo",
+   "spokenPt": "Fonte Aleixo, catorze, trinta e oito",
+   "spokenKea": "Fonte Aleixo, katorzi, trinta i oitu",
+   "entrance": [
+    14.851949,
+    -24.3597733
+   ],
+   "plusCode": "796QVJ2R+Q3H",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Tinteira 798",
+   "machine": "CF-1299-798-0",
+   "check": 0,
+   "zone": "CF-022",
+   "officialName": "Tinteira",
+   "municipality": "Santa Catarina do Fogo",
+   "island": "Fogo",
+   "plate": {
+    "big": "Tinteira 798",
+    "small": "Santa Catarina do Fogo · Fogo",
+    "machine": "CF-1299-798-0"
+   },
+   "full": "Tinteira 798 · Santa Catarina do Fogo, Fogo",
+   "spokenPt": "Tinteira, setecentos e noventa e oito",
+   "spokenKea": "Tinteira, setisentu i noventa i oitu",
+   "entrance": [
+    14.9240663,
+    -24.2947993
+   ],
+   "plusCode": "796QWPF4+J3G",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Abóbora 102",
+   "machine": "CR-0002-102-1",
+   "check": 1,
+   "zone": "CR-060",
+   "officialName": "Chão de Abóbora",
+   "municipality": "Santa Cruz",
+   "island": "Santiago",
+   "plate": {
+    "big": "Abóbora 102",
+    "small": "Santa Cruz · Santiago",
+    "machine": "CR-0002-102-1",
+    "official": "Chão de Abóbora"
+   },
+   "full": "Abóbora 102 · Chão de Abóbora · Santa Cruz, Santiago",
+   "spokenPt": "Abóbora, cento e dois",
+   "spokenKea": "Abóbora, senti i dos",
+   "entrance": [
+    15.1161045,
+    -23.5867941
+   ],
+   "plusCode": "797R4C87+C7W",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Janeiro 304",
+   "machine": "CR-0644-304-9",
+   "check": 9,
+   "zone": "CR-107",
+   "officialName": "Janeiro",
+   "municipality": "Santa Cruz",
+   "island": "Santiago",
+   "plate": {
+    "big": "Janeiro 304",
+    "small": "Santa Cruz · Santiago",
+    "machine": "CR-0644-304-9"
+   },
+   "full": "Janeiro 304 · Santa Cruz, Santiago",
+   "spokenPt": "Janeiro, trezentos e quatro",
+   "spokenKea": "Janeiro, trezentu i kuatu",
+   "entrance": [
+    15.0655252,
+    -23.5437296
+   ],
+   "plusCode": "797R3F84+6G6",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Zimbrão 16 97",
+   "machine": "CR-1360-1697-6",
+   "check": 6,
+   "zone": "CR-118",
+   "officialName": "Zimbrão Grande",
+   "municipality": "Santa Cruz",
+   "island": "Santiago",
+   "plate": {
+    "big": "Zimbrão 16 97",
+    "small": "Santa Cruz · Santiago",
+    "machine": "CR-1360-1697-6",
+    "official": "Zimbrão Grande"
+   },
+   "full": "Zimbrão 16 97 · Zimbrão Grande · Santa Cruz, Santiago",
+   "spokenPt": "Zimbrão, dezasseis, noventa e sete",
+   "spokenKea": "Zimbrão, dizaseis, noventa i seti",
+   "entrance": [
+    15.0640471,
+    -23.4962753
+   ],
+   "plusCode": "797R3G73+JF9",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Água Doce 201",
+   "machine": "MA-0042-201-8",
+   "check": 8,
+   "zone": "MA-011",
+   "officialName": "Água Doce",
+   "municipality": "Maio",
+   "island": "Maio",
+   "plate": {
+    "big": "Água Doce 201",
+    "small": "Maio · Maio",
+    "machine": "MA-0042-201-8"
+   },
+   "full": "Água Doce 201 · Maio, Maio",
+   "spokenPt": "Água Doce, duzentos e um",
+   "spokenKea": "Água Doce, duzentu i un",
+   "entrance": [
+    15.1815924,
+    -23.2321084
+   ],
+   "plusCode": "797R5QJ9+J5J",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Figueira 21 88",
+   "machine": "MA-0545-2188-8",
+   "check": 8,
+   "zone": "MA-028",
+   "officialName": "Figueira da Horta",
+   "municipality": "Maio",
+   "island": "Maio",
+   "plate": {
+    "big": "Figueira 21 88",
+    "small": "Maio · Maio",
+    "machine": "MA-0545-2188-8",
+    "official": "Figueira da Horta"
+   },
+   "full": "Figueira 21 88 · Figueira da Horta · Maio, Maio",
+   "spokenPt": "Figueira, vinte e um, oitenta e oito",
+   "spokenKea": "Figueira, vinti i un, oitenta i oitu",
+   "entrance": [
+    15.1602132,
+    -23.1586656
+   ],
+   "plusCode": "797R5R6R+3GP",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Terras 150",
+   "machine": "MA-1294-150-2",
+   "check": 2,
+   "zone": "MA-016",
+   "officialName": "Terras Salgadas",
+   "municipality": "Maio",
+   "island": "Maio",
+   "plate": {
+    "big": "Terras 150",
+    "small": "Maio · Maio",
+    "machine": "MA-1294-150-2",
+    "official": "Terras Salgadas"
+   },
+   "full": "Terras 150 · Terras Salgadas · Maio, Maio",
+   "spokenPt": "Terras, cento e cinquenta",
+   "spokenKea": "Terras, senti i sinkuenta",
+   "entrance": [
+    15.3207949,
+    -23.185177
+   ],
+   "plusCode": "797R8RC7+8W8",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Agulha 101",
+   "machine": "MO-0052-101-8",
+   "check": 8,
+   "zone": "MO-032",
+   "officialName": "Pesqueiro de Agulha",
+   "municipality": "Mosteiros",
+   "island": "Fogo",
+   "plate": {
+    "big": "Agulha 101",
+    "small": "Mosteiros · Fogo",
+    "machine": "MO-0052-101-8",
+    "official": "Pesqueiro de Agulha"
+   },
+   "full": "Agulha 101 · Pesqueiro de Agulha · Mosteiros, Fogo",
+   "spokenPt": "Agulha, cento e um",
+   "spokenKea": "Agulha, senti i un",
+   "entrance": [
+    14.9516178,
+    -24.3018753
+   ],
+   "plusCode": "796QXM2X+J6X",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Guincho 16 21",
+   "machine": "MO-0624-1621-4",
+   "check": 4,
+   "zone": "MO-018",
+   "officialName": "Queimada Guincho",
+   "municipality": "Mosteiros",
+   "island": "Fogo",
+   "plate": {
+    "big": "Guincho 16 21",
+    "small": "Mosteiros · Fogo",
+    "machine": "MO-0624-1621-4",
+    "official": "Queimada Guincho"
+   },
+   "full": "Guincho 16 21 · Queimada Guincho · Mosteiros, Fogo",
+   "spokenPt": "Guincho, dezasseis, vinte e um",
+   "spokenKea": "Guincho, dizaseis, vinti i un",
+   "entrance": [
+    15.0416002,
+    -24.3325555
+   ],
+   "plusCode": "797Q2MR8+JXW",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Touril 197",
+   "machine": "MO-1312-197-9",
+   "check": 9,
+   "zone": "MO-010",
+   "officialName": "Touril",
+   "municipality": "Mosteiros",
+   "island": "Fogo",
+   "plate": {
+    "big": "Touril 197",
+    "small": "Mosteiros · Fogo",
+    "machine": "MO-1312-197-9"
+   },
+   "full": "Touril 197 · Mosteiros, Fogo",
+   "spokenPt": "Touril, cento e noventa e sete",
+   "spokenKea": "Touril, senti i noventa i seti",
+   "entrance": [
+    15.0064446,
+    -24.3229651
+   ],
+   "plusCode": "797Q2M4G+HRF",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Água 12 01",
+   "machine": "PA-0040-1201-8",
+   "check": 8,
+   "zone": "PA-028",
+   "officialName": "Ribeirão de Água",
+   "municipality": "Paul",
+   "island": "Santo Antão",
+   "plate": {
+    "big": "Água 12 01",
+    "small": "Paul · Santo Antão",
+    "machine": "PA-0040-1201-8",
+    "official": "Ribeirão de Água"
+   },
+   "full": "Água 12 01 · Ribeirão de Água · Paul, Santo Antão",
+   "spokenPt": "Água, doze, zero um",
+   "spokenKea": "Água, dozi, zeru un",
+   "entrance": [
+    17.1324405,
+    -25.0335799
+   ],
+   "plusCode": "799P4XJ8+XHF",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Ladeira 101",
+   "machine": "PA-0680-101-0",
+   "check": 0,
+   "zone": "PA-010",
+   "officialName": "Ladeira",
+   "municipality": "Paul",
+   "island": "Santo Antão",
+   "plate": {
+    "big": "Ladeira 101",
+    "small": "Paul · Santo Antão",
+    "machine": "PA-0680-101-0"
+   },
+   "full": "Ladeira 101 · Paul, Santo Antão",
+   "spokenPt": "Ladeira, cento e um",
+   "spokenKea": "Ladeira, senti i un",
+   "entrance": [
+    17.1179001,
+    -25.0480115
+   ],
+   "plusCode": "799P4X92+5Q9",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Teixeiro 197",
+   "machine": "PA-1286-197-6",
+   "check": 6,
+   "zone": "PA-012",
+   "officialName": "Lombo Teixeiro",
+   "municipality": "Paul",
+   "island": "Santo Antão",
+   "plate": {
+    "big": "Teixeiro 197",
+    "small": "Paul · Santo Antão",
+    "machine": "PA-1286-197-6",
+    "official": "Lombo Teixeiro"
+   },
+   "full": "Teixeiro 197 · Lombo Teixeiro · Paul, Santo Antão",
+   "spokenPt": "Teixeiro, cento e noventa e sete",
+   "spokenKea": "Teixeiro, senti i noventa i seti",
+   "entrance": [
+    17.122208,
+    -25.0497454
+   ],
+   "plusCode": "799P4XC2+V4J",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Água 13 01",
+   "machine": "PN-0040-1301-7",
+   "check": 7,
+   "zone": "PN-041",
+   "officialName": "Água Amargosa",
+   "municipality": "Porto Novo",
+   "island": "Santo Antão",
+   "plate": {
+    "big": "Água 13 01",
+    "small": "Porto Novo · Santo Antão",
+    "machine": "PN-0040-1301-7",
+    "official": "Água Amargosa"
+   },
+   "full": "Água 13 01 · Água Amargosa · Porto Novo, Santo Antão",
+   "spokenPt": "Água, treze, zero um",
+   "spokenKea": "Água, trezi, zeru un",
+   "entrance": [
+    17.0778374,
+    -25.2585729
+   ],
+   "plusCode": "799P3PHR+4HM",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Cuchete 350",
+   "machine": "PN-0439-350-7",
+   "check": 7,
+   "zone": "PN-089",
+   "officialName": "Chã de Cuchete",
+   "municipality": "Porto Novo",
+   "island": "Santo Antão",
+   "plate": {
+    "big": "Cuchete 350",
+    "small": "Porto Novo · Santo Antão",
+    "machine": "PN-0439-350-7",
+    "official": "Chã de Cuchete"
+   },
+   "full": "Cuchete 350 · Chã de Cuchete · Porto Novo, Santo Antão",
+   "spokenPt": "Cuchete, trezentos e cinquenta",
+   "spokenKea": "Cuchete, trezentu i sinkuenta",
+   "entrance": [
+    17.036867,
+    -25.2138551
+   ],
+   "plusCode": "799P2QPP+PFR",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Zialvo 198",
+   "machine": "PN-1359-198-3",
+   "check": 3,
+   "zone": "PN-022",
+   "officialName": "Zialvo",
+   "municipality": "Porto Novo",
+   "island": "Santo Antão",
+   "plate": {
+    "big": "Zialvo 198",
+    "small": "Porto Novo · Santo Antão",
+    "machine": "PN-1359-198-3"
+   },
+   "full": "Zialvo 198 · Porto Novo, Santo Antão",
+   "spokenPt": "Zialvo, cento e noventa e oito",
+   "spokenKea": "Zialvo, senti i noventa i oitu",
+   "entrance": [
+    16.9638698,
+    -25.2728853
+   ],
+   "plusCode": "798PXP7G+GRX",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Achada Limpo 10 01",
+   "machine": "PR-0020-1001-1",
+   "check": 1,
+   "zone": "PR-040",
+   "officialName": "Achada Limpo",
+   "municipality": "Praia",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achada Limpo 10 01",
+    "small": "Praia · Santiago",
+    "machine": "PR-0020-1001-1"
+   },
+   "full": "Achada Limpo 10 01 · Praia, Santiago",
+   "spokenPt": "Achada Limpo, dez, zero um",
+   "spokenKea": "Achada Limpo, dés, zeru un",
+   "entrance": [
+    14.9380497,
+    -23.5030536
+   ],
+   "plusCode": "796RWFQW+6Q8",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Lem Cachorro 11 09",
+   "machine": "PR-0712-1109-9",
+   "check": 9,
+   "zone": "PR-043",
+   "officialName": "Lem Cachorro",
+   "municipality": "Praia",
+   "island": "Santiago",
+   "plate": {
+    "big": "Lem Cachorro 11 09",
+    "small": "Praia · Santiago",
+    "machine": "PR-0712-1109-9"
+   },
+   "full": "Lem Cachorro 11 09 · Praia, Santiago",
+   "spokenPt": "Lem Cachorro, onze, zero nove",
+   "spokenKea": "Lem Cachorro, onzi, zeru novi",
+   "entrance": [
+    14.9299595,
+    -23.5079405
+   ],
+   "plusCode": "796RWFHR+XRM",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Vila Nova 14 98",
+   "machine": "PR-1345-1498-4",
+   "check": 4,
+   "zone": "PR-044",
+   "officialName": "Vila Nova",
+   "municipality": "Praia",
+   "island": "Santiago",
+   "plate": {
+    "big": "Vila Nova 14 98",
+    "small": "Praia · Santiago",
+    "machine": "PR-1345-1498-4"
+   },
+   "full": "Vila Nova 14 98 · Praia, Santiago",
+   "spokenPt": "Vila Nova, catorze, noventa e oito",
+   "spokenKea": "Vila Nova, katorzi, noventa i oitu",
+   "entrance": [
+    14.9300715,
+    -23.5107764
+   ],
+   "plusCode": "796RWFJQ+2MH",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Água 25 02",
+   "machine": "RB-0040-2502-1",
+   "check": 1,
+   "zone": "RB-021",
+   "officialName": "Água Amargosa",
+   "municipality": "Ribeira Brava",
+   "island": "São Nicolau",
+   "plate": {
+    "big": "Água 25 02",
+    "small": "Ribeira Brava · São Nicolau",
+    "machine": "RB-0040-2502-1",
+    "official": "Água Amargosa"
+   },
+   "full": "Água 25 02 · Água Amargosa · Ribeira Brava, São Nicolau",
+   "spokenPt": "Água, vinte e cinco, zero dois",
+   "spokenKea": "Água, vinti i sinku, zeru dos",
+   "entrance": [
+    16.6093898,
+    -24.2793748
+   ],
+   "plusCode": "798QJP5C+Q72",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Fajã de Cima 17 09",
+   "machine": "RB-0525-1709-1",
+   "check": 1,
+   "zone": "RB-043",
+   "officialName": "Fajã de Cima",
+   "municipality": "Ribeira Brava",
+   "island": "São Nicolau",
+   "plate": {
+    "big": "Fajã de Cima 17 09",
+    "small": "Ribeira Brava · São Nicolau",
+    "machine": "RB-0525-1709-1"
+   },
+   "full": "Fajã de Cima 17 09 · Ribeira Brava, São Nicolau",
+   "spokenPt": "Fajã de Cima, dezassete, zero nove",
+   "spokenKea": "Fajã de Cima, dizaseti, zeru novi",
+   "entrance": [
+    16.646511,
+    -24.3267341
+   ],
+   "plusCode": "798QJMWF+J82",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Terreiro 13 98",
+   "machine": "RB-1295-1398-4",
+   "check": 4,
+   "zone": "RB-014",
+   "officialName": "Terreiro",
+   "municipality": "Ribeira Brava",
+   "island": "São Nicolau",
+   "plate": {
+    "big": "Terreiro 13 98",
+    "small": "Ribeira Brava · São Nicolau",
+    "machine": "RB-1295-1398-4"
+   },
+   "full": "Terreiro 13 98 · Ribeira Brava, São Nicolau",
+   "spokenPt": "Terreiro, treze, noventa e oito",
+   "spokenKea": "Terreiro, trezi, noventa i oitu",
+   "entrance": [
+    16.6153544,
+    -24.2984388
+   ],
+   "plusCode": "798QJP82+4JV",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Abóbada 102",
+   "machine": "RG-0001-102-3",
+   "check": 3,
+   "zone": "RG-103",
+   "officialName": "Abóbada",
+   "municipality": "Ribeira Grande",
+   "island": "Santo Antão",
+   "plate": {
+    "big": "Abóbada 102",
+    "small": "Ribeira Grande · Santo Antão",
+    "machine": "RG-0001-102-3"
+   },
+   "full": "Abóbada 102 · Ribeira Grande, Santo Antão",
+   "spokenPt": "Abóbada, cento e dois",
+   "spokenKea": "Abóbada, senti i dos",
+   "entrance": [
+    17.1725931,
+    -25.0524518
+   ],
+   "plusCode": "799P5WFX+22M",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Galinha 163",
+   "machine": "RG-0592-163-8",
+   "check": 8,
+   "zone": "RG-032",
+   "officialName": "Lombo de Galinha",
+   "municipality": "Ribeira Grande",
+   "island": "Santo Antão",
+   "plate": {
+    "big": "Galinha 163",
+    "small": "Ribeira Grande · Santo Antão",
+    "machine": "RG-0592-163-8",
+    "official": "Lombo de Galinha"
+   },
+   "full": "Galinha 163 · Lombo de Galinha · Ribeira Grande, Santo Antão",
+   "spokenPt": "Galinha, cento e sessenta e três",
+   "spokenKea": "Galinha, senti i sesenta i tres",
+   "entrance": [
+    17.1360209,
+    -25.2113032
+   ],
+   "plusCode": "799P4QPQ+CF4",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Xôxô 298",
+   "machine": "RG-1356-298-7",
+   "check": 7,
+   "zone": "RG-140",
+   "officialName": "Xôxô",
+   "municipality": "Ribeira Grande",
+   "island": "Santo Antão",
+   "plate": {
+    "big": "Xôxô 298",
+    "small": "Ribeira Grande · Santo Antão",
+    "machine": "RG-1356-298-7"
+   },
+   "full": "Xôxô 298 · Ribeira Grande, Santo Antão",
+   "spokenPt": "Xôxô, duzentos e noventa e oito",
+   "spokenKea": "Xôxô, duzentu i noventa i oitu",
+   "entrance": [
+    17.1432013,
+    -25.0609823
+   ],
+   "plusCode": "799P4WVQ+7JJ",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Achada Cruz 125",
+   "machine": "RS-0010-125-5",
+   "check": 5,
+   "zone": "RS-009",
+   "officialName": "Achada Cruz",
+   "municipality": "Ribeira Grande de Santiago",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achada Cruz 125",
+    "small": "Ribeira Grande de Santiago · Santiago",
+    "machine": "RS-0010-125-5"
+   },
+   "full": "Achada Cruz 125 · Ribeira Grande de Santiago, Santiago",
+   "spokenPt": "Achada Cruz, cento e vinte e cinco",
+   "spokenKea": "Achada Cruz, senti i vinti i sinku",
+   "entrance": [
+    14.9878228,
+    -23.7034573
+   ],
+   "plusCode": "796RX7QW+4JF",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Pedra Flupo 361",
+   "machine": "RS-1008-361-0",
+   "check": 0,
+   "zone": "RS-045",
+   "officialName": "Pedra Flupo",
+   "municipality": "Ribeira Grande de Santiago",
+   "island": "Santiago",
+   "plate": {
+    "big": "Pedra Flupo 361",
+    "small": "Ribeira Grande de Santiago · Santiago",
+    "machine": "RS-1008-361-0"
+   },
+   "full": "Pedra Flupo 361 · Ribeira Grande de Santiago, Santiago",
+   "spokenPt": "Pedra Flupo, trezentos e sessenta e um",
+   "spokenKea": "Pedra Flupo, trezentu i sesenta i un",
+   "entrance": [
+    14.9167359,
+    -23.6186293
+   ],
+   "plusCode": "796RW98J+MGX",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Zimbrão 17 96",
+   "machine": "RS-1360-1796-4",
+   "check": 4,
+   "zone": "RS-041",
+   "officialName": "Zimbrão",
+   "municipality": "Ribeira Grande de Santiago",
+   "island": "Santiago",
+   "plate": {
+    "big": "Zimbrão 17 96",
+    "small": "Ribeira Grande de Santiago · Santiago",
+    "machine": "RS-1360-1796-4"
+   },
+   "full": "Zimbrão 17 96 · Ribeira Grande de Santiago, Santiago",
+   "spokenPt": "Zimbrão, dezassete, noventa e seis",
+   "spokenKea": "Zimbrão, dizaseti, noventa i seis",
+   "entrance": [
+    14.9374906,
+    -23.5961761
+   ],
+   "plusCode": "796RWCP3+XGW",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Achada Baixo 102",
+   "machine": "SD-0008-102-4",
+   "check": 4,
+   "zone": "SD-084",
+   "officialName": "Achada Baixo",
+   "municipality": "São Domingos",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achada Baixo 102",
+    "small": "São Domingos · Santiago",
+    "machine": "SD-0008-102-4"
+   },
+   "full": "Achada Baixo 102 · São Domingos, Santiago",
+   "spokenPt": "Achada Baixo, cento e dois",
+   "spokenKea": "Achada Baixo, senti i dos",
+   "entrance": [
+    15.0351199,
+    -23.4505047
+   ],
+   "plusCode": "797R2GPX+2QX",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Limão 334",
+   "machine": "SD-0744-334-3",
+   "check": 3,
+   "zone": "SD-103",
+   "officialName": "Limão",
+   "municipality": "São Domingos",
+   "island": "Santiago",
+   "plate": {
+    "big": "Limão 334",
+    "small": "São Domingos · Santiago",
+    "machine": "SD-0744-334-3"
+   },
+   "full": "Limão 334 · São Domingos, Santiago",
+   "spokenPt": "Limão, trezentos e trinta e quatro",
+   "spokenKea": "Limão, trezentu i trinta i kuatu",
+   "entrance": [
+    15.0193937,
+    -23.5199073
+   ],
+   "plusCode": "797R2F9J+Q24",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Volta Romão 297",
+   "machine": "SD-1352-297-1",
+   "check": 1,
+   "zone": "SD-052",
+   "officialName": "Volta Romão",
+   "municipality": "São Domingos",
+   "island": "Santiago",
+   "plate": {
+    "big": "Volta Romão 297",
+    "small": "São Domingos · Santiago",
+    "machine": "SD-1352-297-1"
+   },
+   "full": "Volta Romão 297 · São Domingos, Santiago",
+   "spokenPt": "Volta Romão, duzentos e noventa e sete",
+   "spokenKea": "Volta Romão, duzentu i noventa i seti",
+   "entrance": [
+    15.0471111,
+    -23.5465568
+   ],
+   "plusCode": "797R2FW3+R9W",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Achada 101",
+   "machine": "SF-0005-101-7",
+   "check": 7,
+   "zone": "SF-053",
+   "officialName": "Achada",
+   "municipality": "São Filipe",
+   "island": "Fogo",
+   "plate": {
+    "big": "Achada 101",
+    "small": "São Filipe · Fogo",
+    "machine": "SF-0005-101-7"
+   },
+   "full": "Achada 101 · São Filipe, Fogo",
+   "spokenPt": "Achada, cento e um",
+   "spokenKea": "Achada, senti i un",
+   "entrance": [
+    14.9633203,
+    -24.4833157
+   ],
+   "plusCode": "796QXG78+8MF",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Laranjeiro 132",
+   "machine": "SF-0698-132-5",
+   "check": 5,
+   "zone": "SF-080",
+   "officialName": "Laranjeiro",
+   "municipality": "São Filipe",
+   "island": "Fogo",
+   "plate": {
+    "big": "Laranjeiro 132",
+    "small": "São Filipe · Fogo",
+    "machine": "SF-0698-132-5"
+   },
+   "full": "Laranjeiro 132 · São Filipe, Fogo",
+   "spokenPt": "Laranjeiro, cento e trinta e dois",
+   "spokenKea": "Laranjeiro, senti i trinta i dos",
+   "entrance": [
+    14.9697442,
+    -24.4693728
+   ],
+   "plusCode": "796QXG9J+V7R",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Zambujeiro 698",
+   "machine": "SF-1358-698-7",
+   "check": 7,
+   "zone": "SF-095",
+   "officialName": "Zambujeiro",
+   "municipality": "São Filipe",
+   "island": "Fogo",
+   "plate": {
+    "big": "Zambujeiro 698",
+    "small": "São Filipe · Fogo",
+    "machine": "SF-1358-698-7"
+   },
+   "full": "Zambujeiro 698 · São Filipe, Fogo",
+   "spokenPt": "Zambujeiro, seiscentos e noventa e oito",
+   "spokenKea": "Zambujeiro, seisentu i noventa i oitu",
+   "entrance": [
+    14.9430922,
+    -24.4391613
+   ],
+   "plusCode": "796QWHV6+68P",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Acacia 102",
+   "machine": "SL-0004-102-7",
+   "check": 7,
+   "zone": "SL-041",
+   "officialName": "Acacia",
+   "municipality": "Sal",
+   "island": "Sal",
+   "plate": {
+    "big": "Acacia 102",
+    "small": "Sal · Sal",
+    "machine": "SL-0004-102-7"
+   },
+   "full": "Acacia 102 · Sal, Sal",
+   "spokenPt": "Acacia, cento e dois",
+   "spokenKea": "Acacia, senti i dos",
+   "entrance": [
+    16.6110394,
+    -22.9185116
+   ],
+   "plusCode": "798VJ36J+CH9",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Palha Verde 425",
+   "machine": "SL-0970-425-3",
+   "check": 3,
+   "zone": "SL-036",
+   "officialName": "Palha Verde",
+   "municipality": "Sal",
+   "island": "Sal",
+   "plate": {
+    "big": "Palha Verde 425",
+    "small": "Sal · Sal",
+    "machine": "SL-0970-425-3"
+   },
+   "full": "Palha Verde 425 · Sal, Sal",
+   "spokenPt": "Palha Verde, quatrocentos e vinte e cinco",
+   "spokenKea": "Palha Verde, kuatusentu i vinti i sinku",
+   "entrance": [
+    16.6658281,
+    -22.9251378
+   ],
+   "plusCode": "798VM38F+8WQ",
+   "use": "turismo.hotel",
+   "status": "provisional"
+  },
+  {
+   "home": "Washingtonia 498",
+   "machine": "SL-1354-498-5",
+   "check": 5,
+   "zone": "SL-046",
+   "officialName": "Washingtonia",
+   "municipality": "Sal",
+   "island": "Sal",
+   "plate": {
+    "big": "Washingtonia 498",
+    "small": "Sal · Sal",
+    "machine": "SL-1354-498-5"
+   },
+   "full": "Washingtonia 498 · Sal, Sal",
+   "spokenPt": "Washingtonia, quatrocentos e noventa e oito",
+   "spokenKea": "Washingtonia, kuatusentu i noventa i oitu",
+   "entrance": [
+    16.6099534,
+    -22.9242704
+   ],
+   "plusCode": "798VJ35G+X7Q",
+   "use": "turismo.hotel",
+   "status": "provisional"
+  },
+  {
+   "home": "Achada Monte 10 01",
+   "machine": "SM-0025-1001-7",
+   "check": 7,
+   "zone": "SM-052",
+   "officialName": "Achada Monte",
+   "municipality": "São Miguel",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achada Monte 10 01",
+    "small": "São Miguel · Santiago",
+    "machine": "SM-0025-1001-7"
+   },
+   "full": "Achada Monte 10 01 · São Miguel, Santiago",
+   "spokenPt": "Achada Monte, dez, zero um",
+   "spokenKea": "Achada Monte, dés, zeru un",
+   "entrance": [
+    15.2322551,
+    -23.6459784
+   ],
+   "plusCode": "797R69J3+WJ2",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Mato Garça 12 57",
+   "machine": "SM-0853-1257-9",
+   "check": 9,
+   "zone": "SM-071",
+   "officialName": "Mato Garça",
+   "municipality": "São Miguel",
+   "island": "Santiago",
+   "plate": {
+    "big": "Mato Garça 12 57",
+    "small": "São Miguel · Santiago",
+    "machine": "SM-0853-1257-9"
+   },
+   "full": "Mato Garça 12 57 · São Miguel, Santiago",
+   "spokenPt": "Mato Garça, doze, cinquenta e sete",
+   "spokenKea": "Mato Garça, dozi, sinkuenta i seti",
+   "entrance": [
+    15.2064311,
+    -23.6235118
+   ],
+   "plusCode": "797R694G+HHH",
+   "use": "anexo",
+   "status": "provisional"
+  },
+  {
+   "home": "Xaxa 298",
+   "machine": "SM-1355-298-6",
+   "check": 6,
+   "zone": "SM-061",
+   "officialName": "Xaxa",
+   "municipality": "São Miguel",
+   "island": "Santiago",
+   "plate": {
+    "big": "Xaxa 298",
+    "small": "São Miguel · Santiago",
+    "machine": "SM-1355-298-6"
+   },
+   "full": "Xaxa 298 · São Miguel, Santiago",
+   "spokenPt": "Xaxa, duzentos e noventa e oito",
+   "spokenKea": "Xaxa, duzentu i noventa i oitu",
+   "entrance": [
+    15.1951458,
+    -23.6565432
+   ],
+   "plusCode": "797R58WV+394",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Achada Costa 101",
+   "machine": "SO-0009-101-1",
+   "check": 1,
+   "zone": "SO-047",
+   "officialName": "Achada Costa",
+   "municipality": "São Lourenço dos Órgãos",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achada Costa 101",
+    "small": "São Lourenço dos Órgãos · Santiago",
+    "machine": "SO-0009-101-1"
+   },
+   "full": "Achada Costa 101 · São Lourenço dos Órgãos, Santiago",
+   "spokenPt": "Achada Costa, cento e um",
+   "spokenKea": "Achada Costa, senti i un",
+   "entrance": [
+    15.0770763,
+    -23.5671049
+   ],
+   "plusCode": "797R3CGM+R5J",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Levada 295",
+   "machine": "SO-0741-295-0",
+   "check": 0,
+   "zone": "SO-050",
+   "officialName": "Levada dos Orgãos",
+   "municipality": "São Lourenço dos Órgãos",
+   "island": "Santiago",
+   "plate": {
+    "big": "Levada 295",
+    "small": "São Lourenço dos Órgãos · Santiago",
+    "machine": "SO-0741-295-0",
+    "official": "Levada dos Orgãos"
+   },
+   "full": "Levada 295 · Levada dos Orgãos · São Lourenço dos Órgãos, Santiago",
+   "spokenPt": "Levada, duzentos e noventa e cinco",
+   "spokenKea": "Levada, duzentu i noventa i sinku",
+   "entrance": [
+    15.0700679,
+    -23.5627911
+   ],
+   "plusCode": "797R3CCP+2VG",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Vaza Água 297",
+   "machine": "SO-1333-297-0",
+   "check": 0,
+   "zone": "SO-001",
+   "officialName": "Vaza Água",
+   "municipality": "São Lourenço dos Órgãos",
+   "island": "Santiago",
+   "plate": {
+    "big": "Vaza Água 297",
+    "small": "São Lourenço dos Órgãos · Santiago",
+    "machine": "SO-1333-297-0"
+   },
+   "full": "Vaza Água 297 · São Lourenço dos Órgãos, Santiago",
+   "spokenPt": "Vaza Água, duzentos e noventa e sete",
+   "spokenKea": "Vaza Água, duzentu i noventa i seti",
+   "entrance": [
+    15.0371037,
+    -23.6225152
+   ],
+   "plusCode": "797R29PG+RXX",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Aboboreiro 101",
+   "machine": "SS-0003-101-2",
+   "check": 2,
+   "zone": "SS-029",
+   "officialName": "Aboboreiro",
+   "municipality": "São Salvador do Mundo",
+   "island": "Santiago",
+   "plate": {
+    "big": "Aboboreiro 101",
+    "small": "São Salvador do Mundo · Santiago",
+    "machine": "SS-0003-101-2"
+   },
+   "full": "Aboboreiro 101 · São Salvador do Mundo, Santiago",
+   "spokenPt": "Aboboreiro, cento e um",
+   "spokenKea": "Aboboreiro, senti i un",
+   "entrance": [
+    15.0836485,
+    -23.6482904
+   ],
+   "plusCode": "797R39M2+FM4",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Goiaba 283",
+   "machine": "SS-0610-283-0",
+   "check": 0,
+   "zone": "SS-049",
+   "officialName": "Goiaba",
+   "municipality": "São Salvador do Mundo",
+   "island": "Santiago",
+   "plate": {
+    "big": "Goiaba 283",
+    "small": "São Salvador do Mundo · Santiago",
+    "machine": "SS-0610-283-0"
+   },
+   "full": "Goiaba 283 · São Salvador do Mundo, Santiago",
+   "spokenPt": "Goiaba, duzentos e oitenta e três",
+   "spokenKea": "Goiaba, duzentu i oitenta i tres",
+   "entrance": [
+    15.0906688,
+    -23.6367816
+   ],
+   "plusCode": "797R39R7+778",
+   "use": "anexo",
+   "status": "provisional"
+  },
+  {
+   "home": "Vinha 12 97",
+   "machine": "SS-1348-1297-7",
+   "check": 7,
+   "zone": "SS-024",
+   "officialName": "Chão de Vinha",
+   "municipality": "São Salvador do Mundo",
+   "island": "Santiago",
+   "plate": {
+    "big": "Vinha 12 97",
+    "small": "São Salvador do Mundo · Santiago",
+    "machine": "SS-1348-1297-7",
+    "official": "Chão de Vinha"
+   },
+   "full": "Vinha 12 97 · Chão de Vinha · São Salvador do Mundo, Santiago",
+   "spokenPt": "Vinha, doze, noventa e sete",
+   "spokenKea": "Vinha, dozi, noventa i seti",
+   "entrance": [
+    15.0855718,
+    -23.6244219
+   ],
+   "plusCode": "797R39PG+66G",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Alecrim 12 01",
+   "machine": "SV-0056-1201-0",
+   "check": 0,
+   "zone": "SV-009",
+   "officialName": "Entre Chã de Alecrim e Madeiralzinho",
+   "municipality": "São Vicente",
+   "island": "São Vicente",
+   "plate": {
+    "big": "Alecrim 12 01",
+    "small": "São Vicente · São Vicente",
+    "machine": "SV-0056-1201-0",
+    "official": "Entre Chã de Alecrim e Madeiralzinho"
+   },
+   "full": "Alecrim 12 01 · Entre Chã de Alecrim e Madeiralzinho · São Vicente, São Vicente",
+   "spokenPt": "Alecrim, doze, zero um",
+   "spokenKea": "Alecrim, dozi, zeru un",
+   "entrance": [
+    16.8972931,
+    -24.9851656
+   ],
+   "plusCode": "798QV2W7+WW8",
+   "use": "residencial",
+   "status": "provisional"
+  },
+  {
+   "home": "Julião 15 94",
+   "machine": "SV-0676-1594-5",
+   "check": 5,
+   "zone": "SV-051",
+   "officialName": "Ribeira de Julião",
+   "municipality": "São Vicente",
+   "island": "São Vicente",
+   "plate": {
+    "big": "Julião 15 94",
+    "small": "São Vicente · São Vicente",
+    "machine": "SV-0676-1594-5",
+    "official": "Ribeira de Julião"
+   },
+   "full": "Julião 15 94 · Ribeira de Julião · São Vicente, São Vicente",
+   "spokenPt": "Julião, quinze, noventa e quatro",
+   "spokenKea": "Julião, kinzi, noventa i kuatu",
+   "entrance": [
+    16.8639053,
+    -24.983783
+   ],
+   "plusCode": "798QV278+HF8",
+   "use": "residencial.predio",
+   "status": "provisional"
+  },
+  {
+   "home": "Vinha 49 98",
+   "machine": "SV-1348-4998-0",
+   "check": 0,
+   "zone": "SV-050",
+   "officialName": "Ribeira de Vinha",
+   "municipality": "São Vicente",
+   "island": "São Vicente",
+   "plate": {
+    "big": "Vinha 49 98",
+    "small": "São Vicente · São Vicente",
+    "machine": "SV-1348-4998-0",
+    "official": "Ribeira de Vinha"
+   },
+   "full": "Vinha 49 98 · Ribeira de Vinha · São Vicente, São Vicente",
+   "spokenPt": "Vinha, quarenta e nove, noventa e oito",
+   "spokenKea": "Vinha, korenta i novi, noventa i oitu",
+   "entrance": [
+    16.8509649,
+    -25.0054212
+   ],
+   "plusCode": "798PVX2V+9RP",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Achada Lagoa 101",
+   "machine": "TA-0015-101-8",
+   "check": 8,
+   "zone": "TA-065",
+   "officialName": "Achada Lagoa",
+   "municipality": "Tarrafal",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achada Lagoa 101",
+    "small": "Tarrafal · Santiago",
+    "machine": "TA-0015-101-8"
+   },
+   "full": "Achada Lagoa 101 · Tarrafal, Santiago",
+   "spokenPt": "Achada Lagoa, cento e um",
+   "spokenKea": "Achada Lagoa, senti i un",
+   "entrance": [
+    15.2089134,
+    -23.6859486
+   ],
+   "plusCode": "797R6857+HJ7",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Figueira 35 14",
+   "machine": "TA-0545-3514-0",
+   "check": 0,
+   "zone": "TA-005",
+   "officialName": "Figueira Muita",
+   "municipality": "Tarrafal",
+   "island": "Santiago",
+   "plate": {
+    "big": "Figueira 35 14",
+    "small": "Tarrafal · Santiago",
+    "machine": "TA-0545-3514-0",
+    "official": "Figueira Muita"
+   },
+   "full": "Figueira 35 14 · Figueira Muita · Tarrafal, Santiago",
+   "spokenPt": "Figueira, trinta e cinco, catorze",
+   "spokenKea": "Figueira, trinta i sinku, katorzi",
+   "entrance": [
+    15.2017193,
+    -23.7365632
+   ],
+   "plusCode": "797R6727+M9M",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Tarrafal 51 98",
+   "machine": "TA-1283-5198-5",
+   "check": 5,
+   "zone": "TA-020",
+   "officialName": "Tarrafal",
+   "municipality": "Tarrafal",
+   "island": "Santiago",
+   "plate": {
+    "big": "Tarrafal 51 98",
+    "small": "Tarrafal · Santiago",
+    "machine": "TA-1283-5198-5"
+   },
+   "full": "Tarrafal 51 98 · Tarrafal, Santiago",
+   "spokenPt": "Tarrafal, cinquenta e um, noventa e oito",
+   "spokenKea": "Tarrafal, sinkuenta i un, noventa i oitu",
+   "entrance": [
+    15.2711795,
+    -23.7437989
+   ],
+   "plusCode": "797R77C4+FFG",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Alto Saco 102",
+   "machine": "TS-0071-102-6",
+   "check": 6,
+   "zone": "TS-018",
+   "officialName": "Alto Saco",
+   "municipality": "Tarrafal de São Nicolau",
+   "island": "São Nicolau",
+   "plate": {
+    "big": "Alto Saco 102",
+    "small": "Tarrafal de São Nicolau · São Nicolau",
+    "machine": "TS-0071-102-6"
+   },
+   "full": "Alto Saco 102 · Tarrafal de São Nicolau, São Nicolau",
+   "spokenPt": "Alto Saco, cento e dois",
+   "spokenKea": "Alto Saco, senti i dos",
+   "entrance": [
+    16.5642408,
+    -24.3549611
+   ],
+   "plusCode": "798QHJ7W+M2V",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Hortelã 17 30",
+   "machine": "TS-0630-1730-6",
+   "check": 6,
+   "zone": "TS-006",
+   "officialName": "Hortelã",
+   "municipality": "Tarrafal de São Nicolau",
+   "island": "São Nicolau",
+   "plate": {
+    "big": "Hortelã 17 30",
+    "small": "Tarrafal de São Nicolau · São Nicolau",
+    "machine": "TS-0630-1730-6"
+   },
+   "full": "Hortelã 17 30 · Tarrafal de São Nicolau, São Nicolau",
+   "spokenPt": "Hortelã, dezassete, trinta",
+   "spokenKea": "Hortelã, dizaseti, trinta",
+   "entrance": [
+    16.6109739,
+    -24.3525153
+   ],
+   "plusCode": "798QJJ6W+9XQ",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  },
+  {
+   "home": "Trás Fábrica 397",
+   "machine": "TS-1315-397-5",
+   "check": 5,
+   "zone": "TS-019",
+   "officialName": "Trás Fábrica",
+   "municipality": "Tarrafal de São Nicolau",
+   "island": "São Nicolau",
+   "plate": {
+    "big": "Trás Fábrica 397",
+    "small": "Tarrafal de São Nicolau · São Nicolau",
+    "machine": "TS-1315-397-5"
+   },
+   "full": "Trás Fábrica 397 · Tarrafal de São Nicolau, São Nicolau",
+   "spokenPt": "Trás Fábrica, trezentos e noventa e sete",
+   "spokenKea": "Trás Fábrica, trezentu i noventa i seti",
+   "entrance": [
+    16.5665324,
+    -24.356237
+   ],
+   "plusCode": "798QHJ8V+JG6",
+   "use": "residencial.moradia",
+   "status": "provisional"
+  }
+ ],
+ "sameName": [
+  {
+   "home": "Fazenda 10 01",
+   "machine": "CR-0534-1001-3",
+   "check": 3,
+   "zone": "CR-078",
+   "officialName": "Achada Fazenda",
+   "municipality": "Santa Cruz",
+   "island": "Santiago",
+   "plate": {
+    "big": "Fazenda 10 01",
+    "small": "Santa Cruz · Santiago",
+    "machine": "CR-0534-1001-3",
+    "official": "Achada Fazenda"
+   },
+   "full": "Fazenda 10 01 · Achada Fazenda · Santa Cruz, Santiago",
+   "spokenPt": "Fazenda, dez, zero um",
+   "spokenKea": "Fazenda, dés, zeru un",
+   "entrance": [
+    15.1170264,
+    -23.5186236
+   ],
+   "plusCode": "797R4F8J+RH6",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Fazenda",
+   "block": [
+    1000,
+    1999
+   ],
+   "near": null
+  },
+  {
+   "home": "Fazenda 20 01",
+   "machine": "PA-0534-2001-1",
+   "check": 1,
+   "zone": "PA-005",
+   "officialName": "Chã de Fazenda",
+   "municipality": "Paul",
+   "island": "Santo Antão",
+   "plate": {
+    "big": "Fazenda 20 01",
+    "small": "Paul · Santo Antão",
+    "machine": "PA-0534-2001-1",
+    "official": "Chã de Fazenda"
+   },
+   "full": "Fazenda 20 01 · Chã de Fazenda · Paul, Santo Antão",
+   "spokenPt": "Fazenda, vinte, zero um",
+   "spokenKea": "Fazenda, vinti, zeru un",
+   "entrance": [
+    17.1125047,
+    -25.054062
+   ],
+   "plusCode": "799P4W7W+294",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Fazenda",
+   "block": [
+    2000,
+    2199
+   ],
+   "near": null
+  },
+  {
+   "home": "Fazenda 22 00",
+   "machine": "PR-0534-2200-2",
+   "check": 2,
+   "zone": "PR-049",
+   "officialName": "Fazenda",
+   "municipality": "Praia",
+   "island": "Santiago",
+   "plate": {
+    "big": "Fazenda 22 00",
+    "small": "Praia · Santiago",
+    "machine": "PR-0534-2200-2"
+   },
+   "full": "Fazenda 22 00 · Praia, Santiago",
+   "spokenPt": "Fazenda, vinte e dois, zero zero",
+   "spokenKea": "Fazenda, vinti i dos, zeru zeru",
+   "entrance": [
+    14.9231075,
+    -23.5090837
+   ],
+   "plusCode": "796RWFFR+69V",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Fazenda",
+   "block": [
+    2200,
+    2899
+   ],
+   "near": null
+  },
+  {
+   "home": "Fazenda 29 02",
+   "machine": "SM-0534-2902-1",
+   "check": 1,
+   "zone": "SM-062",
+   "officialName": "Fazenda",
+   "municipality": "São Miguel",
+   "island": "Santiago",
+   "plate": {
+    "big": "Fazenda 29 02",
+    "small": "São Miguel · Santiago",
+    "machine": "SM-0534-2902-1"
+   },
+   "full": "Fazenda 29 02 · São Miguel, Santiago",
+   "spokenPt": "Fazenda, vinte e nove, zero dois",
+   "spokenKea": "Fazenda, vinti i novi, zeru dos",
+   "entrance": [
+    15.1928358,
+    -23.6481667
+   ],
+   "plusCode": "797R59V2+4PP",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Fazenda",
+   "block": [
+    2900,
+    2999
+   ],
+   "near": null
+  },
+  {
+   "home": "Fazenda 30 02",
+   "machine": "TA-0534-3002-6",
+   "check": 6,
+   "zone": "TA-014",
+   "officialName": "Lugar de Fazenda",
+   "municipality": "Tarrafal",
+   "island": "Santiago",
+   "plate": {
+    "big": "Fazenda 30 02",
+    "small": "Tarrafal · Santiago",
+    "machine": "TA-0534-3002-6",
+    "official": "Lugar de Fazenda"
+   },
+   "full": "Fazenda 30 02 · Lugar de Fazenda · Tarrafal, Santiago",
+   "spokenPt": "Fazenda, trinta, zero dois",
+   "spokenKea": "Fazenda, trinta, zeru dos",
+   "entrance": [
+    15.2380417,
+    -23.7178213
+   ],
+   "plusCode": "797R67QJ+6V7",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Fazenda",
+   "block": [
+    3000,
+    3199
+   ],
+   "near": "Contador"
+  },
+  {
+   "home": "Fazenda 32 12",
+   "machine": "TA-0534-3212-5",
+   "check": 5,
+   "zone": "TA-021",
+   "officialName": "Porto Fazenda",
+   "municipality": "Tarrafal",
+   "island": "Santiago",
+   "plate": {
+    "big": "Fazenda 32 12",
+    "small": "Tarrafal · Santiago",
+    "machine": "TA-0534-3212-5",
+    "official": "Porto Fazenda"
+   },
+   "full": "Fazenda 32 12 · Porto Fazenda · Tarrafal, Santiago",
+   "spokenPt": "Fazenda, trinta e dois, doze",
+   "spokenKea": "Fazenda, trinta i dos, dozi",
+   "entrance": [
+    15.3074332,
+    -23.7561906
+   ],
+   "plusCode": "797R864V+XGF",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Fazenda",
+   "block": [
+    3200,
+    3299
+   ],
+   "near": "Tarrafal"
+  },
+  {
+   "home": "Fazenda 33 02",
+   "machine": "TA-0534-3302-7",
+   "check": 7,
+   "zone": "TA-022",
+   "officialName": "Fazenda",
+   "municipality": "Tarrafal",
+   "island": "Santiago",
+   "plate": {
+    "big": "Fazenda 33 02",
+    "small": "Tarrafal · Santiago",
+    "machine": "TA-0534-3302-7"
+   },
+   "full": "Fazenda 33 02 · Tarrafal, Santiago",
+   "spokenPt": "Fazenda, trinta e três, zero dois",
+   "spokenKea": "Fazenda, trinta i tres, zeru dos",
+   "entrance": [
+    15.2968562,
+    -23.7525312
+   ],
+   "plusCode": "797R76WW+PXX",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Fazenda",
+   "block": [
+    3300,
+    3499
+   ],
+   "near": "Lobrâo"
+  },
+  {
+   "home": "Achadinha 10 02",
+   "machine": "CA-0034-1002-8",
+   "check": 8,
+   "zone": "CA-028",
+   "officialName": "Achadinha",
+   "municipality": "Santa Catarina",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achadinha 10 02",
+    "small": "Santa Catarina · Santiago",
+    "machine": "CA-0034-1002-8"
+   },
+   "full": "Achadinha 10 02 · Santa Catarina, Santiago",
+   "spokenPt": "Achadinha, dez, zero dois",
+   "spokenKea": "Achadinha, dés, zeru dos",
+   "entrance": [
+    15.180452,
+    -23.7340513
+   ],
+   "plusCode": "797R57J8+59P",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Achadinha",
+   "block": [
+    1000,
+    1199
+   ],
+   "near": "Covão Baixo"
+  },
+  {
+   "home": "Achadinha 12 02",
+   "machine": "CA-0034-1202-6",
+   "check": 6,
+   "zone": "CA-144",
+   "officialName": "Achadinha",
+   "municipality": "Santa Catarina",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achadinha 12 02",
+    "small": "Santa Catarina · Santiago",
+    "machine": "CA-0034-1202-6"
+   },
+   "full": "Achadinha 12 02 · Santa Catarina, Santiago",
+   "spokenPt": "Achadinha, doze, zero dois",
+   "spokenKea": "Achadinha, dozi, zeru dos",
+   "entrance": [
+    15.1215191,
+    -23.6377627
+   ],
+   "plusCode": "797R49C6+JV5",
+   "use": "agricola",
+   "status": "provisional",
+   "name": "Achadinha",
+   "block": [
+    1200,
+    1299
+   ],
+   "near": "Isabel"
+  },
+  {
+   "home": "Achadinha 13 01",
+   "machine": "CA-0034-1301-7",
+   "check": 7,
+   "zone": "CA-194",
+   "officialName": "Achadinha",
+   "municipality": "Santa Catarina",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achadinha 13 01",
+    "small": "Santa Catarina · Santiago",
+    "machine": "CA-0034-1301-7"
+   },
+   "full": "Achadinha 13 01 · Santa Catarina, Santiago",
+   "spokenPt": "Achadinha, treze, zero um",
+   "spokenKea": "Achadinha, trezi, zeru un",
+   "entrance": [
+    15.0328024,
+    -23.6954122
+   ],
+   "plusCode": "797R28M3+4RG",
+   "use": "anexo",
+   "status": "provisional",
+   "name": "Achadinha",
+   "block": [
+    1300,
+    1399
+   ],
+   "near": "Mancanha"
+  },
+  {
+   "home": "Achadinha 14 01",
+   "machine": "PR-0034-1401-0",
+   "check": 0,
+   "zone": "PR-048",
+   "officialName": "Achadinha",
+   "municipality": "Praia",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achadinha 14 01",
+    "small": "Praia · Santiago",
+    "machine": "PR-0034-1401-0"
+   },
+   "full": "Achadinha 14 01 · Praia, Santiago",
+   "spokenPt": "Achadinha, catorze, zero um",
+   "spokenKea": "Achadinha, katorzi, zeru un",
+   "entrance": [
+    14.9256499,
+    -23.5137145
+   ],
+   "plusCode": "796RWFGP+7G3",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Achadinha",
+   "block": [
+    1400,
+    2099
+   ],
+   "near": null
+  },
+  {
+   "home": "Achadinha 21 01",
+   "machine": "RS-0034-2101-6",
+   "check": 6,
+   "zone": "RS-031",
+   "officialName": "Achadinha",
+   "municipality": "Ribeira Grande de Santiago",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achadinha 21 01",
+    "small": "Ribeira Grande de Santiago · Santiago",
+    "machine": "RS-0034-2101-6"
+   },
+   "full": "Achadinha 21 01 · Ribeira Grande de Santiago, Santiago",
+   "spokenPt": "Achadinha, vinte e um, zero um",
+   "spokenKea": "Achadinha, vinti i un, zeru un",
+   "entrance": [
+    14.9905106,
+    -23.6394853
+   ],
+   "plusCode": "796RX9R6+662",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Achadinha",
+   "block": [
+    2100,
+    2299
+   ],
+   "near": null
+  },
+  {
+   "home": "Achadinha 23 01",
+   "machine": "SD-0034-2301-8",
+   "check": 8,
+   "zone": "SD-092",
+   "officialName": "Achadinha",
+   "municipality": "São Domingos",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achadinha 23 01",
+    "small": "São Domingos · Santiago",
+    "machine": "SD-0034-2301-8"
+   },
+   "full": "Achadinha 23 01 · São Domingos, Santiago",
+   "spokenPt": "Achadinha, vinte e três, zero um",
+   "spokenKea": "Achadinha, vinti i tres, zeru un",
+   "entrance": [
+    15.0273221,
+    -23.500001
+   ],
+   "plusCode": "797R2FGX+WXH",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Achadinha",
+   "block": [
+    2300,
+    2399
+   ],
+   "near": null
+  },
+  {
+   "home": "Achadinha 24 02",
+   "machine": "SO-0034-2402-2",
+   "check": 2,
+   "zone": "SO-058",
+   "officialName": "Achadinha",
+   "municipality": "São Lourenço dos Órgãos",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achadinha 24 02",
+    "small": "São Lourenço dos Órgãos · Santiago",
+    "machine": "SO-0034-2402-2"
+   },
+   "full": "Achadinha 24 02 · São Lourenço dos Órgãos, Santiago",
+   "spokenPt": "Achadinha, vinte e quatro, zero dois",
+   "spokenKea": "Achadinha, vinti i kuatu, zeru dos",
+   "entrance": [
+    15.0640349,
+    -23.5827631
+   ],
+   "plusCode": "797R3C78+JV9",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Achadinha",
+   "block": [
+    2400,
+    2499
+   ],
+   "near": null
+  },
+  {
+   "home": "Achadinha 25 01",
+   "machine": "TA-0034-2501-3",
+   "check": 3,
+   "zone": "TA-046",
+   "officialName": "Achadinha",
+   "municipality": "Tarrafal",
+   "island": "Santiago",
+   "plate": {
+    "big": "Achadinha 25 01",
+    "small": "Tarrafal · Santiago",
+    "machine": "TA-0034-2501-3"
+   },
+   "full": "Achadinha 25 01 · Tarrafal, Santiago",
+   "spokenPt": "Achadinha, vinte e cinco, zero um",
+   "spokenKea": "Achadinha, vinti i sinku, zeru un",
+   "entrance": [
+    15.2331439,
+    -23.706682
+   ],
+   "plusCode": "797R67MV+784",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Achadinha",
+   "block": [
+    2500,
+    2599
+   ],
+   "near": null
+  },
+  {
+   "home": "São Pedro 10 01",
+   "machine": "BR-1231-1001-3",
+   "check": 3,
+   "zone": "BR-019",
+   "officialName": "São Pedro",
+   "municipality": "Brava",
+   "island": "Brava",
+   "plate": {
+    "big": "São Pedro 10 01",
+    "small": "Brava · Brava",
+    "machine": "BR-1231-1001-3"
+   },
+   "full": "São Pedro 10 01 · Brava, Brava",
+   "spokenPt": "São Pedro, dez, zero um",
+   "spokenKea": "São Pedro, dés, zeru un",
+   "entrance": [
+    14.87095,
+    -24.7004279
+   ],
+   "plusCode": "796QV7CX+9RP",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "São Pedro",
+   "block": [
+    1000,
+    1499
+   ],
+   "near": null
+  },
+  {
+   "home": "São Pedro 15 01",
+   "machine": "PR-1231-1501-2",
+   "check": 2,
+   "zone": "PR-009",
+   "officialName": "São Pedro",
+   "municipality": "Praia",
+   "island": "Santiago",
+   "plate": {
+    "big": "São Pedro 15 01",
+    "small": "Praia · Santiago",
+    "machine": "PR-1231-1501-2"
+   },
+   "full": "São Pedro 15 01 · Praia, Santiago",
+   "spokenPt": "São Pedro, quinze, zero um",
+   "spokenKea": "São Pedro, kinzi, zeru un",
+   "entrance": [
+    14.9362266,
+    -23.5334223
+   ],
+   "plusCode": "796RWFP8+FJW",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "São Pedro",
+   "block": [
+    1500,
+    3999
+   ],
+   "near": null
+  },
+  {
+   "home": "São Pedro 40 01",
+   "machine": "SV-1231-4001-4",
+   "check": 4,
+   "zone": "SV-003",
+   "officialName": "São Pedro",
+   "municipality": "São Vicente",
+   "island": "São Vicente",
+   "plate": {
+    "big": "São Pedro 40 01",
+    "small": "São Vicente · São Vicente",
+    "machine": "SV-1231-4001-4"
+   },
+   "full": "São Pedro 40 01 · São Vicente, São Vicente",
+   "spokenPt": "São Pedro, quarenta, zero um",
+   "spokenKea": "São Pedro, korenta, zeru un",
+   "entrance": [
+    16.8224974,
+    -25.0592878
+   ],
+   "plusCode": "798PRWCR+X7W",
+   "use": "agricola",
+   "status": "provisional",
+   "name": "São Pedro",
+   "block": [
+    4000,
+    4899
+   ],
+   "near": null
+  },
+  {
+   "home": "Bela Vista 10 01",
+   "machine": "PR-0142-1001-6",
+   "check": 6,
+   "zone": "PR-007",
+   "officialName": "Bela Vista",
+   "municipality": "Praia",
+   "island": "Santiago",
+   "plate": {
+    "big": "Bela Vista 10 01",
+    "small": "Praia · Santiago",
+    "machine": "PR-0142-1001-6"
+   },
+   "full": "Bela Vista 10 01 · Praia, Santiago",
+   "spokenPt": "Bela Vista, dez, zero um",
+   "spokenKea": "Bela Vista, dés, zeru un",
+   "entrance": [
+    14.9198729,
+    -23.5270382
+   ],
+   "plusCode": "796RWF9F+W5W",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Bela Vista",
+   "block": [
+    1000,
+    5499
+   ],
+   "near": null
+  },
+  {
+   "home": "Bela Vista 55 02",
+   "machine": "SL-0142-5502-5",
+   "check": 5,
+   "zone": "SL-013",
+   "officialName": "Bela Vista",
+   "municipality": "Sal",
+   "island": "Sal",
+   "plate": {
+    "big": "Bela Vista 55 02",
+    "small": "Sal · Sal",
+    "machine": "SL-0142-5502-5"
+   },
+   "full": "Bela Vista 55 02 · Sal, Sal",
+   "spokenPt": "Bela Vista, cinquenta e cinco, zero dois",
+   "spokenKea": "Bela Vista, sinkuenta i sinku, zeru dos",
+   "entrance": [
+    16.7971213,
+    -22.95748
+   ],
+   "plusCode": "798VQ2WV+R2R",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "name": "Bela Vista",
+   "block": [
+    5500,
+    5599
+   ],
+   "near": null
+  },
+  {
+   "home": "Bela Vista 56 02",
+   "machine": "SV-0142-5602-6",
+   "check": 6,
+   "zone": "SV-038",
+   "officialName": "Bela Vista",
+   "municipality": "São Vicente",
+   "island": "São Vicente",
+   "plate": {
+    "big": "Bela Vista 56 02",
+    "small": "São Vicente · São Vicente",
+    "machine": "SV-0142-5602-6"
+   },
+   "full": "Bela Vista 56 02 · São Vicente, São Vicente",
+   "spokenPt": "Bela Vista, cinquenta e seis, zero dois",
+   "spokenKea": "Bela Vista, sinkuenta i seis, zeru dos",
+   "entrance": [
+    16.8788776,
+    -24.9806462
+   ],
+   "plusCode": "798QV2H9+HP5",
+   "use": "residencial",
+   "status": "provisional",
+   "name": "Bela Vista",
+   "block": [
+    5600,
+    5899
+   ],
+   "near": null
+  }
+ ],
+ "official": [
+  {
+   "home": "ASA 32 57",
+   "machine": "PR-0098-3257-0",
+   "check": 0,
+   "zone": "PR-063",
+   "officialName": "Achada Santo António",
+   "municipality": "Praia",
+   "island": "Santiago",
+   "plate": {
+    "big": "ASA 32 57",
+    "small": "Praia · Santiago",
+    "machine": "PR-0098-3257-0",
+    "official": "Achada Santo António"
+   },
+   "full": "ASA 32 57 · Achada Santo António · Praia, Santiago",
+   "spokenPt": "ASA, trinta e dois, cinquenta e sete",
+   "spokenKea": "ASA, trinta i dos, sinkuenta i seti",
+   "entrance": [
+    14.9099057,
+    -23.5216661
+   ],
+   "plusCode": "796RWF5H+X88",
+   "use": "residencial",
+   "status": "provisional",
+   "coverage": "official",
+   "officialAddress": "Rua Flor de Brava 14, Praia"
+  },
+  {
+   "home": "ASA 87 82",
+   "machine": "PR-0098-8782-7",
+   "check": 7,
+   "zone": "PR-063",
+   "officialName": "Achada Santo António",
+   "municipality": "Praia",
+   "island": "Santiago",
+   "plate": {
+    "big": "ASA 87 82",
+    "small": "Praia · Santiago",
+    "machine": "PR-0098-8782-7",
+    "official": "Achada Santo António"
+   },
+   "full": "ASA 87 82 · Achada Santo António · Praia, Santiago",
+   "spokenPt": "ASA, oitenta e sete, oitenta e dois",
+   "spokenKea": "ASA, oitenta i seti, oitenta i dos",
+   "entrance": [
+    14.907998,
+    -23.5175745
+   ],
+   "plusCode": "796RWF5J+5XV",
+   "use": "servicos.escritorio",
+   "status": "provisional",
+   "coverage": "official",
+   "officialAddress": "Rua de Espanha 1, Praia"
+  },
+  {
+   "home": "Cidadela 10 09",
+   "machine": "PR-0364-1009-1",
+   "check": 1,
+   "zone": "PR-002",
+   "officialName": "Cidadela",
+   "municipality": "Praia",
+   "island": "Santiago",
+   "plate": {
+    "big": "Cidadela 10 09",
+    "small": "Praia · Santiago",
+    "machine": "PR-0364-1009-1"
+   },
+   "full": "Cidadela 10 09 · Praia, Santiago",
+   "spokenPt": "Cidadela, dez, zero nove",
+   "spokenKea": "Cidadela, dés, zeru novi",
+   "entrance": [
+    14.9062632,
+    -23.541736
+   ],
+   "plusCode": "796RWF45+G82",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "coverage": "official",
+   "officialAddress": "Rua Barragem de Poilon Cabral 36, Praia"
+  },
+  {
+   "home": "Cidadela 10 10",
+   "machine": "PR-0364-1010-9",
+   "check": 9,
+   "zone": "PR-002",
+   "officialName": "Cidadela",
+   "municipality": "Praia",
+   "island": "Santiago",
+   "plate": {
+    "big": "Cidadela 10 10",
+    "small": "Praia · Santiago",
+    "machine": "PR-0364-1010-9"
+   },
+   "full": "Cidadela 10 10 · Praia, Santiago",
+   "spokenPt": "Cidadela, dez, dez",
+   "spokenKea": "Cidadela, dés, dés",
+   "entrance": [
+    14.9062041,
+    -23.5416513
+   ],
+   "plusCode": "796RWF45+F8Q",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "coverage": "official",
+   "officialAddress": "Rua Barragem de Poilon Cabral 34, Praia"
+  },
+  {
+   "home": "AGF 13 40",
+   "machine": "PR-0038-1340-1",
+   "check": 1,
+   "zone": "PR-056",
+   "officialName": "Achada Grande Frente",
+   "municipality": "Praia",
+   "island": "Santiago",
+   "plate": {
+    "big": "AGF 13 40",
+    "small": "Praia · Santiago",
+    "machine": "PR-0038-1340-1",
+    "official": "Achada Grande Frente"
+   },
+   "full": "AGF 13 40 · Achada Grande Frente · Praia, Santiago",
+   "spokenPt": "AGF, treze, quarenta",
+   "spokenKea": "AGF, trezi, korenta",
+   "entrance": [
+    14.9164532,
+    -23.5030345
+   ],
+   "plusCode": "796RWF8W+HQP",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "coverage": "official-pending"
+  },
+  {
+   "home": "AGF 13 42",
+   "machine": "PR-0038-1342-5",
+   "check": 5,
+   "zone": "PR-056",
+   "officialName": "Achada Grande Frente",
+   "municipality": "Praia",
+   "island": "Santiago",
+   "plate": {
+    "big": "AGF 13 42",
+    "small": "Praia · Santiago",
+    "machine": "PR-0038-1342-5",
+    "official": "Achada Grande Frente"
+   },
+   "full": "AGF 13 42 · Achada Grande Frente · Praia, Santiago",
+   "spokenPt": "AGF, treze, quarenta e dois",
+   "spokenKea": "AGF, trezi, korenta i dos",
+   "entrance": [
+    14.915853,
+    -23.5025649
+   ],
+   "plusCode": "796RWF8W+8XV",
+   "use": "residencial.moradia",
+   "status": "provisional",
+   "coverage": "official-pending"
+  }
+ ],
+ "insertion": {
+  "zone": "BR-034",
+  "box": [
+   -24.6926,
+   14.86251,
+   -24.6804,
+   14.87421
+  ],
+  "blocks": [
+   [
+    100,
+    199
+   ]
+  ],
+  "issued": [
+   [
+    102,
+    "BR-0143-102-1",
+    [
+     14.8663986,
+     -24.6884763
+    ]
+   ],
+   [
+    108,
+    "BR-0143-108-4",
+    [
+     14.8664987,
+     -24.6884074
+    ]
+   ],
+   [
+    113,
+    "BR-0143-113-0",
+    [
+     14.8665777,
+     -24.6883781
+    ]
+   ],
+   [
+    119,
+    "BR-0143-119-6",
+    [
+     14.866659,
+     -24.6882879
+    ]
+   ],
+   [
+    125,
+    "BR-0143-125-5",
+    [
+     14.8667702,
+     -24.6883011
+    ]
+   ],
+   [
+    130,
+    "BR-0143-130-8",
+    [
+     14.8668809,
+     -24.6880579
+    ]
+   ],
+   [
+    136,
+    "BR-0143-136-2",
+    [
+     14.8667801,
+     -24.6879028
+    ]
+   ],
+   [
+    141,
+    "BR-0143-141-6",
+    [
+     14.8669245,
+     -24.6879614
+    ]
+   ],
+   [
+    147,
+    "BR-0143-147-5",
+    [
+     14.8670291,
+     -24.6879324
+    ]
+   ],
+   [
+    152,
+    "BR-0143-152-8",
+    [
+     14.8669,
+     -24.6881807
+    ]
+   ],
+   [
+    158,
+    "BR-0143-158-9",
+    [
+     14.8670099,
+     -24.6882119
+    ]
+   ],
+   [
+    163,
+    "BR-0143-163-8",
+    [
+     14.8675633,
+     -24.6891669
+    ]
+   ],
+   [
+    169,
+    "BR-0143-169-5",
+    [
+     14.8715196,
+     -24.6895818
+    ]
+   ],
+   [
+    175,
+    "BR-0143-175-2",
+    [
+     14.8714621,
+     -24.6897942
+    ]
+   ],
+   [
+    180,
+    "BR-0143-180-6",
+    [
+     14.8704389,
+     -24.686658
+    ]
+   ],
+   [
+    186,
+    "BR-0143-186-5",
+    [
+     14.8709743,
+     -24.6895035
+    ]
+   ],
+   [
+    191,
+    "BR-0143-191-2",
+    [
+     14.8705105,
+     -24.6864935
+    ]
+   ],
+   [
+    197,
+    "BR-0143-197-3",
+    [
+     14.8652062,
+     -24.6832029
+    ]
+   ]
+  ],
+  "point": [
+   14.8664528,
+   -24.6885324
+  ],
+  "number": 110,
+  "home": "Belem 110",
+  "machine": "BR-0143-110-1",
+  "rule": "the middle free number between the point's Hilbert neighbours in the zone's block (SPEC.md §7.4)"
+ }
+}

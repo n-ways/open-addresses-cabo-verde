@@ -1,0 +1,27 @@
+% Figure: zones by number of home codes, on logarithmic bins, split by the
+% length of their name's number range. Data: data/zone-sizes.dat.
+\documentclass[tikz,border=2mm]{standalone}
+\input{_preamble.tex}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[width=13cm, height=6.5cm, ymin=0, ymax=600, area legend,
+  xmin=0, xmax=15, clip=false,
+  xtick={0,4,8,12}, xticklabels={1,10,100,1\,000},
+  minor xtick={1.204,1.909,2.796,3.380,5.204,5.909,6.796,7.380,9.204,9.909,10.796,11.380,13.204,13.909},
+  xlabel={\lbl{Home codes in the zone (logarithmic scale)}{Códigos de casa na zona (escala logarítmica)}{Codes de maison dans la zone (échelle logarithmique)}}, ylabel={\lbl{Zones}{Zonas}{Zones}},
+  axis lines*=left, ymajorgrids, grid style={gray!25},
+  legend style={draw=none, at={(0.98,0.98)}, anchor=north east, font=\footnotesize, cells={anchor=west}},
+  legend cell align=left]
+\addplot[ybar interval, fill=ink!85, draw=white] table[x expr={4*log10(\thisrow{lo})}, y expr={\thisrow{three}+\thisrow{four}}] {data/zone-sizes.dat};
+\addlegendentry{\lbl{name range with four digits}{série do nome com quatro algarismos}{série du nom à quatre chiffres}}
+\addplot[ybar interval, fill=ink!30, draw=white] table[x expr={4*log10(\thisrow{lo})}, y=three] {data/zone-sizes.dat};
+\addlegendentry{\lbl{name range with three digits}{série do nome com três algarismos}{série du nom à trois chiffres}}
+\draw[flagred, dashed, thick] (axis cs:{4*log10(233)},0) -- (axis cs:{4*log10(233)},300)
+  node[above right, xshift=-6pt, font=\scriptsize, align=left, text=flagred] {\lbl{233: largest zone\\that fits three digits alone}{233: maior zona que cabe\\sozinha em três algarismos}{233 : plus grande zone\\tenant seule en trois chiffres}};
+\draw[flagred, dashed, thick] (axis cs:{4*log10(2933)},0) -- (axis cs:{4*log10(2933)},250)
+  node[below left, xshift=-1pt, font=\scriptsize, align=right, text=flagred] {\lbl{2\,933: largest\\for four digits}{2\,933: maior\\com quatro algarismos}{2\,933 : plus grande\\à quatre chiffres}};
+\draw[->, gray] (axis cs:{4*log10(2855)},55) node[above left, font=\scriptsize, text=black, align=center] {ASA\\2\,855} -- (axis cs:{4*log10(2855)},8);
+\draw[->, gray] (axis cs:{4*log10(50)},560) node[above, font=\scriptsize, text=black] {\lbl{median 50}{mediana 50}{médiane 50}} -- (axis cs:{4*log10(50)},500);
+\end{axis}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,17 @@
+% Cabo Verde: the national flag's five horizontal stripes in order, blue,
+% white, red, white, blue, in the flag's proportions 6 : 1 : 1 : 1 : 3.
+\definecolor{flagA}{HTML}{003893}
+\definecolor{flagB}{HTML}{FFFFFF}
+\definecolor{flagC}{HTML}{CF2027}
+\definecolor{flagD}{HTML}{FFFFFF}
+\definecolor{flagE}{HTML}{003893}
+\definecolor{paperink}{HTML}{003893}
+\definecolor{paperaccent}{HTML}{CF2027}
+\newcommand{\flagband}{\begin{tikzpicture}[remember picture,overlay]
+  \fill[flagA] (0,0) rectangle (\paperwidth,-3.6mm);
+  \fill[flagB] (0,-3.6mm) rectangle (\paperwidth,-4.2mm);
+  \fill[flagC] (0,-4.2mm) rectangle (\paperwidth,-4.8mm);
+  \fill[flagD] (0,-4.8mm) rectangle (\paperwidth,-5.4mm);
+  \fill[flagE] (0,-5.4mm) rectangle (\paperwidth,-7.2mm);
+\end{tikzpicture}}
+\newcommand{\papershort}{\iflanguage{portuguese}{Endereçamento N-Ways para Cabo Verde}{\iflanguage{french}{Adressage N-Ways pour le Cabo Verde}{N-Ways Addressing for Cabo Verde}}}

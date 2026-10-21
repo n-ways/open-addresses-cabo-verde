@@ -1,0 +1,100 @@
+{
+  "country": "CV",
+  "name": "Cabo Verde",
+  "languages": [
+    "pt"
+  ],
+  "alphabet": "23456789CFGHJMPQRVWX",
+  "cellMetres": 3.0,
+  "buildingHeadroom": 2.0,
+  "regionLevel": "first-level division (ISO 3166-2), as in the N-Ways regions table",
+  "regions": 22,
+  "buildings": 192272,
+  "spotCodeLengths": [
+    5,
+    6,
+    7
+  ],
+  "buildingCodeLengths": [
+    4
+  ],
+  "regionsToSubdivide": [],
+  "spoken": {
+    "pt": {
+      "2": "dois",
+      "3": "três",
+      "4": "quatro",
+      "5": "cinco",
+      "6": "seis",
+      "7": "sete",
+      "8": "oito",
+      "9": "nove",
+      "C": "cê",
+      "F": "efe",
+      "G": "gê",
+      "H": "agá",
+      "J": "jota",
+      "M": "eme",
+      "P": "pê",
+      "Q": "quê",
+      "R": "erre",
+      "V": "vê",
+      "W": "dáblio",
+      "X": "xis"
+    }
+  },
+  "existing": {
+    "system": "Correios de Cabo Verde 4-digit postcodes written before the locality, plus P.O. boxes ('C.P.' / 'Caixa Postal'), e.g. 'Rua 5 de Julho 138/Platô, C.P. 38, 7600 PRAIA, SANTIAGO, CABO VERDE'. Codes are area-level (town or zone), not door-level: Praia 7600-7602, Mindelo 2110, Espargos 4110, Santa Maria 4111, Sal Rei 5110, São Filipe 8220.",
+    "status": "Area postcodes exist but are mostly used for mail and forms. People give directions by zone (bairro), street and landmark; many streets have names and some doors have numbers in city centres (Platô, Mindelo). No national door-level digital address system was found; a 'Morada Única' national address register could not be confirmed, and correios.cv was unreachable on 2026-10-17, so no public postcode lookup was found.",
+    "openData": "No open national address or postcode dataset found. OpenStreetMap addresses in Cabo Verde carry addr:postcode values (as Nominatim shows), so OSM can supply the area code (ODbL, attribution required). The Overpass count of addr:housenumber could not be run.",
+    "openAlgorithm": "Open Location Code (Plus Codes) is open (Apache-2.0) and works offline.",
+    "terms": "No licence terms published for Correios postcodes.",
+    "recommendation": "Use coordinates plus Plus Codes (nways.ng/p/<code>) as the shareable address, described by island, municipality, zone and landmark (e.g. 'Achada Santo António, Praia · perto da Caixa'). Show the 4-digit postcode as area context only (from OSM), and do not treat it as a location. Island matters: always show which island a place is on, because the same names recur across islands (Ribeira Grande, Tarrafal, Santa Catarina, São Filipe vs São Filipe in Praia).",
+    "findings": [
+      {
+        "name": "Correios de Cabo Verde postcode",
+        "state": "in use for mail (UPU sheet 2014)",
+        "format": "NNNN + LOCALITY, e.g. '7600 PRAIA'",
+        "openData": "none found",
+        "inOSM": true,
+        "level": "area"
+      },
+      {
+        "name": "P.O. boxes (Caixa Postal)",
+        "state": "in use",
+        "format": "'C.P. 38' / 'Caixa Postal Nº 237A'",
+        "openData": "none",
+        "inOSM": false,
+        "level": "box"
+      }
+    ],
+    "lastChecked": "2026-10-17",
+    "sources": [
+      {
+        "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/cpvFr.pdf",
+        "kind": "official",
+        "note": "UPU addressing sheet for Cabo Verde (04/2014): 4-digit postcode left of the locality name, e.g. '7600 PRAIA'; P.O. box 'C.P. 38'; island name on its own line"
+      },
+      {
+        "url": "https://nominatim.openstreetmap.org/",
+        "kind": "osm",
+        "note": "Nominatim search 2026-10-17 (Overpass API was unreachable): OSM addresses carry 4-digit postcodes, e.g. Praia 7600/7601/7602, Mindelo 2110, Espargos 4110, Santa Maria 4111, Sal Rei 5110, São Filipe 8220"
+      },
+      {
+        "url": "https://github.com/google/open-location-code",
+        "kind": "other",
+        "note": "Open Location Code (Plus Codes), Apache-2.0"
+      },
+      {
+        "url": "https://provedordejustica.cv/contactos/",
+        "kind": "official",
+        "note": "Address example 'Av. Cidade de Lisboa, Praia, Caixa Postal Nº 237A'"
+      }
+    ]
+  },
+  "sources": {
+    "regions": "N-Ways regions (OpenStreetMap administrative boundaries, ODbL)",
+    "buildings": "OpenStreetMap (ODbL); Google Open Buildings (CC BY 4.0) and Microsoft building footprints (ODbL) via Overture Maps",
+    "existing": "N-Ways country research (October 2026)"
+  }
+}

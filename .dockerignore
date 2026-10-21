@@ -1,0 +1,13 @@
+# Only the engine, the registry and the server go into the image.
+.git
+docs
+model
+tools
+doors
+**/__pycache__
+**/*.pyc
+**/.DS_Store
+server/testdata
+*.sqlite
+*.sqlite-*
+data

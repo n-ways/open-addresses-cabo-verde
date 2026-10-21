@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Databases made by the server (python3 -m server import) and its scratch files
+/data/
+server/data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite.import
+*.db
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Editors and systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Build output
+*.log
+*.aux
+*.out
+*.toc
+.ruff_cache/
+docs/paper/*.png
+docs/*.png

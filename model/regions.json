@@ -1,0 +1,552 @@
+[
+  {
+    "key": "BR",
+    "iso": "CV-BR",
+    "name": "Brava",
+    "nameFr": "Brava",
+    "nameLocal": "Brava",
+    "wikidata": "Q2571624",
+    "areaKm2": 65.5,
+    "box": [
+      -24.74902,
+      14.80322,
+      -24.62837,
+      14.98413
+    ],
+    "buildings": {
+      "openstreetmap": 1900,
+      "ml": 1316,
+      "total": 3216
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "BV",
+    "iso": "CV-BV",
+    "name": "Boa Vista",
+    "nameFr": "Boa Vista",
+    "nameLocal": "Boa Vista",
+    "wikidata": "Q2721025",
+    "areaKm2": 632.3,
+    "box": [
+      -22.96598,
+      15.96783,
+      -22.66734,
+      16.23088
+    ],
+    "buildings": {
+      "openstreetmap": 1771,
+      "ml": 3557,
+      "total": 5328
+    },
+    "codeLength": {
+      "spot": 7,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "CA",
+    "iso": "CV-CA",
+    "name": "Santa Catarina",
+    "nameFr": "Santa Catarina",
+    "nameLocal": "Santa Catarina",
+    "wikidata": "Q494882",
+    "areaKm2": 239.9,
+    "box": [
+      -23.78162,
+      14.97344,
+      -23.61367,
+      15.20468
+    ],
+    "buildings": {
+      "openstreetmap": 7989,
+      "ml": 10538,
+      "total": 18527
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "CF",
+    "iso": "CV-CF",
+    "name": "Santa Catarina do Fogo",
+    "nameFr": "Santa Catarina do Fogo",
+    "nameLocal": "Santa Catarina do Fogo",
+    "wikidata": "Q2608046",
+    "areaKm2": 150.4,
+    "box": [
+      -24.39539,
+      14.81225,
+      -24.27789,
+      14.99216
+    ],
+    "buildings": {
+      "openstreetmap": 1578,
+      "ml": 3219,
+      "total": 4797
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "CR",
+    "iso": "CV-CR",
+    "name": "Santa Cruz",
+    "nameFr": "Santa Cruz",
+    "nameLocal": "Santa Cruz",
+    "wikidata": "Q497472",
+    "areaKm2": 111.0,
+    "box": [
+      -23.6248,
+      15.04682,
+      -23.48568,
+      15.17858
+    ],
+    "buildings": {
+      "openstreetmap": 4662,
+      "ml": 5719,
+      "total": 10381
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "MA",
+    "iso": "CV-MA",
+    "name": "Maio",
+    "nameFr": "Maio",
+    "nameLocal": "Maio",
+    "wikidata": "Q2551133",
+    "areaKm2": 272.7,
+    "box": [
+      -23.23429,
+      15.11664,
+      -23.08773,
+      15.33781
+    ],
+    "buildings": {
+      "openstreetmap": 1555,
+      "ml": 894,
+      "total": 2449
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "MO",
+    "iso": "CV-MO",
+    "name": "Mosteiros",
+    "nameFr": "Mosteiros",
+    "nameLocal": "Mosteiros",
+    "wikidata": "Q516835",
+    "areaKm2": 83.6,
+    "box": [
+      -24.40286,
+      14.94831,
+      -24.28646,
+      15.05196
+    ],
+    "buildings": {
+      "openstreetmap": 1784,
+      "ml": 3527,
+      "total": 5311
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "PA",
+    "iso": "CV-PA",
+    "name": "Paul",
+    "nameFr": "Paul",
+    "nameLocal": "Paul",
+    "wikidata": "Q1475374",
+    "areaKm2": 50.4,
+    "box": [
+      -25.06777,
+      17.06684,
+      -24.96302,
+      17.1632
+    ],
+    "buildings": {
+      "openstreetmap": 1770,
+      "ml": 962,
+      "total": 2732
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "PN",
+    "iso": "CV-PN",
+    "name": "Porto Novo",
+    "nameFr": "Porto Novo",
+    "nameLocal": "Porto Novo",
+    "wikidata": "Q1552897",
+    "areaKm2": 559.1,
+    "box": [
+      -25.36095,
+      16.90573,
+      -24.98191,
+      17.12916
+    ],
+    "buildings": {
+      "openstreetmap": 4627,
+      "ml": 5133,
+      "total": 9760
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "PR",
+    "iso": "CV-PR",
+    "name": "Praia",
+    "nameFr": "Praia",
+    "nameLocal": "Praia",
+    "wikidata": "Q497019",
+    "areaKm2": 97.8,
+    "box": [
+      -23.58853,
+      14.89985,
+      -23.45411,
+      14.99634
+    ],
+    "buildings": {
+      "openstreetmap": 19375,
+      "ml": 13216,
+      "total": 32591
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "RB",
+    "iso": "CV-RB",
+    "name": "Ribeira Brava",
+    "nameFr": "Ribeira Brava",
+    "nameLocal": "Ribeira Brava",
+    "wikidata": "Q747221",
+    "areaKm2": 225.0,
+    "box": [
+      -24.35854,
+      16.47932,
+      -24.008,
+      16.68169
+    ],
+    "buildings": {
+      "openstreetmap": 3063,
+      "ml": 2223,
+      "total": 5286
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "RG",
+    "iso": "CV-RG",
+    "name": "Ribeira Grande",
+    "nameFr": "Ribeira Grande",
+    "nameLocal": "Ribeira Grande",
+    "wikidata": "Q1355642",
+    "areaKm2": 174.8,
+    "box": [
+      -25.23157,
+      17.07291,
+      -25.01595,
+      17.20531
+    ],
+    "buildings": {
+      "openstreetmap": 5571,
+      "ml": 4165,
+      "total": 9736
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "RS",
+    "iso": "CV-RS",
+    "name": "Ribeira Grande de Santiago",
+    "nameFr": "Ribeira Grande de Santiago",
+    "nameLocal": "Ribeira Grande de Santiago",
+    "wikidata": "Q499620",
+    "areaKm2": 143.0,
+    "box": [
+      -23.70786,
+      14.90651,
+      -23.55645,
+      15.06296
+    ],
+    "buildings": {
+      "openstreetmap": 1710,
+      "ml": 2716,
+      "total": 4426
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "SD",
+    "iso": "CV-SD",
+    "name": "São Domingos",
+    "nameFr": "São Domingos",
+    "nameLocal": "São Domingos",
+    "wikidata": "Q499009",
+    "areaKm2": 148.6,
+    "box": [
+      -23.62534,
+      14.97278,
+      -23.42835,
+      15.08813
+    ],
+    "buildings": {
+      "openstreetmap": 3711,
+      "ml": 4871,
+      "total": 8582
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "SF",
+    "iso": "CV-SF",
+    "name": "São Filipe",
+    "nameFr": "São Filipe",
+    "nameLocal": "São Filipe",
+    "wikidata": "Q6430079",
+    "areaKm2": 236.6,
+    "box": [
+      -24.50453,
+      14.81388,
+      -24.36134,
+      15.02879
+    ],
+    "buildings": {
+      "openstreetmap": 4996,
+      "ml": 12080,
+      "total": 17076
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "SL",
+    "iso": "CV-SL",
+    "name": "Sal",
+    "nameFr": "Sal",
+    "nameLocal": "Sal",
+    "wikidata": "Q2721003",
+    "areaKm2": 220.2,
+    "box": [
+      -22.99434,
+      16.58499,
+      -22.87241,
+      16.85572
+    ],
+    "buildings": {
+      "openstreetmap": 4249,
+      "ml": 3412,
+      "total": 7661
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "SM",
+    "iso": "CV-SM",
+    "name": "São Miguel",
+    "nameFr": "São Miguel",
+    "nameLocal": "São Miguel",
+    "wikidata": "Q494874",
+    "areaKm2": 77.0,
+    "box": [
+      -23.69037,
+      15.1316,
+      -23.5819,
+      15.24839
+    ],
+    "buildings": {
+      "openstreetmap": 3405,
+      "ml": 4049,
+      "total": 7454
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "SO",
+    "iso": "CV-SO",
+    "name": "São Lourenço dos Órgãos",
+    "nameFr": "São Lourenço dos Órgãos",
+    "nameLocal": "São Lourenço dos Órgãos",
+    "wikidata": "Q494726",
+    "areaKm2": 38.3,
+    "box": [
+      -23.6367,
+      15.03652,
+      -23.55471,
+      15.10383
+    ],
+    "buildings": {
+      "openstreetmap": 1015,
+      "ml": 2558,
+      "total": 3573
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "SS",
+    "iso": "CV-SS",
+    "name": "São Salvador do Mundo",
+    "nameFr": "São Salvador do Mundo",
+    "nameLocal": "São Salvador do Mundo",
+    "wikidata": "Q494877",
+    "areaKm2": 25.6,
+    "box": [
+      -23.65686,
+      15.05809,
+      -23.5924,
+      15.11843
+    ],
+    "buildings": {
+      "openstreetmap": 1022,
+      "ml": 3190,
+      "total": 4212
+    },
+    "codeLength": {
+      "spot": 5,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "SV",
+    "iso": "CV-SV",
+    "name": "São Vicente",
+    "nameFr": "São Vicente",
+    "nameLocal": "São Vicente",
+    "wikidata": "Q648842",
+    "areaKm2": 224.9,
+    "box": [
+      -25.08599,
+      16.7766,
+      -24.85869,
+      16.92235
+    ],
+    "buildings": {
+      "openstreetmap": 9303,
+      "ml": 9012,
+      "total": 18315
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "TA",
+    "iso": "CV-TA",
+    "name": "Tarrafal",
+    "nameFr": "Tarrafal",
+    "nameLocal": "Tarrafal",
+    "wikidata": "Q499598",
+    "areaKm2": 120.0,
+    "box": [
+      -23.7743,
+      15.19272,
+      -23.65593,
+      15.34018
+    ],
+    "buildings": {
+      "openstreetmap": 4672,
+      "ml": 3778,
+      "total": 8450
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "TS",
+    "iso": "CV-TS",
+    "name": "Tarrafal de São Nicolau",
+    "nameFr": "Tarrafal de São Nicolau",
+    "nameLocal": "Tarrafal de São Nicolau",
+    "wikidata": "Q1895853",
+    "areaKm2": 162.5,
+    "box": [
+      -24.79104,
+      16.47918,
+      -24.30064,
+      16.80616
+    ],
+    "buildings": {
+      "openstreetmap": 1669,
+      "ml": 740,
+      "total": 2409
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  }
+]

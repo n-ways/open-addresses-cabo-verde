@@ -1,0 +1,1361 @@
+name_key,name_index,plate_name,official_names,digits,blocks,reserve,aliases,needs_council_choice
+abobada,1,Abóbada,Abóbada,3,RG-103:100-299,300-999,,false
+abobora,2,Abóbora,Chão de Abóbora,3,CR-060:100-199,200-999,Chão de Abóbora,false
+aboboreiro,3,Aboboreiro,Aboboreiro,3,SS-029:100-399,400-999,,false
+acacia,4,Acacia,Acacia,3,SL-041:100-199,200-999,,false
+achada,5,Achada,Achada,3,SF-053:100-399,400-999,,false
+achada abaixo,6,Achada Abaixo,Achada Abaixo,3,CR-045:100-499,500-999,,true
+achada antonio,7,Achada António,Achada António,3,SF-129:100-299,300-999,,true
+achada baixo,8,Achada Baixo,Achada Baixo,3,SD-084:100-299,300-999,,false
+achada costa,9,Achada Costa,Achada Costa,3,SO-047:100-299,300-999,,false
+achada cruz,10,Achada Cruz,Achada Cruz,3,RS-009:100-199,200-999,,false
+achada fora,11,Achada de Fora,Achada de Fora|Achada Fora,3,CA-048:100-299 SF-100:300-699,700-999,Achada Fora,true
+achada furna,12,Achada Furna,Achada Furna,4,CF-007:1000-2099,2100-9999,,false
+achada grande,13,Achada Grande,Achada Grande,4,MO-027:1000-1999,2000-9999,,true
+achada grande tras,14,Achada Grande Trás,Achada Grande Trás,4,PR-055:1000-5999,6000-9999,AGT,true
+achada lagoa,15,Achada Lagoa,Achada Lagoa,3,TA-065:100-299,300-999,,false
+achada laje,16,Achada Laje,Achada Laje,4,CR-040:1000-1799,1800-9999,,false
+achada lama,17,Achada Lama,Achada Lama,3,SD-081:100-599,600-999,,false
+achada lazao,18,Achada Lazão,Achada Lazão,3,CA-110:100-299,300-999,,false
+achada leite,19,Achada Leite,Achada Leite,3,CA-010:100-399,400-999,,false
+achada limpo,20,Achada Limpo,Achada Limpo,4,PR-040:1000-1999,2000-9999,,false
+achada loura,21,Achada Loura,Achada Loura,3,SD-037:100-299,300-999,,false
+achada louro,22,Achada Louro,Achada Louro,3,SD-035:100-599,600-999,,false
+achada mato,23,Achada Mato,Achada Mato,4,PR-051:1000-2699,2700-9999,,false
+achada meio,24,Achada do Meio,Achada do Meio,3,TA-006:100-399,400-999,,true
+achada monte,25,Achada Monte,Achada Monte,4,SM-052:1000-1999,2000-9999,,false
+achada pelado,26,Achada Pelado,Achada Pelado,4,CA-052:1000-2099,2100-9999,,true
+achada poio,27,Achada Poio,Achada Poio,3,CF-001:100-299,300-999,,false
+achada ponta,28,Achada Ponta,Achada Ponta,3,CR-079:100-699,700-999,,false
+achada queimada,29,Achada Queimada,Achada Queimada,3,SM-025:100-299,300-999,,true
+achada rama,30,Achada Rama,Achada Rama,3,CF-037:100-199,200-999,,false
+achada sabe,31,Achada Sabe,Achada Sabe,3,RS-035:100-199,200-999,,false
+achada tomaz,32,Achada Tomaz,Achada Tomaz,4,TA-024:1000-2399,2400-9999,,false
+achada tossa,33,Achada Tossa,Achada Tossa,3,CA-106:100-399,400-999,,false
+achadinha,34,Achadinha,Achadinha,4,CA-028:1000-1199 CA-144:1200-1299 CA-194:1300-1399 PR-048:1400-2099 RS-031:2100-2299 SD-092:2300-2399 SO-058:2400-2499 TA-046:2500-2599,2600-9999,,false
+adhadinha,35,Adhadinha,Adhadinha,3,CA-093:100-199,200-999,,false
+afonso gil,36,Afonso Gil,Afonso Gil,4,SF-056:1000-2099,2100-9999,,false
+africa,37,África,África 70,3,SL-023:100-699,700-999,África 70|África Setenta,true
+agf,38,AGF,Achada Grande Frente,4,PR-056:1000-4099,4100-9999,Achada Grande Frente,false
+agrioes,39,Agriões,Agriões,3,RG-162:100-299,300-999,,false
+agua,40,Água,Cutelo de Água|Ribeirão de Água|Água Amargosa|Chã de Pedra de Água|Figueira de Água,4,CR-022:1000-1199 PA-028:1200-1299 PN-041:1300-1399 PN-139:1400-1599 PR-020:1600-2499 RB-021:2500-2799,2800-9999,Cutelo de Água|Ribeirão de Água|Água Amargosa|Chã de Pedra de Água|Figueira de Água,true
+agua boi,41,Água Boi,Água Boi,3,SM-063:100-199,200-999,,false
+agua doce,42,Água Doce,Água Doce,3,CA-021:100-199 MA-011:200-499,500-999,,false
+agua funda,43,Água Funda,Achada da Água Funda,3,PR-039:100-799,800-999,Achada da Água Funda,false
+agua gato,44,Água de Gato,Água de Gato,3,SD-044:100-399,400-999,,false
+agua gatos,45,Agua Gatos,Agua Gatos,3,SD-045:100-299,300-999,,false
+agua nascida,46,Água Nascida,Água Nascida,3,RG-117:100-399,400-999,,false
+agua panela,47,Água Panela,Água Panela,3,SD-007:100-199,200-999,,false
+aguada,48,Aguada,Aguada|Cruz de Aguada|Achada da Aguada,4,CA-025:1000-1299 CR-025:1300-1599 CR-038:1600-1699 CR-113:1700-1899 PR-035:1900-2099 RG-165:2100-2399 SF-133:2400-2499,2500-9999,Cruz de Aguada|Achada da Aguada,true
+aguadinha,49,Aguadinha,Aguadinha,3,CA-029:100-199 SM-007:200-499,500-999,,false
+aguas belas,50,Águas Belas,Águas Belas,3,CA-011:100-199,200-999,,false
+agudo,51,Agudo,Pico Agudo Canto Fajã,3,RB-036:100-599,600-999,Pico Agudo Canto Fajã,true
+agulha,52,Agulha,Pesqueiro de Agulha,3,MO-032:100-399,400-999,Pesqueiro de Agulha,true
+alcatraz,53,Alcatraz,Alcatraz,3,MA-022:100-299,300-999,,false
+aldeia,54,Aldeia,Aldeia,3,MO-006:100-399,400-999,,false
+aldeias,55,Aldeias,Figueirinha das Aldeias,3,PN-034:100-299,300-999,Figueirinha das Aldeias,true
+alecrim,56,Alecrim,Monte Alecrim|Chã de  Alecrim|Entre Chã de Alecrim e Madeiralzinho|Chã de Alecrim/Alto Doca,4,PN-027:1000-1099 PN-103:1100-1199 SV-009:1200-1599 SV-011:1600-2799,2800-9999,Monte Alecrim|Chã de  Alecrim|Entre Chã de Alecrim e Madeiralzinho|Chã de Alecrim/Alto Doca,true
+alegrete,57,Alegrete,Alegrete,3,SS-036:100-299,300-999,,false
+aleixo gomes,58,Aleixo Gomes,Aleixo Gomes,3,SF-076:100-799,800-999,,false
+alexandre,59,Alexandre,Chã de Alexandre,3,PN-081:100-399,400-999,Chã de Alexandre,false
+alfarrobeira,60,Alfarrobeira,Alfarrobeira,3,SF-006:100-299,300-999,,false
+algodoeiro,61,Algodoeiro,Algodoeiro,3,SL-039:100-299,300-999,,false
+almasso,62,Almasso,Ribeirão Almasso,3,CR-086:100-399,400-999,Ribeirão Almasso,false
+almeida,63,Almeida,Lem de Almeida,3,SM-094:100-299,300-999,Lem de Almeida,false
+almeirim,64,Almeirim,Almeirim,3,RG-114:100-299,300-999,,false
+alta mira,65,Alta Mira,Alta Mira de Engenho,3,CA-189:100-199,200-999,Alta Mira de Engenho,true
+alto cruz,66,Alto Cruz,Alto Cruz,3,SV-023:100-399,400-999,,false
+alto demba,67,Alto Demba,Alto Demba,3,CA-016:100-199,200-999,,false
+alto joao,68,Alto João Dô,Alto João Dô,3,CA-097:100-799,800-999,,false
+alto mira,69,Alto Mira,Alto Mira,3,SV-021:100-499,500-999,,false
+alto po,70,Alto do Po,Alto do Po,3,SF-117:100-299,300-999,,false
+alto saco,71,Alto Saco,Alto Saco,3,TS-018:100-399,400-999,,false
+alto santo antonio,72,Alto Santo António,Alto Santo António,3,SV-020:100-299,300-999,,true
+alto sao joao,73,Alto São João,Alto São João,4,SV-041:1000-1999,2000-9999,,true
+alumeiro,74,Alumeiro,Alumeiro,3,RG-018:100-399,400-999,,false
+alves,75,Alves,Pascoal Alves,3,PN-038:100-299,300-999,Pascoal Alves,true
+alvies,76,Alvies,Agostinho Alvies,3,PR-028:100-599,600-999,Agostinho Alvies,true
+alvito,77,Alvito,Alvito,3,SF-046:100-399,400-999,,false
+amador,78,Amador,Amador,3,BV-044:100-399,400-999,,false
+amarelo,79,Amarelo,Amarelo Pintado,3,TS-021:100-599,600-999,Amarelo Pintado,true
+amargosa,80,Amargosa,Amargosa,3,SF-022:100-299,300-999,,false
+ambas,81,Ambas,Boca de Ambas Ribeiras,3,RG-047:100-299,300-999,Boca de Ambas Ribeiras,true
+ameixoeira,82,Ameixoeira,Ameixoeira,3,SF-064:100-299,300-999,,false
+amora,83,Amora,Chão de Amora,3,SS-002:100-199,200-999,Chão de Amora,false
+amparada,84,Amparada,Amparada,3,CA-054:100-199,200-999,,false
+angra,85,Angra,Angra,3,TA-027:100-199,200-999,,false
+anguia,86,Anguia,Anguia,3,CA-179:100-399,400-999,,false
+antigo quartel colonial,87,Antigo Quartel Colonial,Antigo Quartel Colonial,3,PN-128:100-399,400-999,,true
+antonio gomes,88,António Gomes,António Gomes,3,SV-074:100-299,300-999,,true
+apertado,89,Apertado,Apertado,3,SM-006:100-399 SM-042:400-499,500-999,,false
+aqua,90,Áqua,Lombo de Áqua dos Bois,3,RG-147:100-199,200-999,Lombo de Áqua dos Bois,true
+arco,91,Arco,Arco,3,SF-102:100-199,200-999,,false
+areia,92,Areia,Ribeirão de Areia|Ribeirão Areia,3,CA-050:100-299 SD-008:300-499,500-999,Ribeirão de Areia|Ribeirão Areia,false
+areia branca,93,Areia Branca,Ribeirinha de Areia Branca,4,SV-030:1000-1799,1800-9999,Ribeirinha de Areia Branca,false
+armazem,94,Armazém,Armazém|Armazem,3,PN-123:100-499 SO-060:500-699,700-999,Armazem,false
+arraial,95,Arraial,Arraial,3,RS-015:100-399,400-999,,false
+arribada,96,Arribada,Arribada,3,CA-087:100-299,300-999,,false
+arroz,97,Arroz,Lajedo de Chã de Arroz,3,BV-054:100-199,200-999,Lajedo de Chã de Arroz,true
+asa,98,ASA,Achada Santo António,4,PR-063:1000-9599,9600-9999,Achada Santo António|Achada Sto António,false
+asno,99,Asno,Curral de Asno|Ribeirão Asno,3,CA-114:100-299 CA-127:300-399,400-999,Curral de Asno|Ribeirão Asno,false
+assomada,100,Assomada,Assomada,4,CA-071:1000-1599 SO-052:1600-1799,1800-9999,,false
+atalaia,101,Atalaia,Atalaia,3,MO-004:100-799,800-999,,false
+aterragem,102,Aterragem,Pista de Aterragem,3,SF-025:100-199,200-999,Pista de Aterragem,true
+augusto,103,Augusto,Pontinha de Augusto,3,PN-100:100-199,200-999,Pontinha de Augusto,false
+aureleano,104,Aureleano,Casa de Aureleano,3,PN-133:100-299,300-999,Casa de Aureleano,false
+aviacao,105,Aviaçāo,Campo de Aviaçāo,3,MA-001:100-199,200-999,Campo de Aviaçāo,true
+babosa,106,Babosa,Babosa,3,SS-021:100-299,300-999,,false
+babosa baixa,107,Babosa Baixa,Babosa Baixa,3,SS-023:100-199,200-999,,false
+bacio,108,Bacio,Bacio,3,SM-077:100-199,200-999,,false
+baguincho,109,Baguincho,Baguincho|Morrinho Baguincho,3,BV-016:100-699 BV-033:700-799,800-999,Morrinho Baguincho,false
+baia i,110,Baia I,Norte da Baia I,3,SV-075:100-199,200-999,Norte da Baia I,false
+baia ii,111,Baia II,Norte da Baia II,3,SV-065:100-299,300-999,Norte da Baia II,false
+bairro,112,Bairro,Bairro Branco,3,SV-060:100-199,200-999,Bairro Branco,true
+bairro alto,113,Bairro Alto,Bairro Alto,4,PA-031:1000-1799,1800-9999,,false
+bairro novo,114,Bairro Novo,Bairro Novo II|Bairro Novo I & II|Bairro Novo I,4,SL-015:1000-2299 SL-024:2300-2799 SL-025:2800-3099,3100-9999,Bairro Novo II|Bairro Novo I & II|Bairro Novo I,true
+baixo rocha,115,Baixo de Rocha,Baixo de Rocha,3,BV-039:100-299,300-999,,true
+baleeira,116,Baleeira,Chão da Baleeira,3,RS-033:100-199,200-999,Chão da Baleeira,false
+baleia,117,Baleia,Baleia|Achada Baleia|Casa de Baleia,4,BR-036:1000-1199 SD-079:1200-1699 SV-001:1700-1799,1800-9999,Achada Baleia|Casa de Baleia,false
+baluarte,118,Baluarte,Baluarte|Baluarte de Baixo|Baluarte de Cima,4,CF-028:1000-1099 CF-029:1100-1799 CF-032:1800-1999 SF-109:2000-2299,2300-9999,Baluarte de Baixo|Baluarte de Cima,true
+banana,119,Banana,Chão de Banana|Banana,3,CA-121:100-199 SD-058:200-399 SL-043:400-499 SO-046:500-599 SS-006:600-699,700-999,Chão de Banana,false
+banda riba,120,Banda Riba,Banda Riba,3,MA-030:100-299,300-999,,false
+bandeira,121,Bandeira,Ribeirão Bandeira,3,TA-011:100-299,300-999,Ribeirão Bandeira,false
+bangaeira,122,Bangaeira,Bangaeira,3,CF-013:100-699,700-999,,false
+barata,123,Barata,Chã de Barata,3,RB-045:100-299,300-999,Chã de Barata,false
+barbinha,124,Barbinha,Barbinha,3,RG-074:100-299,300-999,,false
+barbosa,125,Barbosa,Chiqueiro Barbosa|Achada Barbosa,3,CA-100:100-299 SF-123:300-599,600-999,Chiqueiro Barbosa|Achada Barbosa,true
+barca,126,Barca,Ribeira da Barca|Porto de Ribeira da Barca,4,CA-018:1000-1499 CA-019:1500-2199,2200-9999,Ribeira da Barca|Porto de Ribeira da Barca,false
+bardo,127,Bardo,Bardo de Ferro,3,RG-142:100-199,200-999,Bardo de Ferro,true
+barlavento,128,Barlavento,Ilhas do Barlavento,3,TS-024:100-199,200-999,Ilhas do Barlavento,false
+barreira,129,Barreira,Fajã de Barreira,3,RG-156:100-299,300-999,Fajã de Barreira,false
+barreiro,130,Barreiro,Barreiro,3,MA-031:100-399 RG-057:400-499,500-999,,false
+barril,131,Barril,Achada Barril|Barril,3,SM-014:100-299 TS-027:300-399,400-999,Achada Barril,false
+barro,132,Barro,Chão de Barro,3,RG-119:100-199,200-999,Chão de Barro,false
+bassoura,133,Bassoura,Bassoura,3,CR-043:100-599,600-999,,false
+bataria,134,Bataria,Bataria,3,RS-013:100-299,300-999,,false
+batata,135,Batata,Monte Ribeirinha de Batata,3,PN-019:100-199,200-999,Monte Ribeirinha de Batata,false
+batente,136,Batente,Batente,3,SF-135:100-399,400-999,,false
+baza agua,137,Baza Água,Baza Água,3,SD-106:100-199,200-999,,false
+beatriz,138,Beatriz,Lombo de Beatriz,3,RG-139:100-199,200-999,Lombo de Beatriz,false
+beira,139,Beira,Algar da Beira,3,BV-049:100-199,200-999,Algar da Beira,true
+bel bel,140,Bel Bel,Achada Bel Bel|Bel Bel,3,CA-046:100-299 CR-039:300-699,700-999,Achada Bel Bel,false
+bela costa,141,Bela Costa,Achada Bela Costa,3,PR-036:100-199,200-999,Achada Bela Costa,false
+bela vista,142,Bela Vista,Bela Vista,4,PR-007:1000-5499 SL-013:5500-5599 SV-038:5600-5899,5900-9999,,false
+belem,143,Belem,Belem|Belém,3,BR-034:100-199 CR-110:200-299 RB-057:300-699 SD-070:700-799,800-999,Belém,false
+benta,144,Benta,Fajã Domingas Benta,3,RG-068:100-399,400-999,Fajã Domingas Benta,false
+bento,145,Bento,Bento,3,RG-164:100-199,200-999,,false
+berlim,146,Berlim,Berlim,3,PN-121:100-799,800-999,,false
+bernardo,147,Bernardo,Bernardo Gomes,3,SF-039:100-499,500-999,Bernardo Gomes,true
+betania,148,Betãnia,Casa de Repouso Betãnia,3,SF-035:100-599,600-999,Casa de Repouso Betãnia,false
+bica,149,Bica,Bica,3,CA-164:100-299 SO-039:300-399 SS-052:400-599,600-999,,false
+bicho,150,Bicho,Covada de Curral de Bicho,3,PN-095:100-299,300-999,Covada de Curral de Bicho,false
+biscainho,151,Biscainho,Achada Biscainho,3,TA-036:100-299,300-999,Achada Biscainho,false
+biscainhos,152,Biscainhos,Biscainhos,3,TA-037:100-299,300-999,,false
+boa entrada,153,Boa Entrada,Boa Entrada,3,CA-082:100-799,800-999,,false
+boa ventura,154,Boa Ventura,Boa Ventura,3,BV-037:100-799,800-999,,false
+boaventura,155,Boaventura,Boaventura,3,CR-026:100-299,300-999,,false
+boavista,156,Boavista,Boavista,3,CA-065:100-399,400-999,,false
+boca cavouco,157,Boca Cavouco,Boca Cavouco,3,PA-018:100-299,300-999,,false
+boca larga,158,Boca Larga,Boca Larga,4,SF-058:1000-1499 SF-131:1500-1999,2000-9999,,false
+boca ribeira,159,Boca de Ribeira,Boca de Ribeira,4,SM-051:1000-1799,1800-9999,,true
+bodes,160,Bodes,Ribeira dos Bodes,3,PN-070:100-499,500-999,Ribeira dos Bodes,false
+bofareira,161,Bofareira,Bofareira,3,BV-028:100-399,400-999,,false
+bogaria,162,Bogaria,Bogaria,3,SO-005:100-299,300-999,,false
+bois,163,Bois,Fajã dos Bois,3,RG-144:100-299,300-999,Fajã dos Bois,false
+bolanha,164,Bolanha,Bolanha,3,CR-047:100-199 CR-117:200-499,500-999,,false
+bole,165,Bole,Bole,3,CA-034:100-299,300-999,,false
+bolona,166,Bolona,Bolona,3,PN-020:100-399,400-999,,false
+bom sossego,167,Bom Sossego,Bom Sossego,3,BV-025:100-699,700-999,,false
+bombardeiro,168,Bombardeiro,Bombardeiro,3,CA-178:100-299 CF-024:300-399,400-999,,false
+boqueirao,169,Boqueirão,Boqueirão,3,CR-004:100-299,300-999,,false
+borda,170,Borda,Borda,3,PN-009:100-299,300-999,,false
+bordeira,171,Bordeira,Bordeira de Agriões,3,RG-169:100-299,300-999,Bordeira de Agriões,true
+bota rama,172,Bota Rama,Bota Rama,3,RS-049:100-399,400-999,,false
+botija,173,Botija,Botija,3,PN-024:100-199,200-999,,false
+braca,174,Braca,Braca,3,PN-088:100-199,200-999,,false
+brandao,175,Brandão,Brandão,3,SF-016:100-299,300-999,,false
+brandaozinho,176,Brandãozinho,Brandãozinho,3,SF-014:100-199,200-999,,false
+branquim,177,Branquim,Branquim,3,PN-118:100-399,400-999,,false
+branquinho,178,Branquinho,Branquinho,3,PN-058:100-199,200-999,,false
+bras,179,Brás,Estância de Brás(Estância Braz)|Estância Brás|Ribeira do Bras,4,RB-051:1000-1299 RB-052:1300-1799 RG-112:1800-1899,1900-9999,Estância de Brás(Estância Braz)|Estância Brás|Bras|Ribeira do Bras,false
+bruxa,180,Bruxa,Covada de Bruxa,4,SV-036:1000-2899,2900-9999,Covada de Bruxa,false
+bufadouro,181,Bufadouro,Bufadouro,3,PN-122:100-699,700-999,,false
+buracona,182,Buracona,Buracona,3,SL-012:100-199,200-999,,false
+burra,183,Burra,Burra,3,PN-060:100-299,300-999,,false
+cabeca horta,184,Cabeça da Horta,Cabeça da Horta|Cabeça de Horta,3,SD-101:100-299 SD-102:300-499,500-999,Cabeça de Horta,true
+cabeca monte,185,Cabeça do Monte,Cabeça do Monte,3,SF-097:100-399,400-999,,true
+cabecadas,186,Cabeçadas,Cabeçadas,4,BV-015:1000-2199,2200-9999,,false
+cabecalinho,187,Cabeçalinho,Cabeçalinho,3,TS-011:100-399,400-999,,false
+cabecao,188,Cabeção,Cabeção Monte,3,SF-011:100-599,600-999,Cabeção Monte,false
+cabeco,189,Cabeço,Cabeço dos Tarafes,3,BV-058:100-299,300-999,Cabeço dos Tarafes,true
+cabocan,190,Cabocan,Cabocan,4,SL-045:1000-2199,2200-9999,,false
+cabra,191,Cabra,Curral de Cabra,3,CA-038:100-199,200-999,Curral de Cabra,false
+cabral,192,Cabral,Mendes Faleiro Cabral|Poilão Cabral,3,SD-064:100-299 SO-054:300-399,400-999,Mendes Faleiro Cabral|Poilão Cabral,true
+cabrito,193,Cabrito,Fonte Cabrito,3,CF-039:100-499,500-999,Fonte Cabrito,false
+cachacinho,194,Cachacinho,Cachacinho,3,TS-012:100-199,200-999,,false
+cachaco,195,Cachaço,Cachaço,3,BR-005:100-499 RB-030:500-799,800-999,,false
+cacheira,196,Cacheira,Cacheira,3,SO-026:100-199,200-999,,false
+cacheu,197,Cacheu,Cacheu,3,SS-025:100-299,300-999,,false
+cachorro,198,Cachorro,Chã de Cachorro|Lapa Cachorro,3,SD-004:100-199 TA-026:200-399,400-999,Chã de Cachorro|Lapa Cachorro,true
+cada vez,199,Cada Vez,Cada Vez,3,CA-095:100-199,200-999,,false
+cadeia,200,Cadeia,Ribeirinha Trás de Cadeia,4,SV-026:1000-2099,2100-9999,Ribeirinha Trás de Cadeia,false
+caetano,201,Caetano,Chã de Caetano,3,PN-085:100-299,300-999,Chã de Caetano,false
+caiada,202,Caiada,Caiada,4,PR-013:1000-2199 SD-030:2200-2499,2500-9999,,false
+caibros,203,Caibros,Caibros,3,RG-052:100-299,300-999,,false
+caiumbra,204,Caiumbra,Caiumbra,3,CR-109:100-299,300-999,,false
+calabaceira,205,Calabaceira,Calabaceira,4,PR-046:1000-2299 RS-027:2300-2399 RS-043:2400-2999,3000-9999,,false
+caldeira,206,Caldeira,Caldeira,3,SD-054:100-299,300-999,,false
+caldeiras,207,Caldeiras,Chã das Caldeiras|Agua das Caldeiras,3,CF-014:100-499 RG-135:500-699,700-999,Chã das Caldeiras|Agua das Caldeiras,true
+calejao,208,Calejão,Calejão,3,RB-006:100-599,600-999,,false
+calhau,209,Calhau,Calhau,3,SV-077:100-599,600-999,,false
+calhaus,210,Calhaus,Ribeira dos Calhaus,3,TS-028:100-199,200-999,Ribeira dos Calhaus,false
+calheta,211,Calheta,Calheta de Baixo|Calheta de Cima|Calheta,3,MA-008:100-299 MA-012:300-499 MA-013:500-699,700-999,Calheta de Baixo|Calheta de Cima,true
+calhetinha,212,Calhetinha,Calhetinha,4,MA-003:1000-2199,2200-9999,,false
+camade vaca,213,Camade Vaca,Camade Vaca,3,RS-037:100-199,200-999,,false
+cambujana,214,Cambujana,Cambujana,3,PR-019:100-299,300-999,,false
+caminho cruz,215,Caminho Cruz,Caminho Cruz João Santos,3,BV-014:100-199,200-999,Caminho Cruz João Santos,true
+caminhos,216,Caminhos,Quatro Caminhos,3,CA-085:100-499,500-999,Quatro Caminhos,true
+camoca,217,Camoca,Chã de Camoca,3,PN-126:100-399,400-999,Chã de Camoca,false
+camp cao,218,Camp de Cão,Camp de Cão,3,PA-024:100-199,200-999,,false
+campanari,219,Campanári,Campanári,3,SS-046:100-199,200-999,,false
+campanas,220,Campanas,Campanas de Baixo|Campanas Cima|Campanas de Cima,4,SF-106:1000-2599 SF-107:2600-2999 SF-108:3000-3699,3700-9999,Campanas de Baixo|Campanas Cima|Campanas de Cima,true
+campinho,221,Campinho,Campinho Norte|Campinho,3,RB-033:100-299 RG-075:300-399 SV-047:400-699,700-999,Campinho Norte,true
+campinho sul,222,Campinho Sul,Campinho Sul,3,RB-034:100-499,500-999,,false
+campo baixo,223,Campo Baixo,Campo Baixo,3,BR-029:100-399,400-999,,false
+canas,224,Canas,Ladeira das Canas,3,RG-048:100-399,400-999,Ladeira das Canas,true
+cancelo,225,Cancelo,Cancelo,4,CR-044:1000-1699 SD-032:1700-1899,1900-9999,,false
+canco,226,Canço,Canço,3,CA-079:100-399,400-999,,false
+caneca,227,Caneca,Chã de Caneca,3,PN-094:100-199,200-999,Chã de Caneca,false
+canequinha,228,Canequinha,Lombo de Canequinha,3,PA-037:100-199,200-999,Lombo de Canequinha,false
+canico,229,Caniço,Caniço,4,CA-078:1000-1899,1900-9999,,false
+cantada,230,Cantada,Cantada,3,SM-028:100-299,300-999,,false
+canto faja,231,Canto da Faja,Canto da Faja,3,RB-037:100-399,400-999,,true
+cao riba,232,Cão Riba,Pilão Cão Riba,3,SM-068:100-299,300-999,Pilão Cão Riba,false
+capela,233,Capela,Capela Tabanca|Capela,4,CA-012:1000-1199 CA-017:1200-1399 CR-093:1400-1599 SD-089:1600-1799,1800-9999,Capela Tabanca,false
+caravela,234,Karavela,Karavela,3,SL-040:100-399,400-999,,false
+carico,235,Cariço,Covão do Cariço,3,SO-062:100-299,300-999,Covão do Cariço,false
+carquejinha,236,Carquejinha,Carquejinha,3,BV-003:100-199,200-999,,false
+carreira,237,Carreira,Cabeça Carreira|Achada Carreira|Carreira,3,CA-058:100-199 TA-025:200-499 TA-047:500-799,800-999,Cabeça Carreira|Achada Carreira,false
+carreiras,238,Carreiras,Carreiras,3,CA-128:100-199,200-999,,false
+carrical,239,Carriçal,Carriçal,3,CA-133:100-299 CR-061:300-399 RB-067:400-699,700-999,,false
+carrice,240,Carrice,Carrice,3,BV-027:100-499 RB-032:500-599,600-999,,false
+carvoeirinho,241,Carvoeirinho,Carvoeirinho,3,PN-042:100-399,400-999,,false
+carvoeiros,242,Carvoeiros,Carvoeiros,3,RB-054:100-699,700-999,,false
+casa branca,243,Casa Branca,Casa Branca,3,CF-010:100-299 CR-033:300-499 SM-090:500-699,700-999,,false
+casa choca,244,Casa Choca,Casa Choca,3,TA-057:100-399,400-999,,false
+casa grande,245,Casa Grande,Casa Grande,3,CA-175:100-399 SM-105:400-599 SO-024:600-799,800-999,,false
+casa joao florencio,246,Casa de João Florencio,Casa de João Florencio,3,BV-046:100-199,200-999,,true
+casa pada,247,Casa Padá,Casa Padá,3,MA-005:100-399,400-999,,false
+casa tina,248,Casa de Tina,Casa de Tina,3,BV-008:100-299,300-999,,false
+casa velha,249,Casa Velha,Casa Velha,3,SF-054:100-199,200-999,,false
+cascabulho,250,Cascabulho,Cascabulho,3,MA-017:100-299,300-999,,false
+cassanga,251,Cassanga,Monte Cassanga,3,SF-060:100-299,300-999,Monte Cassanga,false
+castelao,252,Castelão,Castelão,4,PR-053:1000-3699,3700-9999,,false
+castelinho,253,Castelinho,Castelinho,3,SD-083:100-499,500-999,,false
+castelo,254,Castelo,Castelo Grande,3,SD-077:100-499,500-999,Castelo Grande,true
+casuarina,255,Casuarina,Casuarina,3,SL-044:100-299,300-999,,false
+catano,256,Catano,Catano,3,PN-086:100-199,200-999,,false
+cativo,257,Cativo,Cativo,3,CA-091:100-299,300-999,,false
+catoco,258,Catoco,Curral Catoco,3,BV-004:100-399,400-999,Curral Catoco,false
+cavaleiro,259,Cavaleiro,Cavaleiro,3,CA-044:100-499,500-999,,false
+cavalo,260,Cavalo,Fundo de Cavalo|Achada Cavalo,3,RG-042:100-299 SM-095:300-499,500-999,Fundo de Cavalo|Achada Cavalo,false
+cavouquinho,261,Cavouquinho,Cavouquinho,3,PN-012:100-299,300-999,,false
+cecilia,262,Cecilia,Chã de Cecilia,3,RG-149:100-399,400-999,Chã de Cecilia,false
+cedreira,263,Cedreira,Cedreira,3,RG-131:100-299,300-999,,false
+cemiterio,264,Cemitério,Atrás Cemitério,4,SV-044:1000-2399,2400-9999,Atrás Cemitério,true
+centro historico,265,Centro Histórico,Centro Histórico,3,SF-030:100-199,200-999,,true
+cera pau,266,Cera Pau,Cera Pau,3,CA-033:100-299,300-999,,false
+cercado,267,Cercado,Fonte de Cercado,3,RG-056:100-199,200-999,Fonte de Cercado,false
+cerco grande,268,Cerco Grande,Cerco Grande,3,SF-012:100-699,700-999,,false
+cerrado,269,Cerrado,Cerrado,3,SF-090:100-199 SM-086:200-299,300-999,,false
+cerreira,270,Cerreira,Achada da Cerreira,3,PR-012:100-299,300-999,Achada da Cerreira,false
+cha,271,Chã,Chã,3,RG-090:100-599,600-999,,false
+cha areia,272,Cha d’Areia,Cha d’Areia,4,PR-062:1000-4099,4100-9999,,false
+cha baixo,273,Chã de Baixo,Chã de Baixo|Chã Baixo,3,RG-153:100-299 SM-064:300-399,400-999,Chã Baixo,false
+cha banca,274,Chã de Banca,Chã de Banca,3,PN-093:100-199,200-999,,false
+cha beano,275,Chã de Beano,Chã de Beano,3,RG-027:100-199,200-999,,false
+cha beja,276,Chā de Beja,Chā de Beja,3,PN-106:100-399,400-999,,false
+cha bento,277,Chã de Bento,Chã de Bento,3,RG-010:100-199,200-999,,false
+cha branca,278,Chã Branca,Chã Branca,3,PN-107:100-399,400-999,,false
+cha brejo,279,Chã do Brejo,Chã do Brejo,3,PN-131:100-399,400-999,,false
+cha brito,280,Chã de Brito,Chã de Brito,3,SM-087:100-299,300-999,,false
+cha cardoso,281,Chã Cardoso,Chã Cardoso,3,SD-006:100-299,300-999,,false
+cha casa,282,Chā da Casa,Chā da Casa,3,PN-069:100-299,300-999,,false
+cha cima,283,Chã de Cima,Chã de Cima,3,PN-061:100-199,200-999,,false
+cha cruz,284,Chã de Cruz,Chã de Cruz,3,CA-186:100-299,300-999,,false
+cha curral,285,Chã de Curral,Chã de Curral,3,CA-023:100-199,200-999,,true
+cha dura,286,Chã Dura,Chã Dura,3,PN-026:100-199,200-999,,false
+cha erva,287,Chã de Erva,Chã de Erva,3,PA-023:100-199,200-999,,false
+cha estancia,288,Chã de Estância,Chã de Estância,3,MA-025:100-199,200-999,,true
+cha faneco,289,Chã Faneco,Chã Faneco,4,SV-071:1000-2699,2700-9999,,false
+cha fora,290,Chã de Fora,Chã de Fora,3,RG-163:100-199,200-999,,false
+cha grande,291,Chã Grande,Chã Grande,3,SM-101:100-199,200-999,,false
+cha italia,292,Chã d'Itália,Chã d'Itália,4,PN-119:1000-1799,1800-9999,,false
+cha lagoa,293,Chã de Lagoa,Chã de Lagoa|Chã Lagoa,4,CA-032:1000-1099 CA-187:1100-1399 PN-087:1400-1999,2000-9999,Chã Lagoa,false
+cha larga,294,Chã Larga,Chã Larga,3,SD-011:100-299,300-999,,false
+cha losna,295,Chã de Losna,Chã de Losna,3,BV-034:100-499,500-999,,false
+cha luis,296,Chã de Luis,Chã de Luis,3,RG-022:100-199,200-999,,false
+cha manuel santos,297,Chã de Manuel dos Santos,Chã de Manuel dos Santos,3,PA-006:100-199,200-999,,true
+cha matia,298,Chã Matia,Chã Matia,4,SL-017:1000-1799,1800-9999,,false
+cha mato,299,Chã do Mato,Chã do Mato,3,PN-138:100-299 RG-141:300-499,500-999,,false
+cha monte,300,Chã de Monte,Chã de Monte,3,SF-086:100-399,400-999,,false
+cha moreno,301,Chá Moreno,Chá Moreno,3,CA-072:100-299,300-999,,false
+cha morte,302,Chã de Morte,Chã de Morte,3,PN-091:100-699,700-999,,false
+cha norte,303,Chã do Norte,Chã do Norte|Chã de Norte,3,PN-032:100-199 PN-055:200-499,500-999,Chã de Norte,false
+cha padre,304,Chã de Padre,Chã de Padre,3,PA-009:100-199,200-999,,false
+cha paulo,305,Chã de Paulo,Chã de Paulo,3,RG-036:100-199,200-999,,false
+cha pedro,306,Chã de Pedro,Chã de Pedro,3,PA-002:100-199,200-999,,false
+cha poca,307,Chã de Poça,Chã de Poça,3,TS-022:100-399,400-999,,false
+cha poio,308,Chã de Poio,Chã de Poio,3,PN-098:100-199,200-999,,false
+cha ponta,309,Chã de Ponta,Chã de Ponta,3,SM-047:100-199,200-999,,false
+cha porto novo,310,Chã do Porto Novo,Chã do Porto Novo,3,PN-137:100-399,400-999,,true
+cha queimada,311,Chã Queimada,Chã Queimada,3,RG-035:100-199,200-999,,false
+cha quenta,312,Chã Quenta,Chã Quenta,3,CR-032:100-299,300-999,,false
+cha quinta,313,Chã da Quinta,Chã da Quinta,3,SD-087:100-299,300-999,,true
+cha ribeiraozinho,314,Chã de Ribeirãozinho,Chã de Ribeirãozinho,3,PN-072:100-199,200-999,,true
+cha silva,315,Chã da Silva,Chã da Silva,3,CR-064:100-299,300-999,,false
+cha telha,316,Chã de Telha,Chã de Telha,3,TS-014:100-399,400-999,,false
+cha tiliza,317,Chã Tiliza,Chã Tiliza,3,SV-028:100-399,400-999,,false
+cha touca,318,Chã de Touca,Chã de Touca,3,CR-094:100-299,300-999,,false
+cha vaca,319,Chã de Vaca,Chã de Vaca,3,SO-010:100-299,300-999,,false
+cha vital,320,Chã de Vital,Chã de Vital,3,SV-056:100-799,800-999,,false
+chamine,321,Chaminé,Chaminé,3,SD-065:100-299,300-999,,false
+chanzinha,322,Chanzinha,Chanzinha,3,RB-017:100-299,300-999,,false
+chao agua,323,Chão de Água,Chão de Água,3,CR-050:100-399,400-999,,false
+chao andrade,324,Chão Andrade,Chão Andrade,3,CA-151:100-399,400-999,,false
+chao bom,325,Chão Bom,Chão Bom|Colonato do Chão Bom|Achada do Chão Bom,4,TA-016:1000-3599 TA-018:3600-4199 TA-019:4200-5299,5300-9999,Colonato do Chão Bom|Achada do Chão Bom,true
+chao bonito,326,Chão Bonito,Chão Bonito,3,RB-061:100-299,300-999,,false
+chao cana,327,Chão de Cana,Chão de Cana,3,CA-173:100-399,400-999,,false
+chao cardosa,328,Chão Cardosa,Chão Cardosa,3,SS-003:100-399,400-999,,false
+chao coelho,329,Chão Coelho,Chão Coelho,3,SO-036:100-299,300-999,,false
+chao curral,330,Chão do Curral,Chão do Curral,3,CA-014:100-199,200-999,,true
+chao drigo,331,Chão Drigo,Chão Drigo,3,SS-031:100-299,300-999,,false
+chao formoso,332,Chão Formoso,Chão Formoso,3,CA-130:100-299,300-999,,false
+chao freire,333,Chão Freire,Chão Freire,3,SM-102:100-199,200-999,,false
+chao gomes,334,Chão Gomes,Chão Gomes,3,CA-140:100-399,400-999,,false
+chao grande,335,Chão Grande,Chão Grande,4,CA-053:1000-1399 CR-036:1400-1699 SS-039:1700-2099 TA-023:2100-2199,2200-9999,,false
+chao gui,336,Chão de Gui,Chão de Gui,3,CR-063:100-199,200-999,,false
+chao horta,337,Chão de Horta,Chão de Horta,3,SM-040:100-299,300-999,,true
+chao ladri,338,Chão Ladri,Chão Ladri,3,SS-030:100-399,400-999,,false
+chao mato,339,Chão de Mato,Chão de Mato,3,TA-055:100-199,200-999,,false
+chao mendes,340,Chão Mendes,Chão Mendes,3,SS-053:100-299,300-999,,false
+chao monte,341,Chão de Monte,Chão de Monte,3,CA-049:100-199,200-999,,true
+chao nona,342,Chão de Nona,Chão de Nona,3,CA-132:100-199 CR-095:200-399,400-999,,false
+chao ouro,343,Chão de Ouro,Chão de Ouro,3,CA-092:100-299,300-999,,false
+chao queimado,344,Chão Queimado,Chão Queimado,3,PN-068:100-499,500-999,,true
+chao reis,345,Chão de Reis,Chão de Reis,3,SS-066:100-199,200-999,,false
+chao riba,346,Chão de Riba,Chão de Riba|Chão Riba,3,CA-183:100-299 SM-035:300-399,400-999,Chão Riba,false
+chao semedo,347,Chão Semedo,Chão Semedo,3,CA-188:100-299,300-999,,false
+chao tavares,348,Chão Tavares,Chão Tavares,3,CA-124:100-399,400-999,,false
+chao vaz,349,Chão Vaz,Chão Vaz,4,SM-106:1000-1199 SS-050:1200-1799,1800-9999,,false
+chaozinho,350,Chãozinho,Chãozinho,3,RS-028:100-299,300-999,,false
+chapas,351,Chapas,Selada das Chapas,3,RG-030:100-299,300-999,Selada das Chapas,false
+chave,352,Chave,Bandente de Lomba de Chave,3,BV-019:100-499,500-999,Bandente de Lomba de Chave,false
+chazinha,353,Chãzinhã,Chãzinhã|Chãzinha de Baixo|Chãzinha de Cima|Chãzinha do Norte|Chãzinha|Chazinha,4,PA-008:1000-1199 PA-038:1200-1299 PA-039:1300-1399 PN-037:1400-1499 RB-025:1500-1799 RG-005:1800-1899 RG-154:1900-1999,2000-9999,Chãzinha|Chãzinha de Baixo|Chãzinha de Cima|Chãzinha do Norte|Chazinha,true
+che guevara,354,Che Guevara,Che Guevara,3,SV-014:100-799,800-999,,false
+cheu,355,Cheu,Figueira Cheu,3,MA-024:100-199,200-999,Figueira Cheu,true
+chiqueiro,356,Chiqueiro,Cabouco Chiqueiro|Ribeirão Chiqueiro,4,PN-040:1000-1199 SD-105:1200-2099,2100-9999,Cabouco Chiqueiro|Ribeirão Chiqueiro,false
+chocalho,357,Chocalho,Chocalho,3,SM-107:100-299,300-999,,false
+chororo,358,Chóróró,Chóróró de Santa Ana,4,CA-070:1000-2499,2500-9999,Chóróró de Santa Ana,true
+choupana,359,Choupana,Choupana,3,RS-051:100-299 SS-033:300-499,500-999,,false
+chuba chobi,360,Chuba Chobi,Chuba Chobi,3,RS-018:100-299,300-999,,false
+chupadeiro,361,Chupadeiro,Achada Chupadeiro,3,CF-011:100-299,300-999,Achada Chupadeiro,false
+chupadouro,362,Chupadouro,Chupadouro,3,PA-029:100-199,200-999,,false
+chuva,363,Chuva,Pingo de Chuva,3,CA-139:100-299,300-999,Pingo de Chuva,true
+cidadela,364,Cidadela,Cidadela,4,PR-002:1000-4099,4100-9999,,false
+cidreira,365,Cidreira,Cidreira,3,SF-099:100-399,400-999,,false
+cigana,366,Cigana,Cigana,3,RB-008:100-399,400-999,,false
+cimo monte,367,Cimo do Monte,Cimo do Monte,3,CA-148:100-199,200-999,,true
+cinta,368,Cinta,Cinta de Vaca,3,PA-003:100-199,200-999,Cinta de Vaca,true
+cirio,369,Cirio,Cirio,3,PN-082:100-599,600-999,,false
+cisterno,370,Cisterno,Cisterno,3,SF-098:100-699,700-999,,false
+clara,371,Clara,Lombo de Clara,3,RG-041:100-199,200-999,Lombo de Clara,false
+clementino,372,Clementino,Chã Clementino,3,PN-056:100-299,300-999,Chã Clementino,false
+coachopo,373,Coachopo,Vale Coachopo,3,SD-107:100-299,300-999,Vale Coachopo,false
+cobom,374,Cobom,Cobom,4,SF-034:1000-2799,2800-9999,,false
+cocho,375,Cocho,Figueira de Cocho,3,RB-062:100-199,200-999,Figueira de Cocho,true
+coco,376,Coco,Cutelo de Coco|Coco,3,SM-088:100-199 SM-104:200-399,400-999,Cutelo de Coco,false
+coculi,377,Coculi,Coculi|Fajã de Coculi,3,RG-079:100-399 RG-080:400-499,500-999,Fajã de Coculi,false
+coelho,378,Coelho,Chã de Coelho,3,RG-152:100-299,300-999,Chã de Coelho,false
+coima,379,Coima,Coima,3,RB-012:100-399,400-999,,false
+colaco,380,Colaço,Achada Colaço,3,CR-080:100-599,600-999,Achada Colaço,false
+colarinha,381,Colarinha,Colarinha,3,CA-145:100-299,300-999,,false
+colhe bicho,382,Colhe Bicho,Colhe Bicho,4,TA-017:1000-2799,2800-9999,,false
+companhia,383,Companhia,Chã da Companhia,3,RG-171:100-399,400-999,Chã da Companhia,false
+concalo,384,Conçalo,Praia Conçalo,3,MA-020:100-199,200-999,Praia Conçalo,false
+condinho,385,Condinho,Condinho,3,BV-001:100-199,200-999,,false
+condutor,386,Condutor,Casa do Condutor,3,PN-011:100-199,200-999,Casa do Condutor,false
+congao,387,Congão,Congão,3,SD-034:100-199,200-999,,false
+congo,388,Congo,Congo,3,SF-087:100-499,500-999,,false
+constancio,389,Constâncio,Constâncio,3,SL-034:100-199,200-999,,false
+contador,390,Contador,Contador,3,TA-044:100-199,200-999,,false
+copacabana laginha,391,Copacabana-Laginha,Condóminio Copacabana-Laginha,3,SV-012:100-299,300-999,Condóminio Copacabana-Laginha,true
+coqueiro,392,Coqueiro,Coqueiro|Chão Coqueiro,4,CA-056:1000-1199 CR-034:1200-1299 PR-052:1300-1999 SD-091:2000-2199 SM-100:2200-2299 SO-044:2300-2399,2400-9999,Chão Coqueiro,false
+corda,393,Corda,Corda,3,RG-146:100-199,200-999,,false
+corela,394,Corela,Corela,3,CA-171:100-199,200-999,,false
+corno baixo,395,Corno Baixo,Corno Baixo,3,CA-149:100-399,400-999,,false
+coroa,396,Corôa,Corôa,3,SF-061:100-299,300-999,,false
+corredor,397,Corredor,Corredor,3,BR-008:100-299,300-999,,false
+coruja,398,Coruja,Tope de Coruja|Boca de Coruja|Coruja,4,RG-083:1000-1099 RG-086:1100-1799 SM-031:1800-1999,2000-9999,Tope de Coruja|Boca de Coruja,false
+corvo,399,Corvo,Corvo,3,MO-028:100-599,600-999,,false
+cosco,400,Cosco,Cabouco de Cosco,3,RG-073:100-299,300-999,Cabouco de Cosco,false
+costa,401,Costa,Costa da Achada,3,RS-055:100-299,300-999,Costa da Achada,false
+costim,402,Costim,Costim Pereira,3,PN-002:100-699,700-999,Costim Pereira,true
+cova,403,Cova,Cova,3,PA-004:100-199 RS-020:200-399,400-999,,false
+cova barro,404,Cova Barro,Cova Barro,3,CR-068:100-599,600-999,,false
+cova furtado,405,Cova Furtado,Cova Furtado,4,CA-088:1000-1999,2000-9999,,false
+cova joana,406,Cova Joana,Cova Joana,3,BR-011:100-499,500-999,,false
+cova lima,407,Cova Lima,Cova Lima,3,MO-011:100-199,200-999,,false
+cova matinho,408,Cova Matinho,Cova Matinho,3,CF-023:100-499,500-999,,false
+cova rodela,409,Cova Rodela,Cova Rodela,3,BR-012:100-699,700-999,,false
+cova romeira,410,Cova Romeira,Cova Romeira,3,SF-118:100-299,300-999,,false
+covada,411,Covada,Covada,3,SD-067:100-199 SO-011:200-299,300-999,,false
+covada branca,412,Covada Branca,Covada Branca,3,PN-101:100-299 PN-135:300-499,500-999,,true
+covada falsa,413,Covada Falsa,Covada Falsa,3,PN-057:100-299,300-999,,false
+covada larga,414,Covada Larga,Covada Larga,3,PN-083:100-399,400-999,,false
+covado,415,Covado,Covado|Cutelo Covado,3,CR-001:100-299 SM-092:300-499,500-999,Cutelo Covado,false
+covao,416,Covão,Covão,3,CA-015:100-199 PN-003:200-399 SD-056:400-599,600-999,,false
+covao baixo,417,Covão Baixo,Covão Baixo,3,CA-026:100-199,200-999,,false
+covao demba,418,Covão Demba,Covão Demba,3,SM-070:100-299,300-999,,false
+covao dentro,419,Covão Dentro,Covão Dentro,3,SO-063:100-199 SS-058:200-299,300-999,,false
+covao grande,420,Covão Grande,Covão Grande,3,RS-008:100-299 SS-041:300-599,600-999,,false
+covao horta,421,Covão de Horta,Covão de Horta,3,SD-041:100-399,400-999,,true
+covao mendes,422,Covão Mendes,Covão Mendes,4,PR-054:1000-2799,2800-9999,,false
+covao nuno,423,Covão Nuno,Covão Nuno,3,SS-001:100-299,300-999,,false
+covao rabo,424,Covão Rabo,Covão Rabo,3,CR-037:100-199,200-999,,false
+covao ribeiro,425,Covão Ribeiro,Covão Ribeiro,3,CA-090:100-299,300-999,,true
+covoada,426,Covoada,Covoada,4,RB-049:1000-1399 RG-101:1400-1799 SS-011:1800-1899,1900-9999,,false
+coxa,427,Coxa,Coxa,3,PN-014:100-199,200-999,,false
+coxe,428,Coxe,Figueira de Coxe,3,RB-058:100-199,200-999,Figueira de Coxe,true
+coxo,429,Coxo,Coxo,4,CF-027:1000-1199 MO-016:1200-1299 SF-093:1300-1899,1900-9999,,false
+craquinha,430,Craquinha,Ribeira de Craquinha,4,SV-040:1000-3099,3100-9999,Ribeira de Craquinha,false
+craveiro,431,Craveiro,Bairro Craveiro Lopes,4,PR-059:1000-2199,2200-9999,Bairro Craveiro Lopes,true
+cruz,432,Cruz,Cruz|Ribeira da Cruz|Lombo de Cruz,4,CA-037:1000-1099 PN-052:1100-1299 RG-008:1300-1499 RG-089:1500-1599 RG-113:1600-1699 RG-121:1700-1999 SD-071:2000-2099,2100-9999,Ribeira da Cruz|Lombo de Cruz,false
+cruz grande,433,Cruz Grande,Cruz Grande,3,CA-084:100-599,600-999,,false
+cruz maio,434,Cruz de Maio,Cruz de Maio,3,SV-081:100-799,800-999,,false
+cruzeta,435,Cruzeta,Cruzeta,3,RB-028:100-399,400-999,,false
+cruzetinha,436,Cruzetinha,Cruzetinha,3,RB-035:100-499,500-999,,false
+cruzinha,437,Cruzinha,Ribeira de Cruzinha|Cruzinha,4,PN-120:1000-2499 RG-037:2500-2899 TS-029:2900-2999,3000-9999,Ribeira de Cruzinha,false
+cuba,438,Cuba,Cuba de Baixo,3,TA-010:100-299,300-999,Cuba de Baixo,true
+cuchete,439,Cuchete,Chã de Cuchete,3,PN-089:100-399,400-999,Chã de Cuchete,false
+cumbem,440,Cumbem,Cumbem,4,CA-074:1000-3499,3500-9999,,false
+cumes,441,Cumes,Fajã dos Cumes,3,RG-161:100-299,300-999,Fajã dos Cumes,false
+curral,442,Curral,Curral,3,RG-040:100-199 RG-078:200-399 SO-023:400-499,500-999,,false
+curral grande,443,Curral Grande,Curral Grande,4,CA-035:1000-1099 SD-015:1100-1499 SF-082:1500-2099,2100-9999,,true
+curral lorna,444,Curral Lorna,Curral Lorna,3,SF-103:100-399,400-999,,false
+curral sao joao,445,Curral de São João,Curral de São João,4,SV-054:1000-2599,2600-9999,,true
+curral velho,446,Curral Velho,Curral Velho,3,TA-060:100-199,200-999,,false
+curralete,447,Curralete,Curralete,3,PN-130:100-399,400-999,,false
+curralinho,448,Curralinho,Curralinho Branco|Curralinho,3,BV-043:100-199 SF-128:200-699,700-999,Curralinho Branco,true
+custa,449,Custa,Vale da Custa,4,SD-110:1000-1999,2000-9999,Vale da Custa,false
+cutela costa,450,Cutela Costa,Cutela Costa,3,SO-028:100-299,300-999,,false
+cutelando,451,Cutelando,Cutelando,3,SS-020:100-299,300-999,,false
+cutelo,452,Cutelo,Cutelo,4,CR-102:1000-1099 SF-008:1100-1299 SF-021:1300-1599 SM-016:1600-1699 SO-045:1700-1899 SS-004:1900-1999 SS-069:2000-2099 TA-042:2100-2799,2800-9999,,false
+cutelo alto,453,Cutelo Alto,Cutelo Alto,3,MO-013:100-799,800-999,,false
+cutelo branco,454,Cutelo Branco,Cutelo Branco,3,TA-003:100-299,300-999,,true
+cutelo capado,455,Cutelo Capado,Cutelo Capado,4,CF-021:1000-1599 SF-120:1600-1799,1800-9999,,true
+cutelo costa,456,Cutelo Costa,Cutelo Costa,3,SO-027:100-199,200-999,,false
+cutelo cruz,457,Cutelo Cruz,Cutelo Cruz,3,CF-030:100-399,400-999,,false
+cutelo curta,458,Cutelo da Curta,Cutelo da Curta,3,SS-057:100-299,300-999,,true
+cutelo dias,459,Cutelo Dias,Cutelo Dias,3,SS-035:100-299,300-999,,false
+cutelo gago,460,Cutelo Gago,Cutelo Gago,3,CA-115:100-199,200-999,,false
+cutelo gomes,461,Cutelo Gomes,Cutelo Gomes,3,SM-010:100-299,300-999,,false
+cutelo lopes,462,Cutelo Lopes,Cutelo Lopes,3,CA-116:100-199,200-999,,false
+cutelo meio,463,Cutelo do Meio,Cutelo do Meio,3,SM-048:100-299,300-999,,true
+cutelo rocha,464,Cutelo Rocha,Cutelo Rocha,3,SS-012:100-299,300-999,,false
+cutelo ronda,465,Cutelo Ronda,Cutelo Ronda,3,SM-044:100-299,300-999,,false
+cutelo selado,466,Cutelo Selado,Cutelo Selado,3,CR-021:100-299,300-999,,true
+cutelo vermelho,467,Cutelo Vermelho,Cutelo Vermelho,3,SM-060:100-199,200-999,,true
+dabreu,468,Dabreu,Dabreu,3,SD-069:100-299,300-999,,false
+dacabalaio,469,Dacabalaio,Dacabalaio,3,CF-041:100-499 SD-033:500-599,600-999,,false
+dagolho,470,Dagolho,Dagolho,3,RG-060:100-199,200-999,,false
+damasco,471,Damasco,Damasco,3,CR-092:100-199,200-999,,false
+debaixo canto,472,Debaixo de Canto,Debaixo de Canto,3,BV-013:100-199,200-999,,true
+degredo,473,Degredo,Degredo,3,SS-044:100-299,300-999,,false
+delgado,474,Delgado,Delgado,3,RS-038:100-199,200-999,,false
+demanda,475,Demanda,Demanda,3,SS-015:100-199,200-999,,false
+dentro,476,Dentro,Dentro,3,TA-048:100-199,200-999,,false
+derrubado,477,Derrubado,Derrubado,3,BV-050:100-199,200-999,,false
+descanso,478,Descanso,Descanso,3,RG-069:100-199,200-999,,false
+desenfado,479,Desenfado,Chã Covada Desenfado,3,PN-067:100-299,300-999,Chã Covada Desenfado,false
+dinis eanes,480,Dinis Eanes,Dinis Eanes,3,SF-048:100-599,600-999,,false
+diogo,481,Diogo,Lombo de Diogo,3,RG-016:100-299,300-999,Lombo de Diogo,false
+dobe,482,Dobe,Dobe,3,SD-088:100-299,300-999,,false
+domingos,483,Domingos,Domingos,3,SF-071:100-399,400-999,,false
+dominguinha,484,Dominguinha,Dominguinha,3,PN-059:100-399,400-999,,false
+donata,485,Donata,Casa da Donata,3,PN-117:100-399,400-999,Casa da Donata,false
+doreda,486,Doreda,Doreda,3,SD-073:100-199,200-999,,false
+doze vintens,487,Doze Vinténs,Doze Vinténs,3,SD-104:100-499,500-999,,false
+dragoeiro,488,Dragoeiro,Dragoeiro,3,PA-022:100-199,200-999,,false
+duarte,489,Duarte,Cutelo Duarte,3,CR-018:100-299,300-999,Cutelo Duarte,false
+egua,490,Égua,Cabeça de Monte de Égua|Morrinho d’Egua,3,CF-035:100-299 PN-039:300-599,600-999,Cabeça de Monte de Égua|Egua|Morrinho d’Egua,false
+el rei,491,El-Rei,Fortim d'El-Rei,3,SV-013:100-299,300-999,Fortim d'El-Rei,true
+empena dor,492,Empena Dor,Empena Dor,3,CR-029:100-299,300-999,,false
+endriano,493,Endriano,Endriano,3,RG-004:100-299,300-999,,false
+engenho,494,Engenho,Pinha de Engenho|Engenho|Covão do Engenho,3,CA-161:100-499 CA-176:500-599 SD-028:600-799,800-999,Pinha de Engenho|Covão do Engenho,true
+entradinha,495,Entradinha,Boa Entradinha,3,CA-146:100-299,300-999,Boa Entradinha,false
+entre picos,496,Entre Picos,Entre Picos,3,CA-153:100-299,300-999,,false
+entulho,497,Entulho,Entulho,3,RG-100:100-299,300-999,,false
+erva,498,Erva,Cutelo de Erva,3,SM-093:100-199,200-999,Cutelo de Erva,false
+escada,499,Escada,Escada,3,TA-053:100-299 TS-026:300-399,400-999,,false
+escovinha,500,Escovinha,Escovinha,3,BR-030:100-299,300-999,,false
+esgreta,501,Esgreta,Esgreta,3,BV-031:100-199,200-999,,false
+espadana,502,Espadanã,Espadanã,3,RG-002:100-199,200-999,,false
+espagigalo,503,Espagigalo,Espagigalo,3,TA-007:100-199,200-999,,false
+espanha,504,Espanha,Meio de Espanha,3,RG-028:100-399,400-999,Meio de Espanha,true
+espargos,505,Espargos,Lajedo dos Espargos,3,SL-026:100-399,400-999,Lajedo dos Espargos,true
+esperadeiro,506,Esperadeiro,Esperadeiro,3,PA-030:100-199,200-999,,false
+esperanca,507,Esperança,Boa Esperança,3,BR-022:100-299,300-999,Boa Esperança,false
+espia,508,Espia,Cruz de Espia,4,SV-025:1000-2799,2800-9999,Cruz de Espia,true
+espigao,509,Espigão,Espigão,3,TS-007:100-299,300-999,,false
+espingueira,510,Espingueira,Espingueira,3,BV-051:100-199,200-999,,false
+espinho,511,Espinho,Cutelo Espinho|Espinho Branco,3,CF-003:100-199 SM-073:200-599,600-999,Cutelo Espinho|Espinho Branco,true
+espongeiro,512,Espongeiro,Espongeiro,3,RG-168:100-299,300-999,,false
+estancia baixo,513,Estância de Baixo,Estância de baixo,3,BV-035:100-599,600-999,,true
+estreito,514,Estreito,Ribeira do Estreito,3,RG-130:100-199,200-999,Ribeira do Estreito,false
+estrela,515,Estrela,Estrela,3,RG-053:100-299,300-999,,false
+eucaliptus,516,Eucaliptus,Eucaliptus,3,SL-042:100-199,200-999,,false
+eugenio lima,517,Eugenio Lima,Eugenio Lima,4,PR-047:1000-3399,3400-9999,,false
+facho,518,Facho,Ponte do Facho,4,PR-038:1000-2299,2300-9999,Ponte do Facho,false
+fachoca,519,Fachoca,Lombo de Fachoca,3,RG-098:100-299,300-999,Lombo de Fachoca,false
+faial,520,Faial,Faial,3,PN-063:100-299 SD-072:300-399,400-999,,false
+faja,521,Fajã,Fajã,3,CF-046:100-199 RG-097:200-299,300-999,,false
+faja agua,522,Fajã d' Água,Fajã d' Água,3,BR-027:100-399,400-999,,false
+faja baixa,523,Fajã de Baixa,Fajã de Baixa,3,RB-046:100-299,300-999,,true
+faja baixo,524,Faja de Baixo,Faja de Baixo,3,RB-044:100-499,500-999,,true
+faja cima,525,Fajã de Cima,Fajã de Cima,4,RB-043:1000-1899,1900-9999,,false
+faja grande,526,Fajã Grande,Fajã Grande,3,RG-021:100-299,300-999,,false
+fajazinha,527,Fajãzinha,Fajãzinha|Lombo de Fajãzinha,4,MO-007:1000-1799 PA-032:1800-1999 RG-049:2000-2099,2100-9999,Lombo de Fajãzinha,false
+falcao,528,Falcão,Achada Falcão,3,CA-105:100-499,500-999,Achada Falcão,false
+fanhosa,529,Fanhosa,Fanhosa,3,TA-038:100-399,400-999,,false
+farenegro,530,Farenegro,Monte Farenegro,3,MA-007:100-299,300-999,Monte Farenegro,false
+farroba,531,Farroba,Farroba,3,SM-037:100-299 TA-045:300-399,400-999,,false
+fatima,532,Fátima,Achada Fátima,4,CR-075:1000-4799,4800-9999,Achada Fátima,false
+faveta,533,Faveta,Faveta|Cutelo Faveta,3,SS-056:100-299 SS-059:300-499,500-999,Cutelo Faveta,false
+fazenda,534,Fazenda,Achada Fazenda|Chã de Fazenda|Fazenda|Lugar de Fazenda|Porto Fazenda,4,CR-078:1000-1999 PA-005:2000-2199 PR-049:2200-2899 SM-062:2900-2999 TA-014:3000-3199 TA-021:3200-3299 TA-022:3300-3499,3500-9999,Achada Fazenda|Chã de Fazenda|Lugar de Fazenda|Porto Fazenda,false
+fazenda real,535,Fazenda Real,Fazenda Real,3,SV-057:100-299,300-999,,false
+feijao,536,Feijão,Ribeirão Feijão,3,CR-030:100-199,200-999,Ribeirão Feijão,false
+feijoal,537,Feijoal,Feijoal|Chã de Feijoal|Feijoal Preto,4,MO-022:1000-1599 PN-079:1600-1799 SL-033:1800-1999 SV-061:2000-2299,2300-9999,Chã de Feijoal|Feijoal Preto,true
+feital,538,Feital,Feital,3,CA-030:100-299,300-999,,false
+feixo,539,Feixo,Feixo,3,CA-051:100-199,200-999,,false
+fenaraca,540,Fenaraça,Fenaraça,3,BV-026:100-599,600-999,,false
+fernando,541,Fernando,Cutelo Fernando,3,SS-034:100-299,300-999,Cutelo Fernando,false
+fernando pau,542,Fernando Pau,Fernando Pau,4,SV-042:1000-2199,2200-9999,,false
+fernao gomes,543,Fernão Gomes,Fernão Gomes,3,MO-030:100-399,400-999,,false
+ferro,544,Ferro,Chão de Ferro,3,CA-094:100-299,300-999,Chão de Ferro,false
+figueira,545,Figueira,Cova Figueira|Figueira Gorda|Figueira da Horta|Figueira Seca|Lombinho de Figueira|Lombo de Figueira|Ribeirão Figueira|Figueira Branca|Figueira|Figueira Muita,4,CF-031:1000-1699 CR-027:1700-1899 MA-028:1900-2199 MA-029:2200-2299 PN-015:2300-2599 PN-113:2600-2899 RG-001:2900-3099 SD-063:3100-3299 TA-004:3300-3499 TA-005:3500-3699,3700-9999,Cova Figueira|Figueira Gorda|Figueira da Horta|Figueira Seca|Lombinho de Figueira|Lombo de Figueira|Ribeirão Figueira|Figueira Branca|Figueira Muita,true
+figueiral,546,Figueiral,Figueiral|Boca di Figueiral|Figueiral de Cima,4,BR-025:1000-1099 PA-020:1100-1499 RG-062:1500-1799 TS-005:1800-2099,2100-9999,Boca di Figueiral|Figueiral de Cima,true
+figueiras,547,Figueiras,Fundo das Figueiras|Figueiras da Cima|Figueiras de Baixo,4,BV-055:1000-1399 RG-029:1400-1699 RG-033:1700-1899,1900-9999,Fundo das Figueiras|Figueiras da Cima|Figueiras de Baixo,true
+figueirinha,548,Figueirinha,Figueirinha,3,PN-028:100-199 PN-112:200-299 SD-049:300-399,400-999,,false
+figueirona,549,Figueirona,Figueirona,3,SM-029:100-299,300-999,,false
+filipe,550,Filipe,Ribeira Filipe,4,SF-104:1000-1799,1800-9999,Ribeira Filipe,false
+fio pomba,551,Fio de Pomba,Fio de Pomba de Baixo,3,SF-137:100-199,200-999,Fio de Pomba de Baixo,true
+flamengos,552,Flamengos,Flamengos|Flamengos de Baixo,3,SM-003:100-299 SM-083:300-499,500-999,Flamengos de Baixo,true
+flores,553,Flores,Flores,3,RG-095:100-199,200-999,,false
+floupe,554,Floupe,Floupe,4,PN-053:1000-1799,1800-9999,,false
+fonsaco,555,Fonsaco,Fonsaco,4,MO-014:1000-2399,2400-9999,,false
+fontainhas,556,Fontainhas,Fontainhas|Fontaínhas|Alto Fontainhas,4,RG-087:1000-1399 SF-068:1400-1699 TS-013:1700-1899 TS-016:1900-2599,2600-9999,Fontaínhas|Alto Fontainhas,false
+fontana,557,Fontana,Fontana,4,MA-002:1000-2299,2300-9999,,false
+fonte aleixo,558,Fonte Aleixo,Fonte Aleixo,4,CF-006:1000-2099,2100-9999,,false
+fonte conego,559,Fonte Cônego,Fonte Cônego,3,SV-017:100-599,600-999,,false
+fonte filipe,560,Fonte Filipe,Fonte Filipe,4,SV-018:1000-1899,1900-9999,,false
+fonte grande,561,Fonte Grande,Fonte Grande,3,CA-157:100-299,300-999,,false
+fonte ines,562,Fonte Inés,Fonte Inés,3,SV-027:100-399,400-999,,false
+fonte lima,563,Fonte Lima,Fonte Lima,4,CA-160:1000-1799,1800-9999,,false
+fonte mato,564,Fonte Mato,Fonte Mato,3,SS-013:100-399,400-999,,false
+fonte meio,565,Fonte de Meio,Fonte de Meio,3,SV-022:100-399,400-999,,true
+fonte sao joao,566,Fonte de Sao João,Fonte de Sao João,3,SM-045:100-199,200-999,,true
+fontes acima,567,Fontes Acima,Fontes Acima,3,SD-010:100-199,200-999,,false
+fontinha,568,Fontinha,Chã de Fontinha,3,PN-031:100-199,200-999,Chã de Fontinha,false
+fontona,569,Fontona,Fontona,3,CA-104:100-299 SL-009:300-399,400-999,,false
+forca,570,Forca,Forca da Baleia,3,SV-062:100-199,200-999,Forca da Baleia,true
+fornalha,571,Fornalha,Fornalha,3,CR-057:100-199,200-999,,false
+forno,572,Forno,Forno|Cutelo do Forno,4,CA-136:1000-1099 SF-005:1100-1699 SM-012:1700-1799,1800-9999,Cutelo do Forno,false
+forno cal,573,Forno de Cal,Lomba de Forno de Cal,3,BV-053:100-299,300-999,Lomba de Forno de Cal,false
+forrador,574,Forrador,Forrador,3,RG-077:100-199,200-999,,false
+fortelho,575,Fortelho,Cova Fortelho,3,MO-012:100-299,300-999,Cova Fortelho,false
+frade,576,Frade,Frade,3,SM-057:100-399,400-999,,false
+fragotona,577,Fragotona,Fragotona,3,TS-003:100-299,300-999,,false
+franca,578,França,Penha da França,4,RG-106:1000-1899,1900-9999,Penha da França,true
+frances,579,Francês,Limão Francês|Fonte Francês,4,RS-012:1000-1199 SV-035:1200-2399,2400-9999,Limão Francês|Fonte Francês,true
+fraqueza,580,Fraqueza,Chã de Fraqueza,4,SL-029:1000-2299,2300-9999,Chã de Fraqueza,false
+freixa,581,Freixa,Freixa,3,CA-008:100-399,400-999,,false
+fundao,582,Fundão,Cabeça Fundão|Fundão,3,CF-018:100-299 RS-011:300-399,400-999,Cabeça Fundão,false
+fundo,583,Fundo,Fundo,3,RG-023:100-399 SM-019:400-499,500-999,,false
+fundo banana,584,Fundo Banana,Fundo Banana,3,SS-005:100-299,300-999,,false
+fundo casa velha,585,Fundo de Casa Velha,Fundo de Casa Velha,3,PN-008:100-399,400-999,,true
+fundura,586,Fundura,Fundura|Cruz de Fundura,3,CA-045:100-299 SO-029:300-399,400-999,Cruz de Fundura,true
+furado,587,Furado,Furado,3,RB-048:100-199,200-999,,false
+furna,588,Furna,Furna|Portal da Furna,3,BR-032:100-499 CA-096:500-699 CA-102:700-799,800-999,Portal da Furna,true
+furnas,589,Furnas,Chã das Furnas,3,RG-108:100-499,500-999,Chã das Furnas,false
+galeao,590,Galeão,Galeão|Cutelo Galeão,3,SO-032:100-299 SO-040:300-399,400-999,Cutelo Galeão,false
+galego,591,Galego,Achada Galego,4,CA-073:1000-1999,2000-9999,Achada Galego,false
+galinha,592,Galinha,Lombo de Galinha|Pedra Galinha|Ribeirão Galinha,3,RG-032:100-299 SD-031:300-499 SO-003:500-799,800-999,Lombo de Galinha|Pedra Galinha|Ribeirão Galinha,true
+galinheiros,593,Galinheiros,Galinheiros,4,SF-067:1000-1799,1800-9999,,false
+gama touro,594,Gama Touro,Gama Touro,3,CA-167:100-299,300-999,,false
+gamboa,595,Gamboa,Gamboa,3,SD-076:100-599,600-999,,false
+gameleiro,596,Gameleiro,Gameleiro,3,RG-009:100-199,200-999,,false
+ganxemba,597,Ganxemba,Ganxemba,3,TA-040:100-299,300-999,,false
+garca,598,Garça,Garça|Garça de Cima|Horta da Garça,3,BR-035:100-199 RG-003:200-299 RG-026:300-499,500-999,Garça de Cima|Horta da Garça,true
+garcote,599,Garçote,Achada Garçote|Garçote,3,SM-049:100-299 SM-050:300-499,500-999,Achada Garçote,false
+garcoto,600,Garçoto,Garçoto,3,RB-047:100-199,200-999,,false
+garganta,601,Garganta,Chã de Garganta,3,CA-024:100-299,300-999,Chã de Garganta,false
+gatas,602,Gatas,Baía das Gatas,4,SV-076:1000-2099,2100-9999,Baía das Gatas,true
+gege,603,Gégé,Gégé,3,CA-170:100-199,200-999,,false
+gelandre,604,Gelandré,Gelandré,3,CR-114:100-399,400-999,,false
+genebra,605,Genebra,Monte Genebra|Genebra,3,SF-001:100-199 SF-002:200-399,400-999,Monte Genebra,true
+geral cabral,606,Geral Cabral,Geral Cabral,3,CA-155:100-199,200-999,,false
+gil bispo,607,Gil Bispo,Gil Bispo,3,CA-077:100-799,800-999,,false
+godim,608,Godim,Godim,3,SD-048:100-399,400-999,,false
+godinho,609,Godinho,Godinho,3,CA-122:100-299 MA-006:300-399,400-999,,false
+goiaba,610,Goiaba,Goiaba,3,SS-049:100-499,500-999,,false
+gomes,611,Gomes,Ribeira Gomes|Gomes,3,SF-069:100-299 SM-015:300-399,400-999,Ribeira Gomes,false
+goncalinho,612,Gonçalinho,Gonçalinho,3,RG-150:100-299,300-999,,false
+goncalves,613,Gonçalves,Miguel Gonçalves,3,SF-121:100-299,300-999,Miguel Gonçalves,true
+gongon,614,Gongon,Gongon,3,SM-036:100-299,300-999,,false
+gorado,615,Gorado,Chão de Gorado,3,PN-062:100-199,200-999,Chão de Gorado,false
+gouveia,616,Gouveia,Porto Gouveia|Achada Gouveia,3,RS-002:100-499 RS-003:500-799,800-999,Porto Gouveia|Achada Gouveia,false
+graca,617,Graça,Cutelo da Graça,3,CR-062:100-299,300-999,Cutelo da Graça,false
+grande,618,Grande,Grande,3,CR-101:100-199,200-999,,false
+gregorio,619,Gregório,Achada Gregório,3,CA-007:100-299,300-999,Achada Gregório,false
+guarda vento,620,Guarda Vento,Guarda Vento,3,CR-081:100-199,200-999,,false
+gudelha,621,Gudelha,Gudelha,3,CR-003:100-299,300-999,,false
+guelha,622,Guelha,Covão de Guelha,3,SD-012:100-299,300-999,Covão de Guelha,false
+guilherme,623,Guilherme,Covada de Guilherme,3,PN-016:100-299,300-999,Covada de Guilherme,false
+guincho,624,Guincho,Queimada Guincho|Guincho,4,MO-018:1000-1699 MO-025:1700-1899 SD-075:1900-1999,2000-9999,Queimada Guincho,false
+guinda,625,Guinda,Guinda,3,SF-101:100-199,200-999,,false
+guitero,626,Guitero,Chã Branco de Guitero,3,RG-170:100-299,300-999,Chã Branco de Guitero,false
+henrique,627,Henrique,Borda de Henrique|Chã de Henrique,3,PN-033:100-199 RG-066:200-299,300-999,Borda de Henrique|Chã de Henrique,true
+hilario,628,Hilário,Achada Hilário,3,CA-031:100-299,300-999,Achada Hilário,false
+hortas,629,As Hortas,As Hortas|Hortas,3,SF-050:100-399 SF-051:400-599,600-999,Hortas,false
+hortela,630,Hortelã,Hortelã de Cima|Hortelã,4,SL-016:1000-1599 TS-006:1600-1799,1800-9999,Hortelã de Cima,true
+hortelao,631,Hortelão,Hortelão,3,SM-058:100-399,400-999,,false
+igreja,632,Igreja,Achada da Igreja|Chã de Igreja|Chã de Igreja de Cima|Igreja|Várzea da Igreja|Achada Igreja,4,CR-071:1000-1399 PN-090:1400-1599 RG-039:1600-2099 RG-043:2100-2199 SM-091:2200-2299 SO-056:2300-2499 TA-029:2500-2799,2800-9999,Achada da Igreja|Chã de Igreja|Chã de Igreja de Cima|Várzea da Igreja|Achada Igreja,true
+igrejinha,633,Igrejinha,Igrejinha,3,RG-076:100-199,200-999,,false
+ilheu monte grande,634,Ilhéu de Monte Grande,Ilhéu de Monte Grande,3,SF-125:100-299,300-999,,true
+ingles,635,Inglés,Cruz de Inglés,3,SV-067:100-399,400-999,Cruz de Inglés,true
+inhuco,636,Inhuco,Inhuco,3,SF-096:100-699,700-999,,false
+isabel,637,Isabel,Cutelo de Ribeirão Isabel,3,CA-141:100-299,300-999,Cutelo de Ribeirão Isabel,false
+isabel lopes,638,Isabel Lopes,Isabel Lopes,3,PR-001:100-199,200-999,,false
+italia,639,Itália,Itália,3,PN-125:100-699,700-999,,false
+italiano,640,Italiano,Italiano,3,SF-079:100-699,700-999,,false
+jabe,641,Djabe,Djabe,3,CA-158:100-299,300-999,,false
+jalalo,642,Jalalo,Cruz de Jalalo,3,SS-062:100-199,200-999,Cruz de Jalalo,true
+jalalo ramos,643,Jalalo Ramos,Jalalo Ramos,3,SS-061:100-199,200-999,,false
+janeiro,644,Janeiro,Janeiro,3,CR-107:100-399,400-999,,false
+janela,645,Janela,Pontinha da Janela|Janela|Aguada de Janela|Chã da Janela,4,PA-007:1000-1199 PA-035:1200-1599 PA-036:1600-1799 PN-030:1800-1899,1900-9999,Pontinha da Janela|Aguada de Janela|Chã da Janela,true
+japluma,646,Japluma,Japluma,3,CA-086:100-299,300-999,,false
+jaques,647,Jaques,Tope de Jaques,3,RG-061:100-299,300-999,Tope de Jaques,false
+jaquetao,648,Jaquetão,Jaquetão,3,SM-041:100-199,200-999,,false
+jaracunda,649,Jaracunda,Jaracunda,3,CR-070:100-399,400-999,,false
+jardim,650,Jardim,Jardim,3,SL-010:100-699,700-999,,false
+jatar,651,Jatar,Cutelo de Jatar,3,SD-093:100-199,200-999,Cutelo de Jatar,false
+jeronimo,652,Jerónimo,Ribeirão Jerónimo|Jerónimo,3,SD-021:100-199 TS-004:200-299,300-999,Ribeirão Jerónimo,false
+ji sal,653,Dji d'Sal,Dji d'Sal,3,SV-045:100-699,700-999,,false
+joana,654,Joana,Cruz de Joana,3,SV-068:100-699,700-999,Cruz de Joana,true
+joao bento,655,João Bento,Chã João Bento,3,PN-075:100-199,200-999,Chã João Bento,false
+joao bernardo,656,João Bernardo,João Bernardo,3,CA-191:100-599,600-999,,true
+joao bom,657,João Bom,João Bom,3,PR-018:100-299,300-999,,false
+joao carreia,658,João Carreia,João Carreia,3,CF-002:100-299,300-999,,false
+joao dias,659,João Dias,João Dias,3,CA-118:100-299,300-999,,false
+joao evora,660,João d'Évora,Cruz João d'Évora,3,SV-024:100-499,500-999,Cruz João d'Évora,false
+joao gago,661,João Gago,João Gago,3,CA-020:100-199,200-999,,false
+joao galego,662,João Galego,João Galego,3,BV-045:100-599,600-999,,false
+joao garrido,663,João Garrido,João Garrido,3,SD-024:100-699,700-999,,false
+joao goncalo,664,João Gonçalo,João Gonçalo,3,SM-074:100-299,300-999,,false
+joao goto,665,João Gotô,João Gotô,3,CA-163:100-299 SO-018:300-599,600-999,,false
+joao guela,666,João Guela,João Guela,3,SO-009:100-199,200-999,,false
+joao nole,667,João d'Nole,João d'Nole,3,BR-015:100-399,400-999,,false
+joao ribeiro,668,João Ribeiro,Ponta João Ribeiro,3,SV-005:100-399,400-999,Ponta João Ribeiro,false
+joao teves,669,João Teves,João Teves,3,SO-061:100-799,800-999,,false
+joao toro,670,João Toro,João Toro,3,CR-087:100-399,400-999,,false
+joao varela,671,João Varela,João Varela,3,RS-036:100-599,600-999,,false
+joao vaz,672,João Vaz,Chã de João Vaz,3,PA-011:100-299,300-999,Chã de João Vaz,false
+jorge,673,Jorge,Ribeirinha do Jorge|Selada da Ribeirinha do Jorge,3,RG-120:100-399 RG-123:400-599,600-999,Ribeirinha do Jorge|Selada da Ribeirinha do Jorge,false
+jorge luis,674,Jorge LuÍs,Jorge LuÍs,3,PN-044:100-299,300-999,,false
+jorge luiz,675,Jorge Luiz,Jorge Luiz,3,PN-048:100-199,200-999,,false
+juliao,676,Julião,Ribeira de Julião|Casa Para Todos-Ribeira de Julião,4,SV-051:1000-2399 SV-053:2400-2999,3000-9999,Ribeira de Julião|Casa Para Todos-Ribeira de Julião,false
+juncalinho,677,Juncalinho,Juncalinho,4,RB-065:1000-1799,1800-9999,,false
+junco,678,Junco,Junco|Chão de Junco,3,CA-162:100-299 TA-049:300-499,500-999,Chão de Junco,false
+junco baixo,679,Junco Baixo,Junco Baixo,3,SS-038:100-399,400-999,,false
+ladeira,680,Ladeira,Ladeira|Ladeira Grande,3,PA-010:100-199 PN-005:200-299 RB-016:300-499 RB-053:500-599 RG-159:600-699,700-999,Ladeira Grande,true
+lagarica,681,Lagariça,Lagariça,3,SF-020:100-299,300-999,,false
+lagedos,682,Lagedos,Lagedos,3,PN-096:100-299,300-999,,false
+lagoa,683,Lagoa,Lagoa,3,PN-110:100-499 TA-064:500-699,700-999,,false
+lagoinha,684,Lagoinha,Lagoinha,3,RG-173:100-199,200-999,,false
+laje,685,Laje,Laje,3,SO-014:100-499,500-999,,false
+laje branca,686,Laje Branca,Laje Branca,3,MA-018:100-199,200-999,,false
+lajedo,687,Lajedo,Chã de Fonte de Lajedo|Lajedo,3,PN-021:100-199 SL-022:200-299,300-999,Chã de Fonte de Lajedo,false
+lameirao,688,Lameirão,Lameirão,3,SV-069:100-399,400-999,,false
+lanca,689,Lança,Lombo das Lança,3,PN-010:100-399,400-999,Lombo das Lança,false
+lapa,690,Lapa,Lapa|Ilhéu de Lapa,3,RB-020:100-199 SF-119:200-499,500-999,Ilhéu de Lapa,false
+lapa cavalo,691,Lapa Cavalo,Lapa Cavalo|Montado de Lapa Cavalo,3,SF-010:100-299 SF-122:300-499,500-999,Montado de Lapa Cavalo,false
+lapa coruja,692,Lapa Coruja,Lapa Coruja,3,CA-131:100-199,200-999,,false
+lapa grande,693,Lapa Grande,Lapa Grande,3,CA-042:100-299,300-999,,false
+larangeira,694,Larangeira,Larangeira,3,SS-019:100-199,200-999,,false
+laranginha,695,Laranginha,Laranginha,3,CA-181:100-199,200-999,,false
+laranja,696,Laranja,Chão de Laranja|Várzea Laranja,3,CA-123:100-199 CR-055:200-299,300-999,Chão de Laranja|Várzea Laranja,false
+laranjeira,697,Laranjeira,Laranjeira,4,CA-041:1000-1099 CR-012:1100-1399 SF-052:1400-1799 SO-019:1800-1999,2000-9999,,false
+laranjeiro,698,Laranjeiro,Laranjeiro,3,SF-080:100-699,700-999,,false
+laranjo,699,Laranjo,Laranjo,4,MO-019:1000-1599 PR-022:1600-2399,2400-9999,,false
+latada,700,Latada,Latada,3,SO-057:100-199,200-999,,false
+lavadura,701,Lavadura,Lavadura,3,BR-028:100-299,300-999,,false
+lavrado,702,Lavrado,Lombo de Lavrado,3,RG-059:100-199,200-999,Lombo de Lavrado,false
+lazareto,703,Lazareto,Lazareto,4,SV-049:1000-3099,3100-9999,,false
+ledo,704,Ledo,Ledo,3,SF-072:100-299,300-999,,false
+leitao,705,Leitão,Achada Leitão,3,SS-055:100-499,500-999,Achada Leitão,false
+leitao baixo,706,Leitão Baixo,Leitão Baixo,3,SS-054:100-399,400-999,,false
+leitoezinhos,707,Leitõezinhos,Leitõezinhos,3,SS-065:100-299,300-999,,false
+lela,708,Lela,Horta de Lela,3,BV-007:100-299,300-999,Horta de Lela,false
+lem baixo,709,Lem de Baixo,Lem de Baixo,3,SF-028:100-699,700-999,,false
+lem barbosa,710,Lem Barbosa,Lem Barbosa,3,CR-112:100-399,400-999,,false
+lem cachor,711,Lem Cachor,Lem Cachor,4,PR-045:1000-1799,1800-9999,,false
+lem cachorro,712,Lem Cachorro,Lem Cachorro,4,PR-043:1000-2399,2400-9999,,false
+lem cima,713,Lem de Cima,Lem de Cima,3,SF-031:100-299,300-999,,false
+lem cruz,714,Lem Cruz,Lem Cruz,3,SD-059:100-199,200-999,,false
+lem dias,715,Lem Dias,Lem Dias,3,RS-052:100-199,200-999,,false
+lem espinola,716,Lem Espinola,Lem Espinola,3,RS-024:100-199,200-999,,false
+lem ferreira,717,Lém-Ferreira,Lém-Ferreira|Lem Ferreira,4,PR-057:1000-1899 SD-043:1900-2199,2200-9999,Lem Ferreira,false
+lem freire,718,Lem Freire,Lem Freire,3,RS-026:100-399,400-999,,false
+lem garcia,719,Lem Garcia,Lem Garcia,3,CA-103:100-399,400-999,,false
+lem gomes,720,Lem Gomes,Lem Gomes,3,CA-059:100-399 CR-108:400-499 SM-099:500-799,800-999,,false
+lem grande,721,Lem Grande,Lem Grande,3,CA-081:100-299,300-999,,false
+lem jorge,722,Lem Jorge,Lem Jorge,3,CR-089:100-299 SS-042:300-599,600-999,,false
+lem lopes,723,Lem Lopes,Lem Lopes,4,CA-193:1000-1599 CR-116:1600-2099 SM-097:2100-2199,2200-9999,,false
+lem martim,724,Lem Martim,Lem Martim,3,CA-098:100-399,400-999,,false
+lem meio,725,Lem de Meio,Lem de Meio,3,SF-027:100-399,400-999,,false
+lem mendes,726,Lem Mendes,Lem Mendes,3,CA-120:100-299 SM-005:300-599,600-999,,false
+lem pereira,727,Lem Pereira,Lem Pereira,4,CR-051:1000-1299 CR-104:1300-1399 SD-046:1400-1699 SM-026:1700-1799,1800-9999,,false
+lem rua,728,Lem da Rua,Lem da Rua,3,SS-017:100-299,300-999,,false
+lem sancho,729,Lem Sancho,Lem Sancho,3,RS-034:100-299 SM-024:300-499,500-999,,false
+lem santo,730,Lem de Santo,Lem de Santo,3,SM-085:100-199,200-999,,false
+lem semedo,731,Lem Semedo,Lem Semedo,3,CR-002:100-399,400-999,,false
+lem silva,732,Lem Silva,Lem Silva,4,CA-108:1000-2299,2300-9999,,false
+lem soares,733,Lem Soares,Lem Soares,3,SD-060:100-299,300-999,,false
+lem tavares,734,Lém Tavares,Lém Tavares|Lem Tavares,3,MA-014:100-299 SS-043:300-499,500-999,Lem Tavares,false
+lem telheiro,735,Lem Telheiro,Lem Telheiro,3,TA-043:100-299,300-999,,false
+lem varela,736,Lem Varela,Lem Varela,3,SM-008:100-199,200-999,,false
+lem vaz,737,Lem Vaz,Lem Vaz,3,SO-053:100-199,200-999,,false
+lem veiga,738,Lem da Veiga,Lem da Veiga,3,CA-142:100-299 SD-042:300-399,400-999,,false
+lem vieira,739,Lem Vieira,Lem Vieira,3,CR-054:100-199 CR-085:200-299 SD-040:300-499,500-999,,false
+lengueira,740,Lengueira,Achada Lengueira,3,TA-013:100-699,700-999,Achada Lengueira,false
+levada,741,Levada,Levada dos Orgãos|Levada,3,SO-050:100-299 SO-051:300-399,400-999,Levada dos Orgãos,true
+lima,742,Lima,Ponte de Fonte Lima,4,CA-075:1000-1999,2000-9999,Ponte de Fonte Lima,true
+lima doce,743,Lima Doce,Lima Doce,3,BR-014:100-599,600-999,,false
+limao,744,Limão,Limão,3,SD-103:100-399 SM-021:400-599,600-999,,false
+limeira,745,Limeira,Limeira,3,SD-094:100-199,200-999,,false
+limoeiro,746,Limoeiro,Limoeiro,3,CA-125:100-199,200-999,,false
+lin corvo,747,Lin d' Corvo,Lin d' Corvo,3,RG-166:100-199,200-999,,false
+lobinhos,748,Lobinhos,Chã de Lobinhos,3,RG-017:100-199,200-999,Chã de Lobinhos,false
+lobo,749,Lobo,Domingos Lobo,3,CF-026:100-299,300-999,Domingos Lobo,true
+lobrao,750,Lobrâo,Ponta do Lobrâo,3,TA-030:100-299,300-999,,false
+locotano,751,Locotano,Locotano,3,CA-112:100-199,200-999,,false
+lomba,752,Lomba,Lomba,3,SF-077:100-499,500-999,,false
+lomba branca,753,Lomba Branca,Lomba Branca,3,SL-035:100-199,200-999,,false
+lomba lomba,754,Lomba Lomba,Lomba Lomba,3,BR-024:100-199,200-999,,false
+lomba manuel luz,755,Lomba Manuel da Luz,Lomba Manuel da Luz,3,BV-042:100-299,300-999,,true
+lomba preta,756,Lomba Preta,Lomba Preta,3,BV-041:100-199,200-999,,false
+lombinho,757,Lombinho,Lombinho,3,PA-014:100-199 RG-151:200-399,400-999,,false
+lombinho branco,758,Lombinho Branco,Lombinho Branco,3,RG-046:100-299,300-999,,true
+lombo amaro,759,Lombo Amaro,Lombo Amaro,3,RG-013:100-199,200-999,,false
+lombo branco,760,Lombo Branco,Lombo Branco|Lombo Branco villagem/ Lomb Bronk,3,RG-111:100-199 RG-115:200-599,600-999,Lombo Branco villagem/ Lomb Bronk,true
+lombo cha fundo,761,Lombo de Chã Fundo,Lombo de Chã Fundo,3,PA-015:100-399,400-999,,true
+lombo comprido,762,Lombo Comprido,Lombo Comprido,3,PA-021:100-299,300-999,,true
+lombo covada,763,Lombo de Covada,Lombo de Covada,3,PN-049:100-399,400-999,,true
+lombo covada funda,764,Lombo de Covada Funda,Lombo de Covada Funda,3,PN-109:100-199,200-999,,true
+lombo joao bento,765,Lombo João de Bento,Lombo João de Bento,3,PN-071:100-299,300-999,,true
+lombo joao patinha,766,Lombo de João de Patinha,Lombo de João de Patinha,3,RG-012:100-199,200-999,,true
+lombo largo,767,Lombo Largo,Lombo Largo,3,RG-145:100-299,300-999,,false
+lombo morro,768,Lombo do Morro,Lombo do Morro,3,PA-026:100-199,200-999,,true
+lombo nho,769,Lombo de Nhô,Lombo de Nhô,3,RG-006:100-199,200-999,,false
+lombo nossa senhora luz,770,Lombo de Nossa Senhora de Luz,Lombo de Nossa Senhora de Luz,3,PN-108:100-199,200-999,,true
+lombo pelado,771,Lombo Pelado,Lombo Pelado,3,RB-039:100-499,500-999,,false
+lombo queimado,772,Lombo Queimado,Lombo Queimado,3,PN-078:100-199,200-999,,true
+lombo santa,773,Lombo de Santa,Lombo de Santa|Lombo Santa,3,RG-019:100-299 RG-045:300-599,600-999,Lombo Santa,true
+lombo santo,774,Lombo de Santo,Lombo de Santo,3,RG-110:100-299,300-999,,true
+lombo velho,775,Lombo Velho,Lombo Velho,3,PN-043:100-299,300-999,,false
+lombona,776,Lombona,Lombona,3,RB-026:100-199,200-999,,false
+longueira,777,Longueira,Longueira|Achada Longueira,3,CR-099:100-199 SO-002:200-499 TA-008:500-699,700-999,Achada Longueira,false
+lornal,778,Lornal,Lornal,3,MO-001:100-199,200-999,,false
+losnas,779,Losnas,Losnas da Ribeira Grande,3,RG-020:100-199,200-999,Losnas da Ribeira Grande,true
+lourenco,780,Lourenço,Lourenço|Covão Lourenço|Cutelo Lourenço,4,RG-109:1000-1099 SD-029:1100-1499 SF-136:1500-2099,2100-9999,Covão Lourenço|Cutelo Lourenço,false
+lugar gem,781,Lugar de Gem,Lugar de Gem,3,RG-118:100-199,200-999,,false
+lugar grande,782,Lugar Grande,Lugar Grande,3,SF-062:100-199,200-999,,false
+lugar novo,783,Lugar Novo,Lugar Novo,3,SF-038:100-399,400-999,,false
+lugar velho,784,Lugar Velho,Lugar Velho,3,CA-040:100-299,300-999,,false
+lugarinho,785,Lugarinho,Lugarinho,3,BR-018:100-299,300-999,,false
+luis afonso,786,Luis Afonso,Luis Afonso,3,RB-004:100-299,300-999,,false
+luis spencer,787,Luis Spencer,Luis Spencer,3,PN-017:100-199,200-999,,false
+lume,788,Lume,Pedra de Lume,3,SL-032:100-499,500-999,Pedra de Lume,true
+luzia,789,Luzia,Lombo de Luzia,3,PA-027:100-299,300-999,Lombo de Luzia,false
+luzia nunes,790,Luzia Nunes,Luzia Nunes,3,SF-004:100-799,800-999,,false
+macaroca,791,Maçaroca,Maçaroca,3,SO-055:100-199,200-999,,false
+macati,792,Macati,Macati,3,CR-082:100-399,400-999,,false
+macedo,793,Macedo,Macedo,3,CR-090:100-299,300-999,,false
+machado,794,Machado,Fonte Machado|Machado,3,CR-066:100-199 SM-023:200-299,300-999,Fonte Machado,false
+maciel,795,Maciel,Maciel Fernando,3,PR-031:100-199,200-999,Maciel Fernando,true
+madeira,796,Madeira,Ilha de Madeira,3,SV-033:100-299,300-999,Ilha de Madeira,true
+madeiral,797,Madeiral,Madeiral,4,SV-080:1000-2199,2200-9999,,false
+madeiralzinho,798,Madeiralzinho,Madeiralzinho,3,SV-008:100-499,500-999,,true
+mae joana,799,Mãe Joana,Mãe Joana,3,CF-033:100-499,500-999,,false
+mafafa,800,Mafafa,Mafafa,3,SM-030:100-199,200-999,,false
+maguinha,801,Maguinha,Covada de Maguinha,3,RG-031:100-199,200-999,Covada de Maguinha,false
+maiama,802,Maiama,Maiama,3,RB-023:100-199,200-999,,false
+maiamona,803,Maiamona,Maiamona,3,RB-018:100-299,300-999,,false
+mamelano,804,Mamelano,Chão de Mamelano,3,CA-168:100-299,300-999,Chão de Mamelano,false
+mamona,805,Mamona,Mamona,3,CA-180:100-199,200-999,,false
+mancage,806,Mancage,Mancage,4,SV-079:1000-2299,2300-9999,,false
+mancanha,807,Mancanha,Mancanha,3,CA-192:100-299,300-999,,false
+mancholi,808,Mancholi,Mancholi,3,CA-101:100-299,300-999,,false
+mancholy,809,Mancholy,Mancholy,3,CA-099:100-399,400-999,,false
+manga,810,Manga,Fundo de Manga,3,RB-005:100-299,300-999,Fundo de Manga,false
+manginha,811,Manginha,Manginha,3,RG-096:100-299,300-999,,false
+mangue,812,Mangue,Mangue de Sete Ribeiras,3,SM-075:100-599,600-999,Mangue de Sete Ribeiras,true
+manhanga,813,Manhanga,Manhanga,3,SS-047:100-299,300-999,,false
+manipo,814,Manipo,Manipo,3,CA-184:100-399 CR-053:400-599,600-999,,false
+manipolo,815,Manipolo,Manipolo,3,SO-041:100-199,200-999,,false
+manipulo,816,Manipulo,Manipulo,3,SS-048:100-199,200-999,,false
+manta velha,817,Manta Velha,Manta Velha,3,RG-024:100-299,300-999,,false
+manuel antoninho,818,Manuel Antoninho,Manuel Antoninho,3,RG-126:100-399,400-999,,true
+manuel gordo,819,Manuel Gordo,Covada de Manuel Gordo,3,PN-051:100-199,200-999,Covada de Manuel Gordo,false
+manuel pedro point,820,Manuel Pedro Point,Manuel Pedro Point,3,SL-031:100-199,200-999,,true
+manuel ribeiro,821,Manuel Ribeiro,Manuel Ribeiro,3,RG-065:100-299,300-999,,true
+manuelinho,822,Manuelinho,Chã de Manuelinho,3,PN-035:100-199,200-999,Chã de Manuelinho,false
+marcela,823,Marcela,Marcela,3,MA-027:100-199,200-999,,false
+maria clara,824,Maria Clara,Maria Clara,3,BV-017:100-299,300-999,,false
+maria cruz,825,Maria da Cruz,Maria da Cruz,3,CF-025:100-599,600-999,,true
+maria parda,826,Maria Parda,Maria Parda,3,RS-042:100-399 SM-004:400-499,500-999,,false
+maria pereira,827,Maria Pereira,Maria Pereira,3,CR-008:100-399,400-999,,true
+maria pia,828,Maria Pia,Vila Maria Pia,3,RG-088:100-199,200-999,Vila Maria Pia,false
+marica,829,Marica,Marica,3,RB-011:100-299,300-999,,false
+marinha,830,Marinha,Chã de Marinha,3,SV-052:100-699,700-999,Chã de Marinha,false
+marinha ii,831,Marinha II,Chã de Marinha II,3,SV-055:100-499,500-999,Chã de Marinha II,false
+mario,832,Mário,Lombo de Mário,3,RG-011:100-199,200-999,Lombo de Mário,false
+marrador,833,Marrador,Marrador,3,RG-132:100-199,200-999,,false
+marradouro,834,Marradouro,Marradouro,3,RG-133:100-299,300-999,,false
+martiene,835,Martiene,Martiene,3,PN-050:100-199,200-999,,false
+martinho,836,Martinho,Afonso Martinho,3,RG-099:100-299,300-999,Afonso Martinho,true
+martins,837,Martins,Martins,3,SM-034:100-299,300-999,,false
+massa pe,838,Massa Pé,Massa Pé,3,SD-036:100-399,400-999,,false
+matao,839,Matão,Matão,4,PR-015:1000-1799,1800-9999,,false
+mateus,840,Mateus,Curral Mateus,3,BV-006:100-199,200-999,Curral Mateus,false
+mateuzinho,841,Mateuzinho,Mateuzinho,3,SV-063:100-199,200-999,,false
+matinho,842,Matinho,Matinho|Cutelo de Matinho|Matinho de Leste,3,CR-010:100-199 CR-011:200-399 RG-014:400-599 RG-116:600-799,800-999,Cutelo de Matinho|Matinho de Leste,true
+mato,843,Mato,Mato|Lombo do Mato,3,BR-013:100-399 RG-157:400-499 RS-019:500-599,600-999,Lombo do Mato,false
+mato afonso,844,Mato Afonso,Mato Afonso,3,SD-053:100-399,400-999,,false
+mato baixo,845,Mato Baixo,Mato Baixo,3,CA-107:100-399,400-999,,false
+mato brasil,846,Mato Brasil,Mato Brasil,3,TA-054:100-399,400-999,,false
+mato cima,847,Mato de Cima,Fajã do Mato de Cima,3,RG-084:100-199,200-999,Fajã do Mato de Cima,false
+mato correia,848,Mato Correia,Mato Correia,3,SM-065:100-299,300-999,,false
+mato curral,849,Mato Curral,Mato Curral,3,SM-039:100-299,300-999,,false
+mato forte,850,Mato Forte,Mato Forte,3,TS-010:100-399,400-999,,false
+mato fortes,851,Mato Fortes,Mato Fortes,3,SS-064:100-299,300-999,,false
+mato galo,852,Mato Galo,Mato Galo,3,TA-063:100-299,300-999,,false
+mato garca,853,Mato Garça,Mato Garça,4,SM-071:1000-1799,1800-9999,,false
+mato garco,854,Mato Garco,Mato Garco,3,CA-143:100-199,200-999,,false
+mato grande,855,Mato Grande,Mato Grande,3,BR-016:100-499,500-999,,false
+mato lobe,856,Mato Lobe,Mato Lobe,3,SO-013:100-299,300-999,,false
+mato martins,857,Mato Martins,Mato Martins,3,SD-051:100-299,300-999,,false
+mato mendes,858,Mato Mendes,Mato Mendes,3,TA-056:100-699,700-999,,false
+mato novo,859,Mato Novo,Mato Novo,3,SO-017:100-299,300-999,,false
+mato raia,860,Mato Raia,Mato Raia,3,SO-034:100-299,300-999,,false
+mato ribeiro,861,Mato Ribeiro,Mato Ribeiro,3,SS-067:100-299,300-999,,false
+mato sancho,862,Mato Sancho,Mato Sancho,3,CA-055:100-299,300-999,,false
+mato varela,863,Mato Varela,Mato Varela,3,SM-001:100-199,200-999,,false
+matoreal,864,Matoreal,Matoreal,3,CA-129:100-299,300-999,,false
+matos,865,Matos,Fajã de Matos,3,RG-007:100-199,200-999,Fajã de Matos,false
+mauricie,866,Mauricie,Fajã de Mauricie,3,RG-050:100-199,200-999,Fajã de Mauricie,false
+mauricio,867,Mauricio,Achada Mauricio,3,MO-003:100-399,400-999,Achada Mauricio,false
+meio estancia,868,Meio Estancia,Meio estancia,3,RB-013:100-299,300-999,,true
+mendes,869,Mendes,Cutelo Mendes,3,CA-135:100-199 CR-009:200-299,300-999,Cutelo Mendes,false
+menininha,870,Menininha,Chã de Menininha,3,PN-036:100-199,200-999,Chã de Menininha,false
+mentira,871,Mentira,Salto Mentira,3,BV-005:100-199,200-999,Salto Mentira,true
+mentirosa,872,Mentirosa,Achada Mentirosa,3,SF-055:100-299,300-999,Achada Mentirosa,false
+mercado,873,Mercado,Mercado,3,SO-015:100-399,400-999,,false
+mermorial,874,Mermorial,Mermorial,3,RB-024:100-299,300-999,,false
+miguel pires,875,Miguel Pires,Miguel Pires,3,PN-046:100-299,300-999,,false
+milafre,876,Milafre,Milafre,3,TA-033:100-399,400-999,,false
+milho branco,877,Milho Branco,Milho Branco,4,SD-099:1000-1199 TA-012:1200-1799,1800-9999,,false
+mina ouro,878,Mina de Ouro,Mina de Ouro,3,CA-060:100-399,400-999,,false
+minhoto,879,Minhoto,Minhoto,3,BR-021:100-299,300-999,,false
+mira mira,880,Mira Mira,Mira Mira,3,SF-070:100-399,400-999,,false
+miranda,881,Miranda,Tanquinho Miranda,3,PR-029:100-599,600-999,Tanquinho Miranda,true
+misericordia,882,Misericórdia,Misericórdia,3,SO-030:100-299,300-999,,false
+mitra,883,Mitra,Mitra,3,SO-049:100-199,200-999,,false
+mocho,884,Mocho,Ribeirão Mocho|Selada do Mocho,3,CA-152:100-299 RG-044:300-399,400-999,Ribeirão Mocho|Selada do Mocho,false
+moia moia,885,Moia Moia,Moia Moia,3,SD-085:100-499,500-999,,false
+monrato,886,Monrato,Monrato,3,SF-018:100-299,300-999,,false
+montanha,887,Montanha,Montanha,3,SO-037:100-199,200-999,,false
+montao,888,Montão,Montão,3,TA-015:100-299,300-999,,false
+monte,889,Monte,Monte,3,SM-056:100-299,300-999,,false
+monte afonso,890,Monte Afonso,Monte Afonso,3,SS-040:100-299,300-999,,false
+monte alegre,891,Monte Alegre,Monte alegre,3,RB-019:100-299,300-999,,false
+monte barro,892,Monte Barro,Monte Barro,3,SF-023:100-499,500-999,,false
+monte bode,893,Monte Bode,Monte Bode,3,SM-013:100-199,200-999,,false
+monte bodo,894,Monte Bodo,Monte Bodo,3,CF-012:100-299,300-999,,false
+monte branco,895,Monte Branco,Monte Branco,3,SM-009:100-299,300-999,,false
+monte calhau,896,Monte Calhau,Monte Calhau,3,SF-126:100-199,200-999,,false
+monte claro,897,Monte Claro,Monte Claro,3,BV-012:100-199,200-999,,false
+monte corno,898,Monte Corno,Monte Corno,3,SF-114:100-299,300-999,,false
+monte escora,899,Monte Escora,Monte Escora,3,CF-038:100-399,400-999,,false
+monte grande,900,Monte Grande,Monte Grande,3,SF-130:100-799,800-999,,false
+monte horta,901,Monte de Horta,Monte de Horta,3,SF-132:100-299,300-999,,true
+monte joana,902,Monte Joana,Monte Joana,3,RG-127:100-299,300-999,,false
+monte largo,903,Monte Largo,Monte Largo,3,SF-116:100-799,800-999,,false
+monte luso,904,Monte Luso,Monte Luso,3,SF-073:100-399,400-999,,false
+monte mendes,905,Monte Mendes,Monte Mendes,3,CF-036:100-199,200-999,,false
+monte negro,906,Monte Negro,Monte Negro,3,CR-115:100-199,200-999,,false
+monte palha,907,Monte Palha,Monte Palha,3,CF-016:100-299,300-999,,false
+monte parada,908,Monte Parada,Monte Parada,3,SD-108:100-399,400-999,,false
+monte piorno,909,Monte Piorno,Monte Piorno,3,SF-134:100-299,300-999,,false
+monte piorro,910,Monte Piorro,Monte Piorro,3,MO-002:100-299,300-999,,false
+monte preto,911,Monte Preto,Monte Preto,3,CF-017:100-199,200-999,,false
+monte tabor,912,Monte Tabor,Monte Tabor,3,SF-047:100-499,500-999,,false
+monte trigo,913,Monte Trigo,Monte Trigo,3,PN-025:100-599,600-999,,false
+monte varela,914,Monte Varela,Monte Varela,3,SO-022:100-299,300-999,,false
+monte verde,915,Monte Verde,Monte Verde,3,SV-064:100-199,200-999,,false
+monte vermelho,916,Monte Vermelho,Monte Vermelho,4,BR-006:1000-1099 CF-045:1100-1699 PR-003:1700-3499 TA-058:3500-3599,3600-9999,,true
+montelegre,917,Montelegre,Montelegre,3,RB-010:100-299,300-999,,false
+montes,918,Montes,Montes|Trás os Montes,4,SV-048:1000-1699 TA-028:1700-1999,2000-9999,Trás os Montes,true
+montinho,919,Montinho,Montinho,3,CA-126:100-299 MO-009:300-399 TA-009:400-499,500-999,,false
+montona,920,Montona,Montona,3,CA-113:100-299 SV-058:300-399,400-999,,false
+moradinha,921,Moradinha,Moradinha de Baixo,3,BV-040:100-199,200-999,Moradinha de Baixo,true
+moreira,922,Moreira,Cutelo Moreira,3,CA-022:100-299 RS-017:300-399,400-999,Cutelo Moreira,false
+moreno,923,Moreno,Cutelo Moreno,3,SO-021:100-199,200-999,Cutelo Moreno,false
+morre bras,924,Morre Brás,Morre Brás,3,RB-059:100-299,300-999,,false
+morre braz,925,Morre Braz,Morre Braz,3,RB-060:100-399,400-999,,false
+morrinho,926,Morrinho,Morrinho,3,MA-015:100-399,400-999,,false
+morrinho branco,927,Morrinho Branco,Morrinho Branco,3,SL-037:100-399,400-999,,true
+morrmolial,928,Morrmolial,Morrmolial,3,RB-022:100-299,300-999,,false
+morro,929,Morro,Morro,3,MA-010:100-599,600-999,,false
+mosquito,930,Mosquito,Porto Mosquito|Mosquito Grande|Mosquito da Horta,4,RS-007:1000-1599 RS-010:1600-1699 RS-023:1700-1899,1900-9999,Porto Mosquito|Mosquito Grande|Mosquito da Horta,true
+mosteiros,931,Mosteiros,Mosteiros,3,MO-020:100-299,300-999,,false
+mosteiros igreja,932,Mosteiros-Igreja,Mosteiros-Igreja,3,MO-021:100-399,400-999,,true
+moura,933,Moura,Ribeirão Moura,3,CR-091:100-299,300-999,Ribeirão Moura,false
+mourao,934,Mourão,Mourão Grosso,3,SM-059:100-199,200-999,Mourão Grosso,true
+muito vento,935,Muito Vento,Muito Vento,3,TA-041:100-199,200-999,,false
+mundo grande,936,Mundo Grande,Mundo Grande,3,SD-061:100-299 SS-007:300-499,500-999,,false
+murdeira,937,Murdeira,Murdeira,3,SL-004:100-299,300-999,,false
+naus,938,Naus,Figueira das Naus,3,CA-027:100-499,500-999,Figueira das Naus,true
+nazare,939,Nazaré,Nazaré,3,SD-066:100-499,500-999,,false
+neginho,940,Neginho,Lombo de Neginho,3,RG-058:100-199,200-999,Lombo de Neginho,false
+nha lola,941,Nha Lola,Tamarindo Nha Lola,3,SF-044:100-299,300-999,Tamarindo Nha Lola,false
+nha marco,942,Nha Marco,Nha Marco,3,SL-005:100-199,200-999,,false
+nhagar,943,Nhagar,Nhagar,4,CA-083:1000-3299 SO-033:3300-3499,3500-9999,,false
+nhamita,944,Nhamita,Nhamita,3,CR-028:100-299,300-999,,false
+nho lixo,945,Nhô Lixo,Cerrado Nhô Lixo,3,SF-091:100-299,300-999,Cerrado Nhô Lixo,false
+nicolau,946,Nicolau,Lombo de Nicolau,3,PN-074:100-299,300-999,Lombo de Nicolau,false
+nora,947,Nora,Nora,3,SD-018:100-499,500-999,,false
+norte,948,Norte,Norte (Fundo das Figueiras),3,BV-056:100-399,400-999,Norte (Fundo das Figueiras),true
+nortinho,949,Nortinho,Nortinho,3,RB-063:100-299,300-999,,false
+nossa senhor luz,950,Nossa Senhor da Luz,Nossa Senhor da Luz,3,SF-037:100-399,400-999,,true
+nossa senhora fatima,951,Nossa Senhora de Fátima,Nossa Senhora de Fátima,3,SL-038:100-399,400-999,,true
+nossa senhora luz,952,Nossa Senhora da Luz,Nossa Senhora da Luz,3,SD-100:100-199,200-999,,true
+nossa senhora monte,953,Nossa Senhora do Monte,Nossa Senhora do Monte,3,BR-009:100-499,500-999,,true
+nova sintra,954,Nova Sintra,Nova Sintra,4,BR-020:1000-2299,2300-9999,,false
+ocho,955,Ochô,Curral de Ochô,3,SF-009:100-599,600-999,Curral de Ochô,false
+olho agua,956,Olho de Água,Olho de Água,3,CA-166:100-199 SD-013:200-299 TS-030:300-399,400-999,,false
+orgaos,957,Òrgãos,Pe dos Òrgãos|Orgãos|Órgãos Pequenos,3,RG-094:100-199 SF-084:200-399 SO-064:400-699,700-999,Pe dos Òrgãos|Orgãos|Órgãos|Órgãos Pequenos,true
+orgueiro,958,Orgueiro,Chã d'Orgueiro (Alto Mira III),3,PN-066:100-399,400-999,Chã d'Orgueiro (Alto Mira III),false
+ori,959,Ori,Ori,3,CR-024:100-299,300-999,,false
+ourela,960,Ourela,Ourela,3,CF-019:100-199,200-999,,false
+outra banda,961,Outra Banda,Outra Banda,3,SF-063:100-399,400-999,,false
+pa,962,Pá,Pá de Ribeira,3,SS-068:100-299,300-999,Pá de Ribeira,true
+pa velho,963,Pá Velho,Pá Velho,4,BV-022:1000-1999,2000-9999,,false
+padre,964,Padre,Lomba de Padre|Poio de Padre,3,BV-030:100-199 PA-013:200-299,300-999,Lomba de Padre|Poio de Padre,true
+pai antonio,965,Pai António,Pai António,4,MO-015:1000-1699 SM-017:1700-1799,1800-9999,,false
+paiol,966,Paiol,Paiol,3,PR-050:100-699,700-999,,false
+pajom,967,Padjom,Padjom,3,SD-027:100-499,500-999,,false
+palha carga,968,Palha Carga,Palha Carga|Alta Mira de Palha Carga|Monte Palha Carga,4,CA-004:1000-1899 CA-185:1900-2099 SM-054:2100-2499 SV-082:2500-2599 TA-059:2600-2999,3000-9999,Alta Mira de Palha Carga|Monte Palha Carga,true
+palha se,969,Palha de Sé,Achada Palha de Sé,3,PR-027:100-199,200-999,Achada Palha de Sé,true
+palha verde,970,Palha Verde,Palha Verde,3,SL-036:100-499,500-999,,false
+palhal,971,Palhal,Chã de Palhal,3,TS-008:100-299,300-999,Chã de Palhal,false
+palhao,972,Palhão,Palhão,3,SO-025:100-299,300-999,,false
+palmarejo,973,Palmarejo,Palmarejo|Palmarejo Grande,4,PR-004:1000-3899 PR-006:3900-5599,5600-9999,Palmarejo Grande,true
+palmeira,974,Palmeira,Palmeira,4,RG-070:1000-1199 SL-011:1200-2399,2400-9999,,false
+palso,975,Palso,Palso,3,RB-007:100-199,200-999,,false
+papaia,976,Papaia,Chã de Papaia|Papaia,3,RG-063:100-299 SS-045:300-499,500-999,Chã de Papaia,false
+parapeito,977,Parapeito,Parapeito,3,CA-117:100-299,300-999,,false
+parda,978,Parda,Parda,3,SL-027:100-199,200-999,,false
+passal,979,Passal,Passal,3,SO-059:100-299,300-999,,false
+passarao,980,Passarão,Ribeira de Passarão,4,SV-039:1000-1899,1900-9999,Ribeira de Passarão,false
+passaro,981,Pássaro,Pássaro Largo,3,BV-060:100-199,200-999,Pássaro Largo,true
+passo,982,Passo,Passo de Vaca|Passo,4,CA-047:1000-1199 PA-016:1200-1999,2000-9999,Passo de Vaca,true
+pata brava,983,Pata Brava,Pata Brava,3,CA-156:100-199,200-999,,false
+patas,984,Patas,Água das Patas,3,RB-031:100-299,300-999,Água das Patas,true
+pathal,985,Pathal,Pathal,3,BR-003:100-299,300-999,,false
+patim,986,Patim,Patim,4,SF-127:1000-2399,2400-9999,,false
+pau,987,Pau,Pau|Achada de Pau Encostado,3,BR-031:100-299 CR-046:300-399,400-999,Achada de Pau Encostado,true
+pau bonito,988,Pau Bonito,Pau Bonito,3,PN-064:100-199,200-999,,false
+pau cortado,989,Pau Cortado,Pau Cortado,3,SM-002:100-299,300-999,,false
+pau corvo,990,Pau de Corvo,Pau de Corvo,3,CA-190:100-199,200-999,,false
+pau ferreira,991,Pau Ferreira,Bom Pau Ferreira,3,SO-048:100-399,400-999,Bom Pau Ferreira,true
+pau pilao,992,Pau de Pilao,Pau de Pilao,3,CA-138:100-199,200-999,,false
+pau verde,993,Pau Verde,Pau Verde,3,CA-150:100-299,300-999,,false
+paulado,994,Paulado,Paulado,3,CR-084:100-199,200-999,,false
+pavao,995,Pavão,Figueira Pavão,4,CF-040:1000-1899,1900-9999,Figueira Pavão,true
+pe furna,996,Pé de Furna,Pé de Furna,3,CF-005:100-199,200-999,,false
+pe monte,997,Pé de Monte,Pé de Monte|Pé do Monte,3,CF-044:100-299 MO-029:300-499 SM-046:500-599,600-999,Pé do Monte,false
+pe rocha,998,Pé de Rocha,Pé de Rocha,3,CA-080:100-299 SM-022:300-499,500-999,,false
+pe serrado,999,Pé Serrado,Pé Serrado,3,SM-043:100-199,200-999,,false
+pe subida,1000,Pé de Subida,Pé de Subida,3,SD-025:100-199,200-999,,false
+pe verde,1001,Pé do Verde,Pé do Verde,3,SV-066:100-199,200-999,,false
+pecanto,1002,Pecanto,Pecanto do Ribeirão Largo,3,PN-111:100-299,300-999,Pecanto do Ribeirão Largo,true
+pedra,1003,Pedra,Chã de Pedra Rachada|Pedra Comprida,3,PN-007:100-199 TA-062:200-499,500-999,Chã de Pedra Rachada|Pedra Comprida,true
+pedra barro,1004,Pedra Barro,Pedra Barro,3,SM-103:100-199 SS-014:200-299,300-999,,false
+pedra branca,1005,Pedra Branca,Pedra Branca,3,CA-039:100-299 SF-019:300-499,500-999,,false
+pedra cheu,1006,Pedra Tcheu,Pedra Tcheu,3,SO-042:100-299,300-999,,false
+pedra ferro,1007,Pedra Ferro,Pedra Ferro,3,TA-035:100-499,500-999,,false
+pedra flupo,1008,Pedra Flupo,Pedra Flupo,3,RS-045:100-499,500-999,,false
+pedra galo,1009,Pedra Galo,Pedra Galo,3,CA-165:100-199,200-999,,false
+pedra janela,1010,Pedra Janela,Pedra Janela,3,SO-004:100-399,400-999,,false
+pedra larga,1011,Pedra Larga,Pedra Larga,3,SM-018:100-299,300-999,,false
+pedra molar,1012,Pedra Molar,Pedra Molar,3,SO-016:100-399,400-999,,false
+pedrada,1013,Pedrada,Campo Pedrada,3,TS-020:100-199,200-999,Campo Pedrada,false
+pedranto,1014,Pedranto,Lombo de Pedranto,3,RG-124:100-199,200-999,Lombo de Pedranto,false
+pedras,1015,Pedras,Chã de Pedras|Achada das Pedras,3,RG-158:100-299 SD-003:300-399,400-999,Chã de Pedras|Achada das Pedras,false
+pedregal,1016,Pedregal,Pedregal,3,PR-030:100-699,700-999,,false
+pedreira,1017,Pedreira,Pedreira,4,SV-037:1000-1799,1800-9999,,false
+pedrinha,1018,Pedrinha,Pedrinha de Sal,3,PN-054:100-199,200-999,Pedrinha de Sal,true
+pedro moto,1019,Pedro Moto,Pedro Moto,3,RG-085:100-199,200-999,,false
+pedro vaz,1020,Pedro Vaz,Pedro Vaz,3,MA-021:100-399,400-999,,false
+peixinho,1021,Peixinho,Lombo Peixinho|Alto do Peixinho,3,PN-045:100-299 PN-129:300-799,800-999,Lombo Peixinho|Alto do Peixinho,false
+pele,1022,Pele,Chã Casa de Pele,3,PN-102:100-399,400-999,Chã Casa de Pele,true
+penedihho,1023,Penedihho,Penedihho,3,SS-032:100-299,300-999,,false
+penedo,1024,Penedo,Penedo,3,SO-043:100-199,200-999,,false
+penedos,1025,Penedos,Chã dos Penedos,3,RB-066:100-199,200-999,Chã dos Penedos,false
+pensamento,1026,Pensamento,Pensamento,4,PR-008:1000-8399,8400-9999,,false
+penteada,1027,Penteada,Penteada,3,SF-007:100-399,400-999,,false
+perdegal,1028,Perdegal,Perdegal,3,MA-009:100-199,200-999,,false
+perdia,1029,Perdia,Perdia,3,PA-001:100-199,200-999,,false
+peregrina,1030,Peregrina,Cabouco de Peregrina,3,RG-072:100-299,300-999,Cabouco de Peregrina,false
+pereira,1031,Pereira,Covão Pereira|Achada Lem Pereira,4,CR-019:1000-1099 SM-076:1100-1999,2000-9999,Covão Pereira|Achada Lem Pereira,true
+petinha,1032,Petinha,Joaquim Petinha,3,SL-007:100-199,200-999,Joaquim Petinha,true
+pia baixo,1033,Pia de Baixo,Pia de Baixo,3,RG-155:100-399,400-999,,false
+pia cima,1034,Pia de Cima,Pia de Cima,3,RG-160:100-399,400-999,,false
+piasco,1035,Piasco,Piasco,3,SF-057:100-499,500-999,,false
+picarra,1036,Piçarra,Piçarra,3,CA-043:100-299,300-999,,false
+pico cruz,1037,Pico da Cruz,Pico da Cruz,3,PN-116:100-299,300-999,,false
+pico leao,1038,Pico Leão,Pico Leão,3,RS-014:100-299,300-999,,false
+pico lopes,1039,Pico Lopes,Pico Lopes,3,SF-085:100-299,300-999,,false
+picos,1040,Picos,Picos|Cruz dos Picos,3,SS-022:100-499 SS-028:500-699,700-999,Cruz dos Picos,true
+pilao cao,1041,Pilão Cão,Pilão Cão,3,MA-023:100-299 SM-069:300-799,800-999,,false
+piloto,1042,Piloto,Achada Piloto,3,CA-119:100-199,200-999,Achada Piloto,false
+pinchossa,1043,Pinchossa,Pinchossa,3,SM-082:100-199,200-999,,false
+pinha,1044,Pinhá,Pinhá|Pinha,3,SD-062:100-299 SS-060:300-499,500-999,Pinha,false
+pinha doce,1045,Pinha Doce,Pinha Doce,3,CA-147:100-299,300-999,,false
+pinhao,1046,Pinhão,Pinhão,3,RG-102:100-299 RG-128:300-499,500-999,,false
+piorno,1047,Piorno,Piorno,3,MO-008:100-299,300-999,,false
+piquinho,1048,Piquinho,Piquinho,3,SF-089:100-399,400-999,,false
+pizara,1049,Pizara,Achada Pizara,3,SM-081:100-299,300-999,Achada Pizara,false
+pizarra,1050,Pizarra,Pizarra,3,CR-058:100-399 CR-111:400-599,600-999,,false
+planeta,1051,Planeta,Planeta,3,CR-098:100-299,300-999,,false
+plato,1052,Platô,Platô,4,PR-058:1000-2899,2900-9999,Plateau,false
+plato cha,1053,Platô-Chã,Platô-Chã de Alecrim,4,SV-010:1000-2099,2100-9999,Platô-Chã de Alecrim,true
+po saco,1054,Pó de Saco,Pó de Saco,3,SD-020:100-499,500-999,,false
+poderoso,1055,Poderoso,Poderoso,3,BV-021:100-199,200-999,,false
+poilao,1056,Poilão,Poilão|Cruz de Poilão,3,CA-172:100-399 CR-106:400-599 SM-096:600-799,800-999,Cruz de Poilão,true
+poio,1057,Poio,Poio,3,PN-099:100-199,200-999,,false
+poio preto,1058,Poio Preto,Achada do Poio Preto,3,BR-002:100-199,200-999,Achada do Poio Preto,false
+pombal,1059,Pombal,Pombal,3,SF-045:100-199,200-999,,false
+pombas,1060,Pombas,Cidade das Pombas (Eito de Baixo)|Cidade das Pombas (Eito de Cima)|Cidade das Pombas|Complexo Pombas Brancas,4,PA-017:1000-1299 PA-019:1300-1799 PA-034:1800-2899 SV-006:2900-3399,3400-9999,Cidade das Pombas (Eito de Baixo)|Cidade das Pombas (Eito de Cima)|Cidade das Pombas|Complexo Pombas Brancas,true
+ponciano,1061,Ponciano,Achada Ponciano,3,TA-061:100-299,300-999,Achada Ponciano,false
+pondena,1062,Pondena,Pondena,3,CF-008:100-199,200-999,,false
+ponta achada,1063,Ponta d'Achada,Ponta d'Achada,3,RS-032:100-399,400-999,,true
+ponta agua,1064,Ponta d'Água,Ponta d'Água,4,PR-042:1000-2099,2100-9999,,false
+ponta furna,1065,Ponta Furna,Ponta Furna,3,TA-032:100-399,400-999,,false
+ponta lobrao,1066,Ponta Lobrão,Ponta Lobrão,3,TA-031:100-199,200-999,,false
+ponta magima,1067,Ponta Magima,Ponta Magima,3,SM-053:100-399,400-999,,false
+ponta mendes,1068,Ponta Mendes,Ponta Mendes,3,PR-033:100-499,500-999,,false
+ponta preta,1069,Ponta Preta,Ponta Preta,3,MA-004:100-499,500-999,,false
+ponta ribeira,1070,Ponta Ribeira,Ponta Ribeira,3,SM-032:100-299,300-999,,true
+ponta sao francisco,1071,Ponta de São Francisco,Ponta de São Francisco,4,PR-032:1000-2399,2400-9999,,true
+ponta sol,1072,Ponta do Sol,Ponta do Sol,3,RG-092:100-399,400-999,,false
+ponta sul,1073,Ponta Sul,Ponta Sul,3,PN-136:100-399,400-999,,false
+ponta verde,1074,Ponta Verde,Ponta Verde,4,SF-059:1000-1499 SM-078:1500-2099,2100-9999,,false
+ponto alto,1075,Ponto Alto,Ponto Alto do Norte|Ponto Alto do Sul,3,SF-110:100-199 SF-111:200-299,300-999,Ponto Alto do Norte|Ponto Alto do Sul,true
+porca,1076,Porca,Campo da Porca,3,BR-007:100-199,200-999,Campo da Porca,false
+porco,1077,Porco,Ribeirão Porco,3,CA-001:100-199,200-999,Ribeirão Porco,false
+portal,1078,Portal,Chā de Portal|Portal|Chã de Portal,4,PN-080:1000-1199 SD-090:1200-1699 TA-039:1700-1799 TS-009:1800-1899,1900-9999,Chā de Portal|Chã de Portal,false
+portalinho,1079,Portalinho,Portalinho,3,CR-049:100-399 RG-025:400-499,500-999,,false
+portela,1080,Portela,Portela,4,CF-015:1000-2199,2200-9999,,false
+portinho,1081,Portinho,Portinho|Chã de Portinho,3,BV-018:100-399 TS-001:400-499 TS-025:500-699,700-999,Chã de Portinho,false
+porto abaixo,1082,Porto Abaixo,Porto Abaixo,3,CR-073:100-699,700-999,,false
+porto acima,1083,Porto Acima,Porto Acima,3,CR-074:100-799,800-999,,false
+porto formoso,1084,Porto Formoso,Porto Formoso,4,TA-034:1000-1999,2000-9999,,true
+porto grande,1085,Porto Grande,Porto Grande,3,SV-016:100-199,200-999,,false
+porto grande sao vicente,1086,Porto Grande-São Vicente,Porto Grande-São Vicente,3,SV-015:100-199,200-999,,true
+porto lobo,1087,Porto Lobo,Porto Lobo,3,SD-086:100-199,200-999,,false
+porto novo,1088,Porto Novo,Porto Novo,3,PN-124:100-399,400-999,,false
+porto rincao,1089,Porto Rincão,Porto Rincão,4,CA-009:1000-2599,2600-9999,,false
+portugal,1090,Portugal,Figueira Portugal,3,SD-001:100-299,300-999,Figueira Portugal,true
+pousada,1091,Pousada,Monte Pousada,3,SM-055:100-499,500-999,Monte Pousada,false
+povoacao,1092,Povoação,Povoação Velha,3,BV-010:100-299,300-999,Povoação Velha,true
+praceta,1093,Praceta,Praceta de Santo António,3,BV-011:100-399,400-999,Praceta de Santo António,true
+praia antonio sousa,1094,Praia António Sousa,Praia António Sousa,3,SL-051:100-599,600-999,,true
+praia baixo,1095,Praia Baixo,Praia Baixo,4,SD-078:1000-1899,1900-9999,,false
+praia branca,1096,Praia Branca,Praia Branca,4,TS-031:1000-1899,1900-9999,,false
+praia formosa,1097,Praia Formosa,Praia Formosa,3,SD-068:100-299,300-999,,true
+praia gi,1098,Praia de Gi,Praia de Gi,3,PA-033:100-499,500-999,,false
+prainha,1099,Prainha,Prainha,4,PR-064:1000-3799 SL-048:3800-4699,4700-9999,,false
+prata,1100,Prata,Ribeira da Prata,4,TA-002:1000-2199 TS-002:2200-2699,2700-9999,Ribeira da Prata,false
+pre arriba,1101,Pré Arriba,Pré Arriba,3,BV-029:100-199,200-999,,false
+preguica,1102,Preguiça,Preguiça|Campo da Preguiça,4,RB-001:1000-1599 RB-002:1600-1799 SL-018:1800-2399 SL-030:2400-2599,2600-9999,Campo da Preguiça,false
+primeira fase,1103,Primeira Fase,Primeira Fase,3,SL-002:100-499,500-999,,true
+principio,1104,Principio,Espinho Principio,3,RS-039:100-199,200-999,Espinho Principio,true
+purga,1105,Purga,Renque de Purga,3,CR-097:100-399,400-999,Renque de Purga,true
+purga nova,1106,Purga Nova,Purga Nova,3,PR-014:100-399,400-999,,false
+purgueira,1107,Purgueira,Purgueira,3,SS-010:100-299,300-999,,false
+quebrada,1108,Quebrada,Quebrada,3,RS-029:100-399,400-999,,false
+queimada,1109,Queimada,Queimada,4,MO-023:1000-1599 SF-115:1600-1999,2000-9999,,false
+queimada baixo,1110,Queimada de Baixo,Queimada de Baixo,3,RB-042:100-399,400-999,,true
+queimada cima,1111,Queimada de Cima,Queimada de Cima,3,RB-029:100-199,200-999,,true
+queimadas,1112,Queimadas,Queimadas|Queimadas de Cima,3,RB-040:100-299 RB-041:300-399,400-999,Queimadas de Cima,true
+queimadinha,1113,Queimadinha,Queimadinha,4,MO-031:1000-1599 SF-113:1600-1799,1800-9999,,false
+quilometro,1114,Quilómetro,Quilómetro Sete,3,PN-132:100-299,300-999,Quilómetro Sete,true
+quinta ana,1115,Quinta de Ana,Quinta de Ana,3,BV-009:100-199,200-999,,true
+quintal,1116,Quintal,Quintal,3,PA-025:100-199 RG-148:200-399 SS-063:400-499,500-999,,false
+rabil,1117,Rabil,Rabil,3,BV-038:100-699,700-999,,false
+rabo curto,1118,Rabo Curto,Rabo Curto|Água de Rabo Curto,3,RG-136:100-199 RG-138:200-299,300-999,Água de Rabo Curto,false
+racha,1119,Rachã,Rachã Formosa,3,CF-009:100-199,200-999,Rachã Formosa,true
+raiz,1120,Raiz,Raiz,3,BR-017:100-399,400-999,,false
+rama,1121,Rama,Rama,3,RS-050:100-399,400-999,,false
+rama seada,1122,Rama Seada,Rama Seada,3,CF-004:100-199,200-999,,false
+ramacheu,1123,Ramacheu,Ramacheu,3,SF-066:100-299,300-999,,false
+rao carrice,1124,Rão Carriçe,Rão Carriçe,3,CA-177:100-399,400-999,,false
+rao fundo,1125,Rão Fundo,Rão Fundo,3,CR-013:100-499,500-999,,false
+raso,1126,Raso,Raso,3,SF-112:100-199,200-999,,false
+rasto,1127,Rasto,Rasto,3,SO-031:100-299,300-999,,false
+rebele,1128,Rebele,Rebele de Purgueira,3,SS-009:100-299,300-999,Rebele de Purgueira,true
+rebelo,1129,Rebelo,Rebelo|Rebelo de Baixo,3,CR-015:100-199 CR-017:200-599,600-999,Rebelo de Baixo,true
+recanto,1130,Recanto,Recanto,3,BV-032:100-299 MA-026:300-499,500-999,,false
+recinto paroquial,1131,Recinto Paroquial,Recinto Paroquial,3,BR-010:100-799,800-999,,true
+recria,1132,Recria,Alto de Recria,3,BV-020:100-199,200-999,Alto de Recria,false
+reda,1133,Reda,Entre Picos de Reda,3,CA-002:100-299,300-999,Entre Picos de Reda,true
+rede,1134,Rede,Entre Picos de Rede,3,CA-003:100-399,400-999,Entre Picos de Rede,true
+redonda,1135,Redonda,Redonda,3,PR-034:100-499,500-999,,false
+relva,1136,Relva,Relva,4,MO-026:1000-2699,2700-9999,,false
+rema rema,1137,Réma-Réma,Réma-Réma,3,SD-047:100-299,300-999,,false
+rendeiro,1138,Rendeiro,Faleiro Rendeiro,3,SD-057:100-299,300-999,Faleiro Rendeiro,true
+renque,1139,Renque,Renque|Renque de Trás|Renque de Meio,4,MO-024:1000-1099 SF-081:1100-1899 TA-051:1900-2199 TA-052:2200-2399,2400-9999,Renque de Trás|Renque de Meio,true
+renque tapum,1140,Renque Tapum,Renque Tapum,3,SM-033:100-299,300-999,,false
+riba alto,1141,Riba de Alto,Riba de Alto,3,BV-036:100-599,600-999,,false
+ribao,1142,Ribão,Ribão Selvagem,3,SO-007:100-299,300-999,Ribão Selvagem,true
+ribao fundo,1143,Ribão Fundo,Ribão Fundo,3,CR-014:100-399,400-999,,false
+ribeira alta,1144,Ribeira Alta,Ribeira Alta,3,RG-034:100-199,200-999,,false
+ribeira bote,1145,Ribeira Bôte,Ribeira Bôte,3,SV-034:100-599,600-999,,false
+ribeira dom joao,1146,Ribeira Dom João,Ribeira Dom João,3,MA-032:100-299,300-999,,true
+ribeira fria,1147,Ribeira Fria,Ribeira Fria,3,PN-105:100-499,500-999,,false
+ribeira funda,1148,Ribeira Funda,Ribeira Funda,4,RB-050:1000-1099 SL-014:1100-1899,1900-9999,,true
+ribeira grande,1149,Ribeira Grande,Ribeira Grande,4,SF-049:1000-1699 SS-008:1700-1899,1900-9999,,true
+ribeira ilheu,1150,Ribeira Ilhéu,Ribeira Ilhéu,4,MO-005:1000-2399,2400-9999,,true
+ribeira larga,1151,Ribeira Larga,Ribeira Larga,3,PN-104:100-199,200-999,,true
+ribeira principal,1152,Ribeira Principal,Ribeira Principal,3,SM-038:100-299,300-999,,true
+ribeira riba,1153,Ribeira Riba,Ribeira Riba,4,CA-005:1000-2099,2100-9999,,false
+ribeira seca,1154,Ribeira Seca,Ribeira Seca,3,CR-083:100-199 RB-003:200-599,600-999,,false
+ribeira torta,1155,Ribeira Torta,Ribeira Torta,3,PN-140:100-199,200-999,,true
+ribeirao,1156,Ribeirão,Ribeirão,3,RG-055:100-199,200-999,,false
+ribeirao boi,1157,Ribeirão Boi,Ribeirão Boi,3,CR-056:100-299,300-999,,false
+ribeirao fundo,1158,Ribeirão Fundo,Ribeirão Fundo,3,CR-059:100-299 PN-114:300-499,500-999,,true
+ribeirao grande,1159,Ribeirão Grande,Ribeirão Grande,3,RG-129:100-199,200-999,,true
+ribeirao manuel,1160,Ribeirão Manuel,Ribeirão Manuel,4,CA-064:1000-2499,2500-9999,,true
+ribeirao sal,1161,Ribeirão Sal,Ribeirão Sal,3,TA-066:100-199,200-999,,false
+ribeiraozinho,1162,Ribeirãozinho,Ribeirãozinho,3,CR-052:100-499,500-999,,true
+ribeirinha,1163,Ribeirinha,Ribeirinha,3,PR-017:100-199 RB-015:200-299 SV-029:300-499,500-999,,false
+ribeirinha curta,1164,Ribeirinha Curta,Ribeirinha Curta,3,RG-067:100-199,200-999,,true
+ribeirinho,1165,Ribeirinho,Ribeirinho,3,CA-069:100-199,200-999,,false
+ribeiro fundo,1166,Ribeiro Fundo,Ribeiro Fundo,3,PN-115:100-199,200-999,,true
+ribeirozinho,1167,Ribeirozinho,Ribeirozinho,3,RB-055:100-199,200-999,,false
+rife,1168,Rife,Rife,3,SL-001:100-199,200-999,,false
+robao cal,1169,Robão Cal,Robão Cal,3,SD-050:100-299,300-999,,false
+rocadas,1170,Roçadas,Roçadas|Aldeia Roçadas,3,CF-042:100-299 CF-043:300-499,500-999,Aldeia Roçadas,false
+rocha belem,1171,Rocha Belém,Rocha Belém,3,SS-016:100-199,200-999,,false
+rochinha,1172,Rochinha,Rochinha,3,RS-016:100-199 SD-074:200-299 SS-051:300-499,500-999,,false
+rochona,1173,Rochona,Rochona,3,SD-080:100-399,400-999,,false
+rodrigo,1174,Rodrigo,Rodrigo,3,PN-073:100-399,400-999,,false
+rolanda,1175,Rolanda,Pedra Rolanda,4,SV-070:1000-2599,2600-9999,Pedra Rolanda,true
+roma,1176,Roma,Roma,3,CA-006:100-299,300-999,,false
+romano,1177,Romano,Romano,3,BV-059:100-299,300-999,,false
+rombado,1178,Rombado,Rombado,3,CA-057:100-299,300-999,,false
+roque,1179,Roque,Estância Roque|Cruz de Roque,4,CF-034:1000-1699 RB-038:1700-1999,2000-9999,Estância Roque|Cruz de Roque,true
+rufeu,1180,Rufeu,Rufeu,3,CA-036:100-299,300-999,,false
+rui pereira,1181,Rui Pereira,Rui Pereira,3,SF-036:100-399,400-999,,false
+rui vaz,1182,Rui Vaz,Rui Vaz,3,SD-038:100-399,400-999,,false
+russa,1183,Russa,Curral da Russa,3,RG-167:100-199,200-999,Curral da Russa,false
+saboneta,1184,Saboneta,Chã de Saboneta,3,RG-143:100-299,300-999,Chã de Saboneta,false
+sachane,1185,Sachane,Sachane,3,CR-006:100-499,500-999,,false
+safende,1186,Safende,Safende,4,PR-041:1000-6099,6100-9999,,false
+saida,1187,Saida,Saida,3,RG-064:100-299,300-999,,false
+sal rei,1188,Sal Rei,Centro de Sal Rei|Sal Rei,4,BV-023:1000-3299 BV-024:3300-3999,4000-9999,Centro de Sal Rei,false
+salamansa,1189,Salamansa,Salamansa,4,SV-073:1000-1999,2000-9999,,false
+salas,1190,Salas,Salas,3,CR-100:100-299,300-999,,false
+salgadinho,1191,Salgadinho,Salgadinho,3,SV-072:100-199,200-999,,false
+salina,1192,Salina,Chã da Salina|Curral de Salina,3,PN-006:100-199 TA-001:200-699,700-999,Chã da Salina|Curral de Salina,false
+salinas,1193,Salinas,Salinas|Salinas de Dentro,4,CR-072:1000-2399 SF-065:2400-2499,2500-9999,Salinas de Dentro,true
+salineiro,1194,Salineiro,Salineiro|Achada do Salineiro,4,RS-040:1000-2299 RS-044:2300-2399,2400-9999,Achada do Salineiro,false
+salta gato,1195,Salta Gato,Salta Gato,3,SF-017:100-199,200-999,,false
+salto,1196,Salto,Cruz do Salto|Cutelo de Salto de Baixo|Salto,4,CA-134:1000-1199 CR-035:1200-1399 SF-139:1400-1899,1900-9999,Cruz do Salto|Cutelo de Salto de Baixo,true
+saltos,1197,Saltos,Saltos de Cima|Saltos Abaixo,3,CA-137:100-199 CR-031:200-299,300-999,Saltos de Cima|Saltos Abaixo,true
+sambacate,1198,Sambacate,Sambacate,3,CR-005:100-199,200-999,,false
+sambala,1199,Sambala,Sambala,4,SD-109:1000-1799,1800-9999,,false
+sambango,1200,Sambango,Sambango,4,MO-017:1000-1799,1800-9999,,false
+sancha,1201,Sancha,Lombo de Sancha,3,RG-054:100-299,300-999,Lombo de Sancha,false
+sanches,1202,Sanches,Covão Sanches,3,CR-042:100-299,300-999,Covão Sanches,false
+sanchez,1203,Sanchez,Covão Sanchez,3,CR-041:100-199,200-999,Covão Sanchez,false
+sango,1204,Sangó,Sangó,3,CA-061:100-299,300-999,,false
+sangue draga,1205,Sangue Draga,Sangue Draga,3,CA-111:100-299,300-999,,false
+sanharre,1206,Sanharre,Sanharre,3,RS-053:100-299,300-999,,false
+sansao,1207,Sansão,Sansão,3,SS-026:100-399,400-999,,false
+santa ana,1208,Santa Ana,Santa Ana,3,RS-030:100-399,400-999,,false
+santa barbara,1209,Sta Bárbara,Santa Bárbara,3,BR-033:100-299,300-999,,false
+santa cruz,1210,Santa Cruz,Santa Cruz|Alta Santa Cruz,4,CR-048:1000-1399 SL-019:1400-3899,3900-9999,Alta Santa Cruz,true
+santa filomena,1211,Sta Filomena,Santa Filomena,4,SF-033:1000-1999,2000-9999,,false
+santa luzia,1212,Santa Luzia,Alto de Santa Luzia|Santa Luzia,4,SF-026:1000-1599 SF-140:1600-1799,1800-9999,Alto de Santa Luzia,true
+santa maria centro,1213,Santa Maria Centro,Santa Maria Centro,4,SL-050:1000-2099,2100-9999,,true
+santa monica,1214,Santa Mónica,Santa Mónica,3,BV-002:100-299,300-999,,false
+santana,1215,Santana,Covão de Santana|Achada Santana|Santana,3,SD-082:100-299 SF-075:300-599 SF-092:600-799,800-999,Covão de Santana|Achada Santana,false
+santo andre,1216,Santo André,Santo André,3,SV-002:100-599,600-999,,false
+santo antonio,1217,Sto António,Santo António,4,MA-019:1000-1099 RS-025:1100-1199 RS-048:1200-1699 SF-043:1700-2299,2300-9999,,false
+santo gege,1218,Santo Gege,Santo Gege,3,CA-169:100-299,300-999,,false
+sao bras,1219,São Bras,São Bras,3,SF-094:100-299,300-999,,false
+sao domingos,1220,São Domingos,São Domingos,4,SD-022:1000-2099 SF-041:2100-2499,2500-9999,,false
+sao filipe,1221,São Filipe,São Filipe de Cima|Lote Achada São Filipe|São Filipe de Baixo|Achada São Filipe,4,PR-021:1000-1299 PR-024:1300-3099 PR-025:3100-4199 PR-026:4200-5299,5300-9999,São Filipe de Cima|Lote Achada São Filipe|São Filipe de Baixo|Achada São Filipe,true
+sao goncalo,1222,São Gonçalo,São Gonçalo,3,RS-004:100-299,300-999,,false
+sao jacinto,1223,São Jacinto,São Jacinto,3,CR-007:100-299,300-999,,false
+sao joao,1224,São João,São João,3,RB-009:100-399 RS-005:400-499,500-999,,false
+sao joao baptista,1225,São João Baptista,São João Ba(p)tista|São João Baptista,3,RS-001:100-299 TS-023:300-699,700-999,São João Ba(p)tista,true
+sao jorge,1226,São Jorge,São Jorge|Lem de São Jorge|São Jorge dos Órgãos,4,PR-023:1000-1199 SF-105:1200-2399 SO-006:2400-2599 SO-008:2600-2799,2800-9999,Lem de São Jorge|São Jorge dos Órgãos,true
+sao lourenco,1227,São Lourenço,São Lourenço,3,SF-074:100-399 SF-088:400-699,700-999,,false
+sao martinho,1228,São Martinho,São Martinho Pequeno|São Martinho Grande|Calheta de São Martinho|São Martinho,4,PR-011:1000-2599 RS-054:2600-3299 RS-056:3300-3399 SF-083:3400-3499,3500-9999,São Martinho Pequeno|São Martinho Grande|Calheta de São Martinho,true
+sao miguel,1229,São Miguel,Calheta de São Miguel,4,SM-080:1000-2999,3000-9999,Calheta de São Miguel,true
+sao paulo,1230,São Paulo,São Paulo,4,SL-049:1000-2199,2200-9999,,false
+sao pedro,1231,São Pedro,São Pedro,4,BR-019:1000-1499 PR-009:1500-3999 SV-003:4000-4899,4900-9999,,false
+sao roque,1232,São Roque,São Roque,4,RS-046:1000-1899,1900-9999,,false
+sao sebastiao,1233,S. Sebastião,São Sebastião,3,RS-047:100-499 SD-026:500-599,600-999,,false
+sao tome,1234,São Tomé,Alto de São Tomé|São Tomé,4,PN-127:1000-1799 PR-037:1800-2099,2100-9999,Alto de São Tomé,true
+sarimba,1235,Sarimba,Sarimba,3,SM-067:100-199,200-999,,false
+sedeguma,1236,Sedeguma,Sedeguma,3,CA-068:100-199,200-999,,false
+segunda fase,1237,Segunda Fase,Segunda Fase,3,SL-003:100-399,400-999,,false
+seixal,1238,Seixal,Seixal,3,SV-059:100-299,300-999,,false
+selada,1239,Selada,Selada,3,SM-066:100-199,200-999,,false
+seladinha,1240,Seladinha,Seladinha,3,PN-004:100-299 PN-047:300-399,400-999,,false
+sem comer,1241,Sem Comer,Chã de Sem Comer,3,PN-097:100-299,300-999,Chã de Sem Comer,false
+sena,1242,Sena,Ribeirão de Sena,3,SD-016:100-299,300-999,Ribeirão de Sena,false
+serelho,1243,Serelho,Serelho,3,CR-016:100-199,200-999,,false
+serra,1244,Serra,Campo da Serra,3,BV-047:100-199,200-999,Campo da Serra,false
+serradinho,1245,Serradinho,Serradinho,3,SD-017:100-299,300-999,,false
+serrado,1246,Serrado,Serrado|Quinta do Serrado,4,SF-042:1000-1699 SO-035:1700-1799,1800-9999,Quinta do Serrado,false
+serrinha,1247,Serrinha,Chã de Serrinha,3,BV-048:100-199,200-999,Chã de Serrinha,false
+severino,1248,Severino,Pedra Severino,3,SS-018:100-299,300-999,Pedra Severino,true
+sezimbra,1249,Sezimbra,Sezimbra,3,SD-098:100-299,300-999,,false
+sidreira,1250,Sidreira,Sidreira,3,SD-039:100-599,600-999,,false
+silva,1251,Silva,Cavouco Silva,3,PN-092:100-399,400-999,Cavouco Silva,true
+simao nuno,1252,Simão Nuno,Simão Nuno,3,CA-089:100-299,300-999,,false
+sinagoga,1253,Sinagoga,Sinagoga,3,RG-107:100-599,600-999,,false
+sino,1254,Sinó,Ponta do Sinó,4,SL-047:1000-1799,1800-9999,Ponta do Sinó,false
+soares,1255,Soares,Achada Soares,3,CR-105:100-199,200-999,Achada Soares,false
+socorro,1256,Socorro,Covão Socorro,3,CR-020:100-299,300-999,Covão Socorro,false
+solarine,1257,Solarine,Alto Solarine,3,SV-019:100-399,400-999,Alto Solarine,false
+solarinho,1258,Solarinho,Alto do Solarinho,3,SL-028:100-499,500-999,Alto do Solarinho,false
+soldado,1259,Soldado,Cada do Soldado,3,SL-006:100-199,200-999,Cada do Soldado,true
+somadinha,1260,Somadinha,Somadinha,3,RB-056:100-199,200-999,,false
+somba monte,1261,Somba Monte,Somba Monte,3,TA-050:100-399,400-999,,false
+sorno,1262,Sorno,Sorno,3,BR-026:100-199,200-999,,false
+sossego,1263,Sossego,Chã de Monte Sossego|Monte Sossego,4,SV-043:1000-1399 SV-046:1400-1799,1800-9999,Chã de Monte Sossego|Monte Sossego,false
+spencer,1264,Spencer,Spencer,3,RB-064:100-199,200-999,,false
+submarino,1265,Submarino,Casa do Cabo Submarino,3,SV-004:100-399,400-999,Casa do Cabo Submarino,false
+taberna,1266,Taberna,Taberna|Chão de Taberna,4,CR-088:1000-1299 SD-014:1300-1499 SS-027:1500-1799,1800-9999,Chão de Taberna,false
+taboleiro,1267,Taboleiro,Taboleiro,3,SM-072:100-299,300-999,,false
+tabuadinho,1268,Tabuadinho,Tabuadinho,3,PN-077:100-299,300-999,,false
+tagara,1269,Tagara,Tagara,3,SM-084:100-499,500-999,,false
+tagarra,1270,Tagarra,Tagarra,3,SM-098:100-299,300-999,,false
+talho,1271,Talho,Talho,3,RB-027:100-599,600-999,,false
+tamara,1272,Tamara,Chã da Tamara,3,RS-022:100-299,300-999,Chã da Tamara,false
+tamareira,1273,Tamareira,Tamareira,3,CR-065:100-299,300-999,,false
+tamarindo,1274,Tamarindo,Tamarindo,3,SF-015:100-199,200-999,,false
+tamarinho,1275,Tamarinho,Tamarinho,3,SD-095:100-199,200-999,,false
+tambor,1276,Tambor,Tambor,3,RG-122:100-299,300-999,,false
+tanque,1277,Tanque,Chão de Tanque|Cha de Tanque|Tanque|Lombo de Tanque,4,CA-066:1000-1599 CA-067:1600-1799 RG-093:1800-1999 SV-032:2000-2699,2700-9999,Chão de Tanque|Cha de Tanque|Lombo de Tanque,false
+tantum,1278,Tantum,Tantum,3,BR-004:100-199,200-999,,false
+tapum,1279,Tapum,Tapum,3,CA-159:100-199,200-999,,false
+tapume,1280,Tapume,Tapume de Curral Velho,3,BV-061:100-199,200-999,Tapume de Curral Velho,true
+tarafe,1281,Tarafe,Cabouque de Tarafe,3,RG-038:100-399,400-999,Cabouque de Tarafe,false
+tarafes,1282,Tarafes,Cabeça de Tarafes,3,BV-057:100-299,300-999,Cabeça de Tarafes,false
+tarrafal,1283,Tarrafal,Tarrafal|Tarrafal-Povoação,4,PN-001:1000-1199 RG-104:1200-1999 TA-020:2000-5199,5200-9999,Tarrafal-Povoação,true
+tavares,1284,Tavares,Cutelo Tavares,3,SD-096:100-199,200-999,Cutelo Tavares,false
+teimada,1285,Teimada,Teimada,3,SM-020:100-199,200-999,,false
+teixeiro,1286,Teixeiro,Lombo Teixeiro,3,PA-012:100-199,200-999,Lombo Teixeiro,false
+telha,1287,Telha,Telha|Praia de Telha (Tedja),4,CR-103:1000-1199 SF-138:1200-1299 TS-015:1300-1599 TS-017:1600-2299,2300-9999,Praia de Telha (Tedja),false
+telhal,1288,Telhal,Telhal,3,CA-174:100-199,200-999,,false
+temerosa,1289,Temerosa,Temerosa,3,SO-020:100-199,200-999,,false
+terafe,1290,Terafe,Cabouco de Terafe,3,PN-023:100-199,200-999,Cabouco de Terafe,false
+terra,1291,Terra,Terra Vermelha,3,CA-013:100-299,300-999,Terra Vermelha,true
+terra boa,1292,Terra Boa,Terra Boa,3,SL-020:100-199,200-999,,false
+terra branca,1293,Terra Branca,Terra Branca,4,CR-076:1000-1599 PR-060:1600-3199,3200-9999,,false
+terras,1294,Terras,Terras Salgadas,3,MA-016:100-199,200-999,Terras Salgadas,true
+terreiro,1295,Terreiro,Terreiro,4,RB-014:1000-1399 RG-105:1400-3499,3500-9999,,false
+terrinha,1296,Terrinha,Terrinha,3,RG-082:100-199,200-999,,false
+timaco,1297,Timaco,Horta de Timaco,3,BV-052:100-199,200-999,Horta de Timaco,false
+tinta,1298,Tinta,Cabouquinho de Tinta,3,RG-091:100-399,400-999,Cabouquinho de Tinta,true
+tinteira,1299,Tinteira,Tinteira,3,CF-020:100-199 CF-022:200-799,800-999,,false
+tira chapeu,1300,Tira Chapéu,Tira Chapéu,4,PR-005:1000-3499,3500-9999,,false
+tiro,1301,Tiro,Carreira de Tiro,3,SV-007:100-399,400-999,Carreira de Tiro,true
+titono,1302,Titono,Titono,3,PN-018:100-399,400-999,,false
+tomba pilao,1303,Tomba Pilão,Tomba Pilão,3,SS-037:100-299,300-999,,false
+tomba toiro,1304,Tomba Toiro,Tomba Toiro,3,CA-062:100-299,300-999,,false
+tomba touro,1305,Tomba Touro,Tomba Touro,3,CA-063:100-599,600-999,,false
+tome centeio,1306,Tomé Centeio,Tomé Centeio,3,SF-024:100-199,200-999,,false
+tongom,1307,Tongom,Tongom,3,SF-040:100-499,500-999,,false
+topim preto,1308,Topim Preto,Covāozinho de Topim Preto,3,PN-029:100-199,200-999,Covāozinho de Topim Preto,false
+topo,1309,Topo,Topo,3,RG-137:100-199,200-999,,false
+toril,1310,Toril,Toril,3,CR-023:100-199 SM-089:200-299,300-999,,false
+tortolho,1311,Tortôlho,Tortôlho,3,RG-172:100-199,200-999,,false
+touril,1312,Touril,Touril,3,MO-010:100-199,200-999,,false
+tourinho,1313,Tourinho,Fajã Tourinho,3,RG-051:100-199,200-999,Fajã Tourinho,false
+tras cova,1314,Tras da Cova,Tras da Cova,3,BR-023:100-299,300-999,,false
+tras fabrica,1315,Trás Fábrica,Trás Fábrica,3,TS-019:100-399,400-999,,false
+travessa,1316,Travessa,Travessa,3,CA-182:100-299 SD-023:300-699,700-999,,false
+travessado,1317,Travessado,Travessado,3,RG-015:100-299,300-999,,false
+travessia,1318,Travessia,Travessia,3,RG-125:100-199,200-999,,false
+trindade,1319,Trindade,Trindade,3,PR-016:100-499,500-999,,false
+tronco,1320,Tronco,Tronco,3,RS-021:100-299,300-999,,false
+urgueiro,1321,Urgueiro,Urgueiro,3,PN-065:100-399,400-999,,false
+vaca,1322,Vaca,Chã do Morro de Vaca,3,PN-076:100-299,300-999,Chã do Morro de Vaca,false
+vacas,1323,Vacas,Curral das Vacas,3,PN-084:100-399,400-999,Curral das Vacas,false
+valado,1324,Valado,Valado,3,SL-021:100-799,800-999,,false
+varanda,1325,Varanda,Varanda|Covão Varanda,3,SD-097:100-199 SM-027:200-399 SO-012:400-699,700-999,Covão Varanda,false
+variante,1326,Variante,Variante,3,SD-019:100-399,400-999,,false
+varzea,1327,Várzea,Várzea,4,PR-061:1000-1899 SO-038:1900-2099,2100-9999,,false
+varzea nova,1328,Várzea Nova,Várzea Nova,3,CR-067:100-299,300-999,,false
+varzinha,1329,Varzinha,Varzinha,3,RG-071:100-199,200-999,,false
+varzinho,1330,Varzinho,Varzinho,3,SD-055:100-299,300-999,,false
+vascona,1331,Vascona,Vascona,3,PN-134:100-299,300-999,,false
+vassoura,1332,Vassoura,Vassoura|Achada da Vassoura|Cutelo Vassoura,3,CR-096:100-199 SD-009:200-499 SM-011:500-599,600-999,Achada da Vassoura|Cutelo Vassoura,false
+vaza agua,1333,Vaza Água,Vaza Água,3,SO-001:100-299,300-999,,false
+veiga,1334,Veiga,Cutelo da Veiga,3,CA-154:100-199,200-999,Cutelo da Veiga,false
+veneza,1335,Veneza,Veneza,4,SD-002:1000-1299 SM-079:1300-2299,2300-9999,,false
+venteiro,1336,Venteiro,Venteiro,3,SD-005:100-299,300-999,,false
+vera cruz,1337,Vera Cruz,Vera Cruz,4,PR-010:1000-1499 SF-078:1500-1899,1900-9999,,false
+vereda,1338,Vereda,Vereda,3,BR-001:100-299,300-999,,false
+vermelha,1339,Vermelha,Vermelha,3,RG-081:100-399,400-999,,false
+via curta,1340,Via Curta,Via Curta,3,CR-077:100-499,500-999,,false
+vicente dias,1341,Vicente Dias,Vicente Dias,3,SF-003:100-299,300-999,,false
+vila baixa,1342,Vila Baixa,Vila Baixa (Bila Baxo),3,SF-029:100-399,400-999,Vila Baixa (Bila Baxo),true
+vila dade,1343,Vila Dade,Vila Dade,3,SF-013:100-399,400-999,,false
+vila miseria,1344,Vila Miséria,Vila Miséria,4,SV-078:1000-2599,2600-9999,,false
+vila nova,1345,Vila Nova,Vila Nova,4,PR-044:1000-1499 SV-031:1500-2299,2300-9999,,false
+vila riba,1346,Vila Riba,Vila Riba,3,SF-032:100-299,300-999,,false
+vila verde,1347,Vila Verde,Vila Verde,3,SL-008:100-399,400-999,,false
+vinha,1348,Vinha,Vinha|Chão de Vinha|Ribeira de Vinha,4,RG-134:1000-1099 SS-024:1100-1299 SV-050:1300-4999,5000-9999,Chão de Vinha|Ribeira de Vinha,false
+vista,1349,Vista,Vista Pereira,3,RS-006:100-299,300-999,Vista Pereira,true
+viveiro,1350,Viveiro,Viveiro,4,CA-076:1000-2099,2100-9999,,false
+volta,1351,Volta,Volta do Monte,3,CA-109:100-799,800-999,Volta do Monte,false
+volta romao,1352,Volta Romão,Volta Romão,3,SD-052:100-299,300-999,,false
+voquim,1353,Voquim,Voquim,3,PN-013:100-199,200-999,,false
+washingtonia,1354,Washingtonia,Washingtonia,3,SL-046:100-499,500-999,,false
+xaxa,1355,Xaxa,Xaxa,3,SM-061:100-299,300-999,,false
+xoxo,1356,Xôxô,Xôxô,3,RG-140:100-299,300-999,,false
+zambuda,1357,Zambuda,Zambuda de Cima,3,SF-124:100-299,300-999,Zambuda de Cima,true
+zambujeiro,1358,Zambujeiro,Zambujeiro,3,SF-095:100-699,700-999,,false
+zialvo,1359,Zialvo,Zialvo,3,PN-022:100-199,200-999,,false
+zimbrao,1360,Zimbrão,Zimbrão|Zimbrão Grande,4,CR-069:1000-1499 CR-118:1500-1699 RS-041:1700-1799,1800-9999,Zimbrão Grande,true
